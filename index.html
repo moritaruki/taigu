@@ -19,7 +19,7 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu G
 header{position:sticky;top:0;z-index:10;background:rgba(246,241,231,.95);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding:12px 14px 10px}
 .headrow{display:flex;align-items:flex-end;justify-content:space-between;gap:8px;max-width:760px;margin:auto}
 h1{font-size:22px;margin:0;color:var(--ink);letter-spacing:.02em}.sub{font-size:11px;color:var(--muted);margin-top:2px}.countpill{font-size:11px;font-weight:800;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 9px}
-nav{max-width:760px;margin:10px auto 0;display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+nav{max-width:760px;margin:10px auto 0;display:grid;grid-template-columns:repeat(6,1fr);gap:5px}
 button,select,input{font:inherit}
 button{border:0;border-radius:13px;padding:10px 10px;background:#e7e1d6;color:var(--ink);font-weight:750;cursor:pointer}
 button.active,button.primary{background:var(--ink);color:white}
@@ -55,15 +55,20 @@ input,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:
 .audioDock{position:fixed;left:50%;bottom:calc(10px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:30;width:min(720px,calc(100% - 20px));background:#173b33;color:white;border-radius:18px;padding:12px 14px;box-shadow:0 12px 35px rgba(0,0,0,.25)}
 .audioDockTop{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:start}.audioDockTitle{font-weight:850;line-height:1.4}.audioDockSource{font-size:11px;line-height:1.45;opacity:.78;margin-top:2px}.audioDockStatus{font-size:11px;opacity:.82;margin-top:5px}.audioDock audio{width:100%;height:38px;margin-top:8px}.audioClose{background:rgba(255,255,255,.14);color:white;padding:7px 10px}
 .audioHint{margin-top:10px;padding:10px 12px;background:#f0ebe1;border-radius:12px;font-size:11px;line-height:1.6;color:var(--muted)}
-@media(max-width:520px){.toolbar.three{grid-template-columns:1fr 1fr}.tw{font-size:38px}.quizQ{font-size:29px}.card{min-height:315px;padding:18px}nav button{font-size:12px}.actions button{font-size:13px}}
+@media(max-width:520px){.toolbar.three{grid-template-columns:1fr 1fr}.tw{font-size:38px}.quizQ{font-size:29px}.card{min-height:315px;padding:18px}nav button{font-size:11px;padding:9px 1px}.actions button{font-size:13px}}
+.sentenceTw{font-size:31px;line-height:1.5;font-weight:850;margin:18px 0 10px;color:var(--ink)}
+.sentenceJp{font-size:20px;line-height:1.55;margin:10px 0;color:#283a34}
+.grammarBox{margin-top:14px;text-align:left;background:#f2ede3;border-radius:14px;padding:12px 13px;line-height:1.6}
+.grammarBox b{color:var(--ink)}.sentenceProgress{margin-top:16px;background:#fffdf9;border:1px solid var(--line);border-radius:18px;padding:14px}
 </style>
 </head>
 <body>
 <header>
-<div class="headrow"><div><h1>台語1000</h1><div class="sub">台湾語1,000語｜発音・型・クイズ・3段階学習</div></div><div class="countpill">1,000語</div></div>
+<div class="headrow"><div><h1>台語1000</h1><div class="sub">台湾語1,000語＋文章300｜発音・型・クイズ・3段階学習</div></div><div class="countpill">1,000語</div></div>
 <nav>
 <button data-tab="learn" class="active">カード</button>
 <button data-tab="patterns">型</button>
+<button data-tab="sentences">文章</button>
 <button data-tab="quiz">クイズ</button>
 <button data-tab="list">一覧</button>
 <button data-tab="stats">進捗</button>
@@ -91,12 +96,27 @@ input,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:
 <div id="patternList"></div>
 </section>
 
+
+<section id="sentences" class="panel">
+<div class="toolbar three">
+<select id="sentenceLevel"><option>すべての級</option><option>初級</option><option>中級</option><option>上級</option></select>
+<select id="sentenceCat"></select>
+<select id="sentenceDirection"><option value="tw-jp">台湾語 → 日本語</option><option value="jp-tw">日本語 → 台湾語</option></select>
+<button id="sentenceShuffle" class="ghost">別の文章</button>
+</div>
+<div id="sentenceCard" class="card"></div>
+<div class="actions"><button id="sentenceAgain" class="danger">まだ</button><button id="sentenceShow" class="primary">意味を見る</button><button id="sentenceKnown">覚えた</button></div>
+<div class="audioHint">文章音声は臺羅表記から合成する学習用参考音です。まず文章の意味を考え、答えを表示して文型解説と発音を確認してください。</div>
+</section>
+
 <section id="quiz" class="panel">
 <div class="toolbar three">
 <select id="quizMode">
 <option value="tw-jp">台湾語 → 日本語</option>
 <option value="jp-tw">日本語 → 台湾語</option>
 <option value="pattern">定型表現クイズ</option>
+<option value="sentence-tw-jp">文章：台湾語 → 日本語</option>
+<option value="sentence-jp-tw">文章：日本語 → 台湾語</option>
 </select>
 <select id="quizLevel"><option>すべての級</option><option>初級</option><option>中級</option><option>上級</option></select>
 <select id="quizCat"></select>
@@ -123,10 +143,11 @@ input,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:
 <div class="progress"><div id="bar" class="bar"></div></div>
 <div id="pct" style="text-align:center;font-weight:850;color:var(--ink)"></div>
 <div id="levelStats" class="levelstats"></div>
+<div class="sentenceProgress"><b>文章学習</b><div class="progress"><div id="sentenceBar" class="bar"></div></div><div id="sentencePct" style="text-align:center;font-weight:800;color:var(--ink)"></div></div>
 <button id="reset" class="danger" style="margin-top:20px;width:100%">学習記録をリセット</button>
 <div class="sourcebox">
 <h3>出典・表記について</h3>
-<p class="note">ChhoeTaigi のライブWebサイトを機械的に取得せず、ChhoeTaigiDatabaseで公開されている資料を語彙・表記確認の参照元として使用しています。主な参照元は「台灣白話基礎語句」と「台華線頂對照典」（いずれも CC BY-SA 4.0）。日本語訳、難易度分類、学習用例文・定型表現は本教材向けに編集しています。</p>
+<p class="note">ChhoeTaigi のライブWebサイトを機械的に取得せず、ChhoeTaigiDatabaseで公開されている資料を語彙・表記確認の参照元として使用しています。主な参照元は「台灣白話基礎語句」と「台華線頂對照典」（いずれも CC BY-SA 4.0）。日本語訳、難易度分類、学習用例文・定型表現・文章300文は本教材向けに編集しています。文章は教育部辞典の用例・語法・臺羅表記を確認しながら、日常学習用として新規作成しています。</p>
 <p class="note"><a href="https://chhoe.taigi.info/" target="_blank" rel="noopener">ChhoeTaigi 台語辭典⁺を開く</a>　／　<a href="https://github.com/ChhoeTaigi/ChhoeTaigiDatabase" target="_blank" rel="noopener">ChhoeTaigiDatabase</a></p>
 <p class="note">台湾語には地域差・語形差・変調があります。ローマ字はTâi-lô系を中心とした学習表記です。</p>
 <p class="note"><strong>音声：</strong>対応する語は教育部《臺灣台語常用詞辭典》の真人音声を無加工で再生します（CC BY-ND 3.0 TW、ChhoeTaigi KipSutianDataMirror経由）。対応音声がない語と「型」の例文は、臺羅から意傳科技「媠聲」で合成した学習用参考音です。合成音は真人録音ではなく、発音・変調・自然さを保証するものではありません。展示サービスのため利用状況により再生できない場合があります。商用・大量利用には各提供元の条件確認が必要です。iPhone Safariでは外部音声を直接取得し、Service Workerでは音声を横取り・キャッシュしません。</p>
@@ -140,6 +161,7 @@ input,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:
 </div>
 
 <script src="data.js"></script>
+<script src="sentences.js"></script>
 <script src="audio-map.js"></script>
 <script src="audio.js"></script>
 <script>
@@ -147,22 +169,34 @@ const $=id=>document.getElementById(id);
 const cardLevel=$('cardLevel'),cardCat=$('cardCat'),reviewOnly=$('reviewOnly'),
 card=$('card'),show=$('show'),known=$('known'),again=$('again'),shuffle=$('shuffle'),
 patternLevel=$('patternLevel'),patternSearch=$('patternSearch'),patternList=$('patternList'),
+sentenceLevel=$('sentenceLevel'),sentenceCat=$('sentenceCat'),sentenceDirection=$('sentenceDirection'),sentenceCard=$('sentenceCard'),
+sentenceShuffle=$('sentenceShuffle'),sentenceShow=$('sentenceShow'),sentenceKnown=$('sentenceKnown'),sentenceAgain=$('sentenceAgain'),
 quizMode=$('quizMode'),quizLevel=$('quizLevel'),quizCat=$('quizCat'),quizBox=$('quizBox'),nextQuiz=$('nextQuiz'),
 search=$('search'),listLevel=$('listLevel'),listCat=$('listCat'),wordList=$('wordList'),
-learnedN=$('learnedN'),favN=$('favN'),reviewN=$('reviewN'),bar=$('bar'),pct=$('pct'),levelStats=$('levelStats'),reset=$('reset');
-const DEFAULT_STATE={known:{},fav:{},review:{},patternKnown:{},quiz:{correct:0,total:0}};
+learnedN=$('learnedN'),favN=$('favN'),reviewN=$('reviewN'),bar=$('bar'),pct=$('pct'),levelStats=$('levelStats'),
+sentenceBar=$('sentenceBar'),sentencePct=$('sentencePct'),reset=$('reset');
+const DEFAULT_STATE={known:{},fav:{},review:{},patternKnown:{},sentenceKnown:{},sentenceReview:{},quiz:{correct:0,total:0},sentenceQuiz:{correct:0,total:0}};
 let old=localStorage.getItem('taigi500');
 let S;
 try{S=JSON.parse(localStorage.getItem('taigi1000')||old||JSON.stringify(DEFAULT_STATE))}catch(e){S=JSON.parse(JSON.stringify(DEFAULT_STATE))}
-S.known=S.known||{};S.fav=S.fav||{};S.review=S.review||{};S.patternKnown=S.patternKnown||{};S.quiz=S.quiz||{correct:0,total:0};
+S.known=S.known||{};S.fav=S.fav||{};S.review=S.review||{};S.patternKnown=S.patternKnown||{};
+S.sentenceKnown=S.sentenceKnown||{};S.sentenceReview=S.sentenceReview||{};S.quiz=S.quiz||{correct:0,total:0};S.sentenceQuiz=S.sentenceQuiz||{correct:0,total:0};
 const save=()=>localStorage.setItem('taigi1000',JSON.stringify(S));
 save();
 
 const cats=['すべて',...new Set(WORDS.map(w=>w.category))];
-for(const id of ['cardCat','quizCat','listCat']){
- const el=document.getElementById(id); cats.forEach(c=>el.add(new Option(c,c)))
+const sentenceCats=['すべて',...new Set(SENTENCES.map(x=>x.category))];
+for(const id of ['cardCat','listCat']){const el=document.getElementById(id);cats.forEach(c=>el.add(new Option(c,c)))}
+sentenceCats.forEach(c=>sentenceCat.add(new Option(c,c)));
+function setQuizCategories(){
+ const v=quizCat.value;
+ quizCat.innerHTML='';
+ const source=quizMode.value.startsWith('sentence-')?sentenceCats:cats;
+ source.forEach(c=>quizCat.add(new Option(c,c)));
+ if(source.includes(v))quizCat.value=v;
 }
-let current=null,revealed=false,currentQuiz=null;
+setQuizCategories();
+let current=null,revealed=false,currentSentence=null,sentenceRevealed=false,currentQuiz=null;
 
 function levelOK(w,v){return v==='すべての級'||w.level===v}
 function catOK(w,v){return v==='すべて'||w.category===v}
@@ -195,7 +229,7 @@ shuffle.onclick=pick;
 
 window.playWordById=id=>{const w=WORDS.find(x=>String(x.id)===String(id));if(w)window.TaigiAudio?.playWord(w)};
 window.playPatternExample=(pid,index)=>{const p=PATTERNS.find(x=>x.id===pid),x=p?.examples?.[index];if(x)window.TaigiAudio?.playSynth(x[2],`${x[0]} — ${x[1]}`,{reason:'定型表現の例文'})};
-window.playCurrentQuizAudio=()=>{if(!currentQuiz)return;const q=currentQuiz.q;if(currentQuiz.mode==='pattern')window.TaigiAudio?.playSynth(q.pron,`${q.tw} — ${q.jp}`,{reason:'定型表現クイズ'});else window.TaigiAudio?.playWord(q)};
+window.playCurrentQuizAudio=()=>{if(!currentQuiz)return;const q=currentQuiz.q,mode=currentQuiz.mode;if(mode==='pattern')window.TaigiAudio?.playSynth(q.pron,`${q.tw} — ${q.jp}`,{reason:'定型表現クイズ'});else if(mode.startsWith('sentence-'))window.TaigiAudio?.playSynth(q.pron,`${q.tw} — ${q.jp}`,{reason:'文章クイズ'});else window.TaigiAudio?.playWord(q)};
 
 function renderPatterns(){
  const lv=patternLevel.value,q=patternSearch.value.trim().toLowerCase();
@@ -209,11 +243,44 @@ function renderPatterns(){
 }
 patternLevel.onchange=renderPatterns;patternSearch.oninput=renderPatterns;
 
+
+function sentenceDue(id){return S.sentenceReview[id]&&S.sentenceReview[id]<=Date.now()}
+function sentencePool(){
+ const lv=sentenceLevel.value,cat=sentenceCat.value;
+ return SENTENCES.filter(x=>levelOK(x,lv)&&catOK(x,cat));
+}
+function pickSentence(){
+ const pool=sentencePool();
+ if(!pool.length){currentSentence=null;sentenceCard.innerHTML='<div class="empty">条件に合う文章がありません。</div>';return}
+ currentSentence=pool[Math.floor(Math.random()*pool.length)];sentenceRevealed=false;renderSentence();
+}
+function renderSentence(){
+ if(!currentSentence)return;
+ const x=currentSentence,dir=sentenceDirection.value,known=!!S.sentenceKnown[x.id];
+ const prompt=dir==='tw-jp'?x.tw:x.jp;
+ sentenceCard.innerHTML=`<div class="badges"><span class="badge ${x.level}">${x.level}</span><span class="badge">${x.category}</span></div>
+ <div class="${dir==='tw-jp'?'sentenceTw':'sentenceJp'}">${prompt}</div>
+ <div class="${sentenceRevealed?'':'hidden'}">
+   <div class="${dir==='tw-jp'?'sentenceJp':'sentenceTw'}">${dir==='tw-jp'?x.jp:x.tw}</div>
+   <div class="pron">${x.pron}</div>
+   <div class="audioLine"><button class="speakbtn" type="button" onclick="playSentenceById('${x.id}')">🔊 文章を聞く</button></div>
+   <div class="grammarBox"><b>文型：${x.pattern}</b><br><span class="small">${x.grammar}</span></div>
+ </div>
+ <div class="small" style="margin-top:14px">${known?'習得済み':'未習得'}${sentenceDue(x.id)?'・復習タイミング':''}</div>`;
+}
+window.playSentenceById=id=>{const x=SENTENCES.find(v=>v.id===id);if(x)window.TaigiAudio?.playSynth(x.pron,`${x.tw} — ${x.jp}`,{reason:'文章学習'})};
+sentenceShow.onclick=()=>{sentenceRevealed=true;renderSentence()};
+sentenceKnown.onclick=()=>{if(!currentSentence)return;S.sentenceKnown[currentSentence.id]=true;S.sentenceReview[currentSentence.id]=Date.now()+3*864e5;save();pickSentence();stats()};
+sentenceAgain.onclick=()=>{if(!currentSentence)return;delete S.sentenceKnown[currentSentence.id];S.sentenceReview[currentSentence.id]=Date.now()+864e5;save();pickSentence();stats()};
+sentenceShuffle.onclick=pickSentence;
+[sentenceLevel,sentenceCat,sentenceDirection].forEach(el=>el.onchange=pickSentence);
+
 const PATTERN_QUIZ=PATTERNS.flatMap(p=>p.examples.map((x,i)=>({id:`${p.id}-${i}`,patternId:p.id,patternTitle:p.title,level:p.level,tw:x[0],jp:x[1],pron:x[2],category:'型'})));
 
 function makeQuiz(){
  const mode=quizMode.value,lv=quizLevel.value;
  let q,opts,ask,sub,label;
+ setQuizCategories();
  if(mode==='pattern'){
    quizCat.disabled=true;
    const pool=PATTERN_QUIZ.filter(x=>lv==='すべての級'||x.level===lv);
@@ -221,7 +288,18 @@ function makeQuiz(){
    q=pool[Math.floor(Math.random()*pool.length)];
    const distractors=pool.filter(x=>x.id!==q.id&&x.tw!==q.tw).sort(()=>Math.random()-.5).slice(0,3);
    opts=[q,...distractors].sort(()=>Math.random()-.5);
-   ask=q.jp; sub='日本語に合う台湾語の定型表現を選んでください'; label=o=>o.tw;
+   ask=q.jp;sub='日本語に合う台湾語の定型表現を選んでください';label=o=>o.tw;
+ }else if(mode.startsWith('sentence-')){
+   quizCat.disabled=false;
+   const cat=quizCat.value;
+   const pool=SENTENCES.filter(x=>levelOK(x,lv)&&catOK(x,cat));
+   if(pool.length<4){quizBox.innerHTML='<div class="empty">この条件では文章問題が足りません。条件を広げてください。</div>';return}
+   q=pool[Math.floor(Math.random()*pool.length)];
+   const distractors=pool.filter(x=>x.id!==q.id).sort(()=>Math.random()-.5).slice(0,3);
+   opts=[q,...distractors].sort(()=>Math.random()-.5);
+   ask=mode==='sentence-tw-jp'?q.tw:q.jp;
+   sub=mode==='sentence-tw-jp'?'この台湾語文の意味を選んでください':'この日本語に合う台湾語文を選んでください';
+   label=o=>mode==='sentence-tw-jp'?o.jp:o.tw;
  }else{
    quizCat.disabled=false;
    const cat=quizCat.value;
@@ -243,26 +321,31 @@ function makeQuiz(){
 }
 function answerQuiz(btn,id){
  if(!currentQuiz)return;
- const q=currentQuiz.q,mode=currentQuiz.mode,ok=id===String(q.id);
+ const q=currentQuiz.q,mode=currentQuiz.mode,ok=id===String(q.id),isSentence=mode.startsWith('sentence-');
  document.querySelectorAll('.options button').forEach(x=>{x.disabled=true;if(String(x.dataset.id)===String(q.id))x.classList.add('correct')});
  if(!ok)btn.classList.add('wrong');
- S.quiz.total++;
- if(ok){
-   S.quiz.correct++;
-   if(mode==='pattern')S.patternKnown[q.id]=true;
-   else{S.known[q.id]=true;S.review[q.id]=Date.now()+3*864e5}
- }else if(mode!=='pattern'){S.review[q.id]=Date.now()+864e5}
+ if(isSentence){
+   S.sentenceQuiz.total++;
+   if(ok){S.sentenceQuiz.correct++;S.sentenceKnown[q.id]=true;S.sentenceReview[q.id]=Date.now()+3*864e5}
+   else S.sentenceReview[q.id]=Date.now()+864e5;
+ }else{
+   S.quiz.total++;
+   if(ok){S.quiz.correct++;if(mode==='pattern')S.patternKnown[q.id]=true;else{S.known[q.id]=true;S.review[q.id]=Date.now()+3*864e5}}
+   else if(mode!=='pattern')S.review[q.id]=Date.now()+864e5;
+ }
  save();stats();
- const fb=$('quizFeedback');
- fb.className='feedback show '+(ok?'good':'bad');
+ const fb=$('quizFeedback');fb.className='feedback show '+(ok?'good':'bad');
  if(mode==='pattern'){
    fb.innerHTML=`<b>${ok?'正解！':'不正解'}</b>${ok?'その表現で合っています。':`正解は「${q.tw}」です。`}<br><strong>${q.patternTitle}</strong><br>${q.tw}<br><span class="pron">${q.pron}</span><br><span class="small">${q.jp}</span><div class="audioLine"><button class="speakbtn" type="button" onclick="playCurrentQuizAudio()">🔊 正解の発音</button></div>`;
+ }else if(isSentence){
+   const answer=mode==='sentence-tw-jp'?q.jp:q.tw;
+   fb.innerHTML=`<b>${ok?'正解！':'不正解'}</b>${ok?'その意味で合っています。':`正解は「${answer}」です。`}<br><strong>${q.tw}</strong><br><span class="pron">${q.pron}</span><br><span>${q.jp}</span><div class="grammarBox"><b>文型：${q.pattern}</b><br><span class="small">${q.grammar}</span></div><div class="audioLine"><button class="speakbtn" type="button" onclick="playCurrentQuizAudio()">🔊 文章の発音</button></div>`;
  }else{
    const answer=mode==='tw-jp'?q.jp:q.tw;
    fb.innerHTML=`<b>${ok?'正解！':'不正解'}</b>${ok?'その答えで合っています。':`正解は「${answer}」です。`}<br><strong>${q.tw}</strong> — ${q.jp}<br><span>${q.pron}</span><br><span class="small">${q.example}　${q.exampleJp}</span><div class="audioLine"><button class="speakbtn" type="button" onclick="playCurrentQuizAudio()">🔊 正解の発音</button></div>`;
  }
 }
-nextQuiz.onclick=makeQuiz;[quizMode,quizLevel,quizCat].forEach(el=>el.onchange=makeQuiz);
+nextQuiz.onclick=makeQuiz;quizMode.onchange=()=>{setQuizCategories();makeQuiz()};[quizLevel,quizCat].forEach(el=>el.onchange=makeQuiz);
 
 function renderList(){
  const q=search.value.trim().toLowerCase(),lv=listLevel.value,cat=listCat.value;
@@ -278,17 +361,18 @@ window.listFav=id=>{S.fav[id]=!S.fav[id];save();renderList();stats()}
 function stats(){
  const k=WORDS.filter(w=>S.known[w.id]).length,f=WORDS.filter(w=>S.fav[w.id]).length,r=WORDS.filter(w=>due(w.id)).length,p=Math.round(k/WORDS.length*100);
  learnedN.textContent=k;favN.textContent=f;reviewN.textContent=r;bar.style.width=p+'%';pct.textContent=`${p}%（${k} / ${WORDS.length}語）`;
- levelStats.innerHTML=['初級','中級','上級'].map(lv=>{const all=WORDS.filter(w=>w.level===lv),done=all.filter(w=>S.known[w.id]).length,pp=Math.round(done/all.length*100);return `<div class="levelrow"><b>${lv}</b><div class="miniProgress"><div class="miniBar" style="width:${pp}%"></div></div><span>${done}/${all.length}</span></div>`}).join('')
+ levelStats.innerHTML=['初級','中級','上級'].map(lv=>{const all=WORDS.filter(w=>w.level===lv),done=all.filter(w=>S.known[w.id]).length,pp=Math.round(done/all.length*100);return `<div class="levelrow"><b>${lv}</b><div class="miniProgress"><div class="miniBar" style="width:${pp}%"></div></div><span>${done}/${all.length}</span></div>`}).join('');
+ const sk=SENTENCES.filter(x=>S.sentenceKnown[x.id]).length,sp=Math.round(sk/SENTENCES.length*100);sentenceBar.style.width=sp+'%';sentencePct.textContent=`${sp}%（${sk} / ${SENTENCES.length}文）`
 }
 reset.onclick=()=>{if(confirm('学習記録をリセットしますか？')){localStorage.removeItem('taigi1000');localStorage.removeItem('taigi500');location.reload()}}
 
 document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
  document.querySelectorAll('nav button').forEach(x=>x.classList.remove('active'));b.classList.add('active');
  document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));document.getElementById(b.dataset.tab).classList.add('active');
- if(b.dataset.tab==='patterns')renderPatterns();if(b.dataset.tab==='quiz')makeQuiz();if(b.dataset.tab==='list')renderList();if(b.dataset.tab==='stats')stats()
+ if(b.dataset.tab==='patterns')renderPatterns();if(b.dataset.tab==='sentences')pickSentence();if(b.dataset.tab==='quiz')makeQuiz();if(b.dataset.tab==='list')renderList();if(b.dataset.tab==='stats')stats()
 });
-if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js').catch(()=>{})}
-pick();renderPatterns();makeQuiz();renderList();stats();
+if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).then(r=>r.update()).catch(()=>{})}
+pick();renderPatterns();pickSentence();makeQuiz();renderList();stats();
 </script>
 </body>
 </html>
