@@ -1,3 +1,16 @@
+window.META = {
+  "title": "台語1000",
+  "version": "2.0",
+  "items": 1000,
+  "words": 1000,
+  "patterns": 24,
+  "levels": {
+    "初級": 450,
+    "中級": 350,
+    "上級": 200
+  },
+  "sourceNote": "ChhoeTaigiDatabaseの公開資料を語彙・表記確認の参照元として使用。日本語訳・難易度分類・学習用例文・型学習は本教材向けに編集。"
+};
 window.WORDS = [
   {
     "id": 1,
@@ -6,7 +19,10 @@ window.WORDS = [
     "jp": "こんにちは",
     "pron": "lí-hó",
     "example": "我會用「你好」。",
-    "exampleJp": "私は「こんにちは」を使えます。"
+    "exampleJp": "私は「こんにちは」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 2,
@@ -15,7 +31,10 @@ window.WORDS = [
     "jp": "ありがとう",
     "pron": "to-siā",
     "example": "我會用「多謝」。",
-    "exampleJp": "私は「ありがとう」を使えます。"
+    "exampleJp": "私は「ありがとう」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 3,
@@ -24,7 +43,10 @@ window.WORDS = [
     "jp": "ありがとう（くだけた言い方）",
     "pron": "lóo-la̍t",
     "example": "我會用「勞力」。",
-    "exampleJp": "私は「ありがとう（くだけた言い方）」を使えます。"
+    "exampleJp": "私は「ありがとう（くだけた言い方）」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 4,
@@ -33,7 +55,10 @@ window.WORDS = [
     "jp": "すみません／ごめんなさい",
     "pron": "pháinn-sè",
     "example": "我會用「歹勢」。",
-    "exampleJp": "私は「すみません／ごめんなさい」を使えます。"
+    "exampleJp": "私は「すみません／ごめんなさい」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 5,
@@ -42,7 +67,10 @@ window.WORDS = [
     "jp": "さようなら",
     "pron": "tsài-huē",
     "example": "我會用「再會」。",
-    "exampleJp": "私は「さようなら」を使えます。"
+    "exampleJp": "私は「さようなら」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 6,
@@ -51,7 +79,10 @@ window.WORDS = [
     "jp": "どうぞ／〜してください",
     "pron": "tshiánn",
     "example": "我會用「請」。",
-    "exampleJp": "私は「どうぞ／〜してください」を使えます。"
+    "exampleJp": "私は「どうぞ／〜してください」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 7,
@@ -60,7 +91,10 @@ window.WORDS = [
     "jp": "すみません、尋ねますが",
     "pron": "tshiánn-mn̄g",
     "example": "我會用「請問」。",
-    "exampleJp": "私は「すみません、尋ねますが」を使えます。"
+    "exampleJp": "私は「すみません、尋ねますが」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 8,
@@ -69,7 +103,10 @@ window.WORDS = [
     "jp": "〜です／はい",
     "pron": "sī",
     "example": "我會用「是」。",
-    "exampleJp": "私は「〜です／はい」を使えます。"
+    "exampleJp": "私は「〜です／はい」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 9,
@@ -78,7 +115,10 @@ window.WORDS = [
     "jp": "〜ではありません",
     "pron": "m̄-sī",
     "example": "我會用「毋是」。",
-    "exampleJp": "私は「〜ではありません」を使えます。"
+    "exampleJp": "私は「〜ではありません」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 10,
@@ -87,7 +127,10 @@ window.WORDS = [
     "jp": "よい／OK",
     "pron": "hó",
     "example": "我會用「好」。",
-    "exampleJp": "私は「よい／OK」を使えます。"
+    "exampleJp": "私は「よい／OK」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 11,
@@ -96,7 +139,10 @@ window.WORDS = [
     "jp": "大丈夫",
     "pron": "bô-iàu-kín",
     "example": "我會用「無要緊」。",
-    "exampleJp": "私は「大丈夫」を使えます。"
+    "exampleJp": "私は「大丈夫」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 12,
@@ -105,7 +151,10 @@ window.WORDS = [
     "jp": "問題ない",
     "pron": "bô būn-tê",
     "example": "我會用「無問題」。",
-    "exampleJp": "私は「問題ない」を使えます。"
+    "exampleJp": "私は「問題ない」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 13,
@@ -114,7 +163,10 @@ window.WORDS = [
     "jp": "正しい／〜すべき",
     "pron": "tio̍h",
     "example": "我會用「著」。",
-    "exampleJp": "私は「正しい／〜すべき」を使えます。"
+    "exampleJp": "私は「正しい／〜すべき」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 14,
@@ -123,7 +175,10 @@ window.WORDS = [
     "jp": "違う",
     "pron": "m̄-tio̍h",
     "example": "我會用「毋著」。",
-    "exampleJp": "私は「違う」を使えます。"
+    "exampleJp": "私は「違う」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 15,
@@ -132,7 +187,10 @@ window.WORDS = [
     "jp": "ある／いる",
     "pron": "ū",
     "example": "我會用「有」。",
-    "exampleJp": "私は「ある／いる」を使えます。"
+    "exampleJp": "私は「ある／いる」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 16,
@@ -141,7 +199,10 @@ window.WORDS = [
     "jp": "ない／いない",
     "pron": "bô",
     "example": "我會用「無」。",
-    "exampleJp": "私は「ない／いない」を使えます。"
+    "exampleJp": "私は「ない／いない」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 17,
@@ -150,7 +211,10 @@ window.WORDS = [
     "jp": "〜ですか（疑問）",
     "pron": "kám",
     "example": "我會用「敢」。",
-    "exampleJp": "私は「〜ですか（疑問）」を使えます。"
+    "exampleJp": "私は「〜ですか（疑問）」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 18,
@@ -159,7 +223,10 @@ window.WORDS = [
     "jp": "〜も",
     "pron": "mā",
     "example": "我會用「嘛」。",
-    "exampleJp": "私は「〜も」を使えます。"
+    "exampleJp": "私は「〜も」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 19,
@@ -168,7 +235,10 @@ window.WORDS = [
     "jp": "また／さらに",
     "pron": "koh",
     "example": "我會用「閣」。",
-    "exampleJp": "私は「また／さらに」を使えます。"
+    "exampleJp": "私は「また／さらに」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 20,
@@ -177,7 +247,10 @@ window.WORDS = [
     "jp": "とても",
     "pron": "tsin",
     "example": "我會用「真」。",
-    "exampleJp": "私は「とても」を使えます。"
+    "exampleJp": "私は「とても」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 21,
@@ -186,7 +259,10 @@ window.WORDS = [
     "jp": "とても／十分",
     "pron": "tsiok",
     "example": "我會用「足」。",
-    "exampleJp": "私は「とても／十分」を使えます。"
+    "exampleJp": "私は「とても／十分」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 22,
@@ -195,7 +271,10 @@ window.WORDS = [
     "jp": "〜すぎる",
     "pron": "siunn",
     "example": "我會用「傷」。",
-    "exampleJp": "私は「〜すぎる」を使えます。"
+    "exampleJp": "私は「〜すぎる」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 23,
@@ -204,7 +283,10 @@ window.WORDS = [
     "jp": "より／比較的",
     "pron": "khah",
     "example": "我會用「較」。",
-    "exampleJp": "私は「より／比較的」を使えます。"
+    "exampleJp": "私は「より／比較的」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 24,
@@ -213,7 +295,10 @@ window.WORDS = [
     "jp": "最も",
     "pron": "siōng",
     "example": "我會用「上」。",
-    "exampleJp": "私は「最も」を使えます。"
+    "exampleJp": "私は「最も」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 25,
@@ -222,7 +307,10 @@ window.WORDS = [
     "jp": "全部／みんな",
     "pron": "lóng",
     "example": "我會用「攏」。",
-    "exampleJp": "私は「全部／みんな」を使えます。"
+    "exampleJp": "私は「全部／みんな」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 26,
@@ -231,7 +319,10 @@ window.WORDS = [
     "jp": "まだ",
     "pron": "iáu",
     "example": "我會用「猶」。",
-    "exampleJp": "私は「まだ」を使えます。"
+    "exampleJp": "私は「まだ」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 27,
@@ -240,7 +331,10 @@ window.WORDS = [
     "jp": "すでに",
     "pron": "í-king",
     "example": "我會用「已經」。",
-    "exampleJp": "私は「すでに」を使えます。"
+    "exampleJp": "私は「すでに」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 28,
@@ -249,7 +343,10 @@ window.WORDS = [
     "jp": "やはり／〜でもある",
     "pron": "mā-sī",
     "example": "我會用「嘛是」。",
-    "exampleJp": "私は「やはり／〜でもある」を使えます。"
+    "exampleJp": "私は「やはり／〜でもある」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 29,
@@ -258,7 +355,10 @@ window.WORDS = [
     "jp": "もし〜なら",
     "pron": "nā-sī",
     "example": "我會用「若是」。",
-    "exampleJp": "私は「もし〜なら」を使えます。"
+    "exampleJp": "私は「もし〜なら」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 30,
@@ -267,7 +367,10 @@ window.WORDS = [
     "jp": "なぜなら",
     "pron": "in-uī",
     "example": "我會用「因為」。",
-    "exampleJp": "私は「なぜなら」を使えます。"
+    "exampleJp": "私は「なぜなら」を使えます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 31,
@@ -276,7 +379,10 @@ window.WORDS = [
     "jp": "だから",
     "pron": "sóo-í",
     "example": "我會用「所以」。",
-    "exampleJp": "私は「だから」を使えます。"
+    "exampleJp": "私は「だから」を使えます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 32,
@@ -285,7 +391,10 @@ window.WORDS = [
     "jp": "しかし",
     "pron": "m̄-koh",
     "example": "我會用「毋過」。",
-    "exampleJp": "私は「しかし」を使えます。"
+    "exampleJp": "私は「しかし」を使えます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 33,
@@ -294,7 +403,10 @@ window.WORDS = [
     "jp": "それとも",
     "pron": "iah-sī",
     "example": "我會用「抑是」。",
-    "exampleJp": "私は「それとも」を使えます。"
+    "exampleJp": "私は「それとも」を使えます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 34,
@@ -303,7 +415,10 @@ window.WORDS = [
     "jp": "それから",
     "pron": "jiân-āu",
     "example": "我會用「然後」。",
-    "exampleJp": "私は「それから」を使えます。"
+    "exampleJp": "私は「それから」を使えます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 35,
@@ -312,7 +427,10 @@ window.WORDS = [
     "jp": "今",
     "pron": "hiān-tsāi",
     "example": "我會用「現在」。",
-    "exampleJp": "私は「今」を使えます。"
+    "exampleJp": "私は「今」を使えます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 36,
@@ -321,7 +439,10 @@ window.WORDS = [
     "jp": "ここ",
     "pron": "tsia",
     "example": "我會用「遮」。",
-    "exampleJp": "私は「ここ」を使えます。"
+    "exampleJp": "私は「ここ」を使えます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 37,
@@ -330,7 +451,10 @@ window.WORDS = [
     "jp": "そこ／あそこ",
     "pron": "hia",
     "example": "我會用「遐」。",
-    "exampleJp": "私は「そこ／あそこ」を使えます。"
+    "exampleJp": "私は「そこ／あそこ」を使えます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 38,
@@ -339,7 +463,10 @@ window.WORDS = [
     "jp": "このように",
     "pron": "án-ne",
     "example": "我會用「按呢」。",
-    "exampleJp": "私は「このように」を使えます。"
+    "exampleJp": "私は「このように」を使えます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 39,
@@ -348,7 +475,10 @@ window.WORDS = [
     "jp": "どうやって",
     "pron": "án-tsuánn",
     "example": "我會用「按怎」。",
-    "exampleJp": "私は「どうやって」を使えます。"
+    "exampleJp": "私は「どうやって」を使えます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 40,
@@ -357,7 +487,10 @@ window.WORDS = [
     "jp": "何",
     "pron": "siánn-mih",
     "example": "我會用「啥物」。",
-    "exampleJp": "私は「何」を使えます。"
+    "exampleJp": "私は「何」を使えます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 41,
@@ -366,7 +499,10 @@ window.WORDS = [
     "jp": "誰",
     "pron": "siánn-lâng",
     "example": "我會用「啥人」。",
-    "exampleJp": "私は「誰」を使えます。"
+    "exampleJp": "私は「誰」を使えます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 42,
@@ -375,7 +511,10 @@ window.WORDS = [
     "jp": "どこ",
     "pron": "tó-uī",
     "example": "我會用「佗位」。",
-    "exampleJp": "私は「どこ」を使えます。"
+    "exampleJp": "私は「どこ」を使えます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 43,
@@ -384,7 +523,10 @@ window.WORDS = [
     "jp": "いくつか",
     "pron": "kuí-nā",
     "example": "我會用「幾若」。",
-    "exampleJp": "私は「いくつか」を使えます。"
+    "exampleJp": "私は「いくつか」を使えます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 44,
@@ -393,7 +535,10 @@ window.WORDS = [
     "jp": "どのくらい／いくつ",
     "pron": "guā-tsē",
     "example": "我會用「偌濟」。",
-    "exampleJp": "私は「どのくらい／いくつ」を使えます。"
+    "exampleJp": "私は「どのくらい／いくつ」を使えます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 45,
@@ -402,7 +547,10 @@ window.WORDS = [
     "jp": "なぜ",
     "pron": "uī-siánn-mih",
     "example": "我會用「為啥物」。",
-    "exampleJp": "私は「なぜ」を使えます。"
+    "exampleJp": "私は「なぜ」を使えます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 46,
@@ -411,7 +559,10 @@ window.WORDS = [
     "jp": "できる／〜してよい",
     "pron": "ē-sái",
     "example": "我會用「會使」。",
-    "exampleJp": "私は「できる／〜してよい」を使えます。"
+    "exampleJp": "私は「できる／〜してよい」を使えます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 47,
@@ -420,7 +571,10 @@ window.WORDS = [
     "jp": "できない／〜してはいけない",
     "pron": "bē-sái",
     "example": "我會用「袂使」。",
-    "exampleJp": "私は「できない／〜してはいけない」を使えます。"
+    "exampleJp": "私は「できない／〜してはいけない」を使えます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 48,
@@ -429,7 +583,10 @@ window.WORDS = [
     "jp": "知っている",
     "pron": "tsai-iánn",
     "example": "我會用「知影」。",
-    "exampleJp": "私は「知っている」を使えます。"
+    "exampleJp": "私は「知っている」を使えます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 49,
@@ -438,7 +595,10 @@ window.WORDS = [
     "jp": "知らない",
     "pron": "m̄-tsai",
     "example": "我會用「毋知」。",
-    "exampleJp": "私は「知らない」を使えます。"
+    "exampleJp": "私は「知らない」を使えます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 50,
@@ -447,7 +607,10 @@ window.WORDS = [
     "jp": "聞いて理解できない",
     "pron": "thiann-bô",
     "example": "我會用「聽無」。",
-    "exampleJp": "私は「聞いて理解できない」を使えます。"
+    "exampleJp": "私は「聞いて理解できない」を使えます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 51,
@@ -456,7 +619,10 @@ window.WORDS = [
     "jp": "私",
     "pron": "guá",
     "example": "我佇遮。",
-    "exampleJp": "私はここにいます。"
+    "exampleJp": "私はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 52,
@@ -465,7 +631,10 @@ window.WORDS = [
     "jp": "あなた",
     "pron": "lí",
     "example": "你佇遮。",
-    "exampleJp": "あなたはここにいます。"
+    "exampleJp": "あなたはここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 53,
@@ -474,7 +643,10 @@ window.WORDS = [
     "jp": "彼／彼女",
     "pron": "i",
     "example": "伊佇遮。",
-    "exampleJp": "彼／彼女はここにいます。"
+    "exampleJp": "彼／彼女はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 54,
@@ -483,7 +655,10 @@ window.WORDS = [
     "jp": "私たち（相手を含む）",
     "pron": "lán",
     "example": "咱佇遮。",
-    "exampleJp": "私たち（相手を含む）はここにいます。"
+    "exampleJp": "私たち（相手を含む）はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 55,
@@ -492,7 +667,10 @@ window.WORDS = [
     "jp": "私たち（相手を含まない）",
     "pron": "gún",
     "example": "阮佇遮。",
-    "exampleJp": "私たち（相手を含まない）はここにいます。"
+    "exampleJp": "私たち（相手を含まない）はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 56,
@@ -501,7 +679,10 @@ window.WORDS = [
     "jp": "あなたたち",
     "pron": "lín",
     "example": "恁佇遮。",
-    "exampleJp": "あなたたちはここにいます。"
+    "exampleJp": "あなたたちはここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 57,
@@ -510,7 +691,10 @@ window.WORDS = [
     "jp": "彼ら／彼女ら",
     "pron": "in",
     "example": "𪜶佇遮。",
-    "exampleJp": "彼ら／彼女らはここにいます。"
+    "exampleJp": "彼ら／彼女らはここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 58,
@@ -519,7 +703,10 @@ window.WORDS = [
     "jp": "人",
     "pron": "lâng",
     "example": "人佇遮。",
-    "exampleJp": "人はここにいます。"
+    "exampleJp": "人はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 59,
@@ -528,7 +715,10 @@ window.WORDS = [
     "jp": "子ども",
     "pron": "gín-á",
     "example": "囡仔佇遮。",
-    "exampleJp": "子どもはここにいます。"
+    "exampleJp": "子どもはここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 60,
@@ -537,7 +727,10 @@ window.WORDS = [
     "jp": "女の子",
     "pron": "tsa-bóo gín-á",
     "example": "查某囡仔佇遮。",
-    "exampleJp": "女の子はここにいます。"
+    "exampleJp": "女の子はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 61,
@@ -546,7 +739,10 @@ window.WORDS = [
     "jp": "男の子",
     "pron": "tsa-poo gín-á",
     "example": "查埔囡仔佇遮。",
-    "exampleJp": "男の子はここにいます。"
+    "exampleJp": "男の子はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 62,
@@ -555,7 +751,10 @@ window.WORDS = [
     "jp": "大人",
     "pron": "tuā-lâng",
     "example": "大人佇遮。",
-    "exampleJp": "大人はここにいます。"
+    "exampleJp": "大人はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 63,
@@ -564,7 +763,10 @@ window.WORDS = [
     "jp": "若者",
     "pron": "siàu-liân-lâng",
     "example": "少年人佇遮。",
-    "exampleJp": "若者はここにいます。"
+    "exampleJp": "若者はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 64,
@@ -573,7 +775,10 @@ window.WORDS = [
     "jp": "高齢者",
     "pron": "lāu-lâng",
     "example": "老人佇遮。",
-    "exampleJp": "高齢者はここにいます。"
+    "exampleJp": "高齢者はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 65,
@@ -582,7 +787,10 @@ window.WORDS = [
     "jp": "友達",
     "pron": "pîng-iú",
     "example": "朋友佇遮。",
-    "exampleJp": "友達はここにいます。"
+    "exampleJp": "友達はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 66,
@@ -591,7 +799,10 @@ window.WORDS = [
     "jp": "同級生",
     "pron": "tông-ha̍k",
     "example": "同學佇遮。",
-    "exampleJp": "同級生はここにいます。"
+    "exampleJp": "同級生はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 67,
@@ -600,7 +811,10 @@ window.WORDS = [
     "jp": "同僚",
     "pron": "tông-sū",
     "example": "同事佇遮。",
-    "exampleJp": "同僚はここにいます。"
+    "exampleJp": "同僚はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 68,
@@ -609,7 +823,10 @@ window.WORDS = [
     "jp": "先生／男性への敬称",
     "pron": "sian-sinn",
     "example": "先生佇遮。",
-    "exampleJp": "先生／男性への敬称はここにいます。"
+    "exampleJp": "先生／男性への敬称はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 69,
@@ -618,7 +835,10 @@ window.WORDS = [
     "jp": "教師",
     "pron": "lāu-su",
     "example": "老師佇遮。",
-    "exampleJp": "教師はここにいます。"
+    "exampleJp": "教師はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 70,
@@ -627,7 +847,10 @@ window.WORDS = [
     "jp": "学生",
     "pron": "ha̍k-sing",
     "example": "學生佇遮。",
-    "exampleJp": "学生はここにいます。"
+    "exampleJp": "学生はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 71,
@@ -636,7 +859,10 @@ window.WORDS = [
     "jp": "医師",
     "pron": "i-sing",
     "example": "醫生佇遮。",
-    "exampleJp": "医師はここにいます。"
+    "exampleJp": "医師はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 72,
@@ -645,7 +871,10 @@ window.WORDS = [
     "jp": "看護師",
     "pron": "hōo-sū",
     "example": "護士佇遮。",
-    "exampleJp": "看護師はここにいます。"
+    "exampleJp": "看護師はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 73,
@@ -654,7 +883,10 @@ window.WORDS = [
     "jp": "店主／社長",
     "pron": "thâu-ke",
     "example": "頭家佇遮。",
-    "exampleJp": "店主／社長はここにいます。"
+    "exampleJp": "店主／社長はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 74,
@@ -663,7 +895,10 @@ window.WORDS = [
     "jp": "客",
     "pron": "kheh-lâng",
     "example": "客人佇遮。",
-    "exampleJp": "客はここにいます。"
+    "exampleJp": "客はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 75,
@@ -672,7 +907,10 @@ window.WORDS = [
     "jp": "隣人",
     "pron": "tshù-pinn",
     "example": "厝邊佇遮。",
-    "exampleJp": "隣人はここにいます。"
+    "exampleJp": "隣人はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 76,
@@ -681,7 +919,10 @@ window.WORDS = [
     "jp": "家庭",
     "pron": "ka-tîng",
     "example": "家庭佇遮。",
-    "exampleJp": "家庭はここにいます。"
+    "exampleJp": "家庭はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 77,
@@ -690,7 +931,10 @@ window.WORDS = [
     "jp": "父",
     "pron": "pē",
     "example": "爸佇遮。",
-    "exampleJp": "父はここにいます。"
+    "exampleJp": "父はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 78,
@@ -699,7 +943,10 @@ window.WORDS = [
     "jp": "母",
     "pron": "bú",
     "example": "母佇遮。",
-    "exampleJp": "母はここにいます。"
+    "exampleJp": "母はここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 79,
@@ -708,7 +955,10 @@ window.WORDS = [
     "jp": "お父さん",
     "pron": "pē-pē",
     "example": "爸爸佇遮。",
-    "exampleJp": "お父さんはここにいます。"
+    "exampleJp": "お父さんはここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 80,
@@ -717,7 +967,10 @@ window.WORDS = [
     "jp": "お母さん",
     "pron": "má-mah",
     "example": "媽媽佇遮。",
-    "exampleJp": "お母さんはここにいます。"
+    "exampleJp": "お母さんはここにいます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 81,
@@ -726,7 +979,10 @@ window.WORDS = [
     "jp": "祖父",
     "pron": "a-kong",
     "example": "阿公佇遮。",
-    "exampleJp": "祖父はここにいます。"
+    "exampleJp": "祖父はここにいます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 82,
@@ -735,7 +991,10 @@ window.WORDS = [
     "jp": "祖母",
     "pron": "a-má",
     "example": "阿媽佇遮。",
-    "exampleJp": "祖母はここにいます。"
+    "exampleJp": "祖母はここにいます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 83,
@@ -744,7 +1003,10 @@ window.WORDS = [
     "jp": "兄",
     "pron": "hiann",
     "example": "兄佇遮。",
-    "exampleJp": "兄はここにいます。"
+    "exampleJp": "兄はここにいます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 84,
@@ -753,7 +1015,10 @@ window.WORDS = [
     "jp": "姉",
     "pron": "tsí",
     "example": "姊佇遮。",
-    "exampleJp": "姉はここにいます。"
+    "exampleJp": "姉はここにいます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 85,
@@ -762,7 +1027,10 @@ window.WORDS = [
     "jp": "弟",
     "pron": "sió-tī",
     "example": "小弟佇遮。",
-    "exampleJp": "弟はここにいます。"
+    "exampleJp": "弟はここにいます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 86,
@@ -771,7 +1039,10 @@ window.WORDS = [
     "jp": "妹",
     "pron": "sió-bē",
     "example": "小妹佇遮。",
-    "exampleJp": "妹はここにいます。"
+    "exampleJp": "妹はここにいます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 87,
@@ -780,7 +1051,10 @@ window.WORDS = [
     "jp": "兄弟",
     "pron": "hiann-tī",
     "example": "兄弟佇遮。",
-    "exampleJp": "兄弟はここにいます。"
+    "exampleJp": "兄弟はここにいます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 88,
@@ -789,7 +1063,10 @@ window.WORDS = [
     "jp": "姉妹",
     "pron": "tsí-bē",
     "example": "姊妹佇遮。",
-    "exampleJp": "姉妹はここにいます。"
+    "exampleJp": "姉妹はここにいます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 89,
@@ -798,7 +1075,10 @@ window.WORDS = [
     "jp": "夫",
     "pron": "ang",
     "example": "翁佇遮。",
-    "exampleJp": "夫はここにいます。"
+    "exampleJp": "夫はここにいます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 90,
@@ -807,7 +1087,10 @@ window.WORDS = [
     "jp": "妻",
     "pron": "bóo",
     "example": "某佇遮。",
-    "exampleJp": "妻はここにいます。"
+    "exampleJp": "妻はここにいます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 91,
@@ -816,7 +1099,10 @@ window.WORDS = [
     "jp": "夫婦",
     "pron": "ang-bóo",
     "example": "翁某佇遮。",
-    "exampleJp": "夫婦はここにいます。"
+    "exampleJp": "夫婦はここにいます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 92,
@@ -825,7 +1111,10 @@ window.WORDS = [
     "jp": "年長の親族",
     "pron": "sī-tuā",
     "example": "序大佇遮。",
-    "exampleJp": "年長の親族はここにいます。"
+    "exampleJp": "年長の親族はここにいます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 93,
@@ -834,7 +1123,10 @@ window.WORDS = [
     "jp": "孫",
     "pron": "sun",
     "example": "孫佇遮。",
-    "exampleJp": "孫はここにいます。"
+    "exampleJp": "孫はここにいます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 94,
@@ -843,7 +1135,10 @@ window.WORDS = [
     "jp": "親戚",
     "pron": "tshin-tshik",
     "example": "親戚佇遮。",
-    "exampleJp": "親戚はここにいます。"
+    "exampleJp": "親戚はここにいます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 95,
@@ -852,7 +1147,10 @@ window.WORDS = [
     "jp": "息子／子",
     "pron": "kiánn",
     "example": "囝佇遮。",
-    "exampleJp": "息子／子はここにいます。"
+    "exampleJp": "息子／子はここにいます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 96,
@@ -861,7 +1159,10 @@ window.WORDS = [
     "jp": "娘",
     "pron": "tsa-bóo-kiánn",
     "example": "查某囝佇遮。",
-    "exampleJp": "娘はここにいます。"
+    "exampleJp": "娘はここにいます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 97,
@@ -870,7 +1171,10 @@ window.WORDS = [
     "jp": "息子",
     "pron": "tsa-poo-kiánn",
     "example": "查埔囝佇遮。",
-    "exampleJp": "息子はここにいます。"
+    "exampleJp": "息子はここにいます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 98,
@@ -879,7 +1183,10 @@ window.WORDS = [
     "jp": "氏名",
     "pron": "sìng-miâ",
     "example": "姓名佇遮。",
-    "exampleJp": "氏名はここにいます。"
+    "exampleJp": "氏名はここにいます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 99,
@@ -888,7 +1195,10 @@ window.WORDS = [
     "jp": "名前",
     "pron": "miâ",
     "example": "名佇遮。",
-    "exampleJp": "名前はここにいます。"
+    "exampleJp": "名前はここにいます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 100,
@@ -897,7 +1207,10 @@ window.WORDS = [
     "jp": "みんな",
     "pron": "ta-ke",
     "example": "大家佇遮。",
-    "exampleJp": "みんなはここにいます。"
+    "exampleJp": "みんなはここにいます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 101,
@@ -906,7 +1219,10 @@ window.WORDS = [
     "jp": "一",
     "pron": "tsi̍t",
     "example": "我欲記得「一」。",
-    "exampleJp": "「一」を覚えたいです。"
+    "exampleJp": "「一」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 102,
@@ -915,7 +1231,10 @@ window.WORDS = [
     "jp": "二",
     "pron": "nn̄g",
     "example": "我欲記得「二」。",
-    "exampleJp": "「二」を覚えたいです。"
+    "exampleJp": "「二」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 103,
@@ -924,7 +1243,10 @@ window.WORDS = [
     "jp": "三",
     "pron": "sann",
     "example": "我欲記得「三」。",
-    "exampleJp": "「三」を覚えたいです。"
+    "exampleJp": "「三」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 104,
@@ -933,7 +1255,10 @@ window.WORDS = [
     "jp": "四",
     "pron": "sì",
     "example": "我欲記得「四」。",
-    "exampleJp": "「四」を覚えたいです。"
+    "exampleJp": "「四」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 105,
@@ -942,7 +1267,10 @@ window.WORDS = [
     "jp": "五",
     "pron": "gōo",
     "example": "我欲記得「五」。",
-    "exampleJp": "「五」を覚えたいです。"
+    "exampleJp": "「五」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 106,
@@ -951,7 +1279,10 @@ window.WORDS = [
     "jp": "六",
     "pron": "la̍k",
     "example": "我欲記得「六」。",
-    "exampleJp": "「六」を覚えたいです。"
+    "exampleJp": "「六」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 107,
@@ -960,7 +1291,10 @@ window.WORDS = [
     "jp": "七",
     "pron": "tshit",
     "example": "我欲記得「七」。",
-    "exampleJp": "「七」を覚えたいです。"
+    "exampleJp": "「七」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 108,
@@ -969,7 +1303,10 @@ window.WORDS = [
     "jp": "八",
     "pron": "peh",
     "example": "我欲記得「八」。",
-    "exampleJp": "「八」を覚えたいです。"
+    "exampleJp": "「八」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 109,
@@ -978,7 +1315,10 @@ window.WORDS = [
     "jp": "九",
     "pron": "káu",
     "example": "我欲記得「九」。",
-    "exampleJp": "「九」を覚えたいです。"
+    "exampleJp": "「九」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 110,
@@ -987,7 +1327,10 @@ window.WORDS = [
     "jp": "十",
     "pron": "tsa̍p",
     "example": "我欲記得「十」。",
-    "exampleJp": "「十」を覚えたいです。"
+    "exampleJp": "「十」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 111,
@@ -996,7 +1339,10 @@ window.WORDS = [
     "jp": "百",
     "pron": "pah",
     "example": "我欲記得「百」。",
-    "exampleJp": "「百」を覚えたいです。"
+    "exampleJp": "「百」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 112,
@@ -1005,7 +1351,10 @@ window.WORDS = [
     "jp": "千",
     "pron": "tshing",
     "example": "我欲記得「千」。",
-    "exampleJp": "「千」を覚えたいです。"
+    "exampleJp": "「千」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 113,
@@ -1014,7 +1363,10 @@ window.WORDS = [
     "jp": "万",
     "pron": "bān",
     "example": "我欲記得「萬」。",
-    "exampleJp": "「万」を覚えたいです。"
+    "exampleJp": "「万」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 114,
@@ -1023,7 +1375,10 @@ window.WORDS = [
     "jp": "ゼロ",
     "pron": "lîng",
     "example": "我欲記得「零」。",
-    "exampleJp": "「ゼロ」を覚えたいです。"
+    "exampleJp": "「ゼロ」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 115,
@@ -1032,7 +1387,10 @@ window.WORDS = [
     "jp": "第一",
     "pron": "tē-it",
     "example": "我欲記得「第一」。",
-    "exampleJp": "「第一」を覚えたいです。"
+    "exampleJp": "「第一」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 116,
@@ -1041,7 +1399,10 @@ window.WORDS = [
     "jp": "時間",
     "pron": "sî-kan",
     "example": "我欲記得「時間」。",
-    "exampleJp": "「時間」を覚えたいです。"
+    "exampleJp": "「時間」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 117,
@@ -1050,7 +1411,10 @@ window.WORDS = [
     "jp": "時",
     "pron": "sî",
     "example": "我欲記得「時」。",
-    "exampleJp": "「時」を覚えたいです。"
+    "exampleJp": "「時」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 118,
@@ -1059,7 +1423,10 @@ window.WORDS = [
     "jp": "時（時刻）",
     "pron": "tiám",
     "example": "我欲記得「點」。",
-    "exampleJp": "「時（時刻）」を覚えたいです。"
+    "exampleJp": "「時（時刻）」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 119,
@@ -1068,7 +1435,10 @@ window.WORDS = [
     "jp": "分",
     "pron": "hun",
     "example": "我欲記得「分」。",
-    "exampleJp": "「分」を覚えたいです。"
+    "exampleJp": "「分」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 120,
@@ -1077,7 +1447,10 @@ window.WORDS = [
     "jp": "秒",
     "pron": "bió",
     "example": "我欲記得「秒」。",
-    "exampleJp": "「秒」を覚えたいです。"
+    "exampleJp": "「秒」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 121,
@@ -1086,7 +1459,10 @@ window.WORDS = [
     "jp": "今日",
     "pron": "kin-á-ji̍t",
     "example": "我欲記得「今仔日」。",
-    "exampleJp": "「今日」を覚えたいです。"
+    "exampleJp": "「今日」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 122,
@@ -1095,7 +1471,10 @@ window.WORDS = [
     "jp": "明日",
     "pron": "bîn-á-tsài",
     "example": "我欲記得「明仔載」。",
-    "exampleJp": "「明日」を覚えたいです。"
+    "exampleJp": "「明日」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 123,
@@ -1104,7 +1483,10 @@ window.WORDS = [
     "jp": "昨日",
     "pron": "tsa-hng",
     "example": "我欲記得「昨昏」。",
-    "exampleJp": "「昨日」を覚えたいです。"
+    "exampleJp": "「昨日」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 124,
@@ -1113,7 +1495,10 @@ window.WORDS = [
     "jp": "明後日",
     "pron": "āu-ji̍t",
     "example": "我欲記得「後日」。",
-    "exampleJp": "「明後日」を覚えたいです。"
+    "exampleJp": "「明後日」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 125,
@@ -1122,7 +1507,10 @@ window.WORDS = [
     "jp": "朝",
     "pron": "tsá-khí",
     "example": "我欲記得「早起」。",
-    "exampleJp": "「朝」を覚えたいです。"
+    "exampleJp": "「朝」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 126,
@@ -1131,7 +1519,10 @@ window.WORDS = [
     "jp": "昼",
     "pron": "tiong-tàu",
     "example": "我欲記得「中晝」。",
-    "exampleJp": "「昼」を覚えたいです。"
+    "exampleJp": "「昼」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 127,
@@ -1140,7 +1531,10 @@ window.WORDS = [
     "jp": "午後",
     "pron": "ē-poo",
     "example": "我欲記得「下晡」。",
-    "exampleJp": "「午後」を覚えたいです。"
+    "exampleJp": "「午後」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 128,
@@ -1149,7 +1543,10 @@ window.WORDS = [
     "jp": "夜",
     "pron": "àm-sî",
     "example": "我欲記得「暗時」。",
-    "exampleJp": "「夜」を覚えたいです。"
+    "exampleJp": "「夜」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 129,
@@ -1158,7 +1555,10 @@ window.WORDS = [
     "jp": "真夜中",
     "pron": "puànn-mê",
     "example": "我欲記得「半暝」。",
-    "exampleJp": "「真夜中」を覚えたいです。"
+    "exampleJp": "「真夜中」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 130,
@@ -1167,7 +1567,10 @@ window.WORDS = [
     "jp": "日時",
     "pron": "ji̍t-sî",
     "example": "我欲記得「日時」。",
-    "exampleJp": "「日時」を覚えたいです。"
+    "exampleJp": "「日時」を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 131,
@@ -1176,7 +1579,10 @@ window.WORDS = [
     "jp": "月曜日",
     "pron": "lé-pài-it",
     "example": "我欲記得「禮拜一」。",
-    "exampleJp": "「月曜日」を覚えたいです。"
+    "exampleJp": "「月曜日」を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 132,
@@ -1185,7 +1591,10 @@ window.WORDS = [
     "jp": "火曜日",
     "pron": "lé-pài-jī",
     "example": "我欲記得「禮拜二」。",
-    "exampleJp": "「火曜日」を覚えたいです。"
+    "exampleJp": "「火曜日」を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 133,
@@ -1194,7 +1603,10 @@ window.WORDS = [
     "jp": "水曜日",
     "pron": "lé-pài-sann",
     "example": "我欲記得「禮拜三」。",
-    "exampleJp": "「水曜日」を覚えたいです。"
+    "exampleJp": "「水曜日」を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 134,
@@ -1203,7 +1615,10 @@ window.WORDS = [
     "jp": "木曜日",
     "pron": "lé-pài-sì",
     "example": "我欲記得「禮拜四」。",
-    "exampleJp": "「木曜日」を覚えたいです。"
+    "exampleJp": "「木曜日」を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 135,
@@ -1212,7 +1627,10 @@ window.WORDS = [
     "jp": "金曜日",
     "pron": "lé-pài-gōo",
     "example": "我欲記得「禮拜五」。",
-    "exampleJp": "「金曜日」を覚えたいです。"
+    "exampleJp": "「金曜日」を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 136,
@@ -1221,7 +1639,10 @@ window.WORDS = [
     "jp": "土曜日",
     "pron": "lé-pài-la̍k",
     "example": "我欲記得「禮拜六」。",
-    "exampleJp": "「土曜日」を覚えたいです。"
+    "exampleJp": "「土曜日」を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 137,
@@ -1230,7 +1651,10 @@ window.WORDS = [
     "jp": "日曜日",
     "pron": "lé-pài-ji̍t",
     "example": "我欲記得「禮拜日」。",
-    "exampleJp": "「日曜日」を覚えたいです。"
+    "exampleJp": "「日曜日」を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 138,
@@ -1239,7 +1663,10 @@ window.WORDS = [
     "jp": "週／週間",
     "pron": "lé-pài",
     "example": "我欲記得「禮拜」。",
-    "exampleJp": "「週／週間」を覚えたいです。"
+    "exampleJp": "「週／週間」を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 139,
@@ -1248,7 +1675,10 @@ window.WORDS = [
     "jp": "月",
     "pron": "gue̍h",
     "example": "我欲記得「月」。",
-    "exampleJp": "「月」を覚えたいです。"
+    "exampleJp": "「月」を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 140,
@@ -1257,7 +1687,10 @@ window.WORDS = [
     "jp": "年",
     "pron": "nî",
     "example": "我欲記得「年」。",
-    "exampleJp": "「年」を覚えたいです。"
+    "exampleJp": "「年」を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 141,
@@ -1266,7 +1699,10 @@ window.WORDS = [
     "jp": "今年",
     "pron": "kin-nî",
     "example": "我欲記得「今年」。",
-    "exampleJp": "「今年」を覚えたいです。"
+    "exampleJp": "「今年」を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 142,
@@ -1275,7 +1711,10 @@ window.WORDS = [
     "jp": "去年",
     "pron": "kū-nî",
     "example": "我欲記得「舊年」。",
-    "exampleJp": "「去年」を覚えたいです。"
+    "exampleJp": "「去年」を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 143,
@@ -1284,7 +1723,10 @@ window.WORDS = [
     "jp": "来年",
     "pron": "mê-nî",
     "example": "我欲記得「明年」。",
-    "exampleJp": "「来年」を覚えたいです。"
+    "exampleJp": "「来年」を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 144,
@@ -1293,7 +1735,10 @@ window.WORDS = [
     "jp": "毎日",
     "pron": "ta̍k-kang",
     "example": "我欲記得「逐工」。",
-    "exampleJp": "「毎日」を覚えたいです。"
+    "exampleJp": "「毎日」を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 145,
@@ -1302,7 +1747,10 @@ window.WORDS = [
     "jp": "毎週",
     "pron": "ta̍k lé-pài",
     "example": "我欲記得「逐禮拜」。",
-    "exampleJp": "「毎週」を覚えたいです。"
+    "exampleJp": "「毎週」を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 146,
@@ -1311,7 +1759,10 @@ window.WORDS = [
     "jp": "毎月",
     "pron": "ta̍k gue̍h",
     "example": "我欲記得「逐月」。",
-    "exampleJp": "「毎月」を覚えたいです。"
+    "exampleJp": "「毎月」を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 147,
@@ -1320,7 +1771,10 @@ window.WORDS = [
     "jp": "早い",
     "pron": "tsá",
     "example": "我欲記得「早」。",
-    "exampleJp": "「早い」を覚えたいです。"
+    "exampleJp": "「早い」を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 148,
@@ -1329,7 +1783,10 @@ window.WORDS = [
     "jp": "遅い／ゆっくり",
     "pron": "bān",
     "example": "我欲記得「慢」。",
-    "exampleJp": "「遅い／ゆっくり」を覚えたいです。"
+    "exampleJp": "「遅い／ゆっくり」を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 149,
@@ -1338,7 +1795,10 @@ window.WORDS = [
     "jp": "今",
     "pron": "tsit-má",
     "example": "我欲記得「這馬」。",
-    "exampleJp": "「今」を覚えたいです。"
+    "exampleJp": "「今」を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 150,
@@ -1347,7 +1807,10 @@ window.WORDS = [
     "jp": "その時",
     "pron": "hit-sî",
     "example": "我欲記得「彼時」。",
-    "exampleJp": "「その時」を覚えたいです。"
+    "exampleJp": "「その時」を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 151,
@@ -1356,7 +1819,10 @@ window.WORDS = [
     "jp": "食べる",
     "pron": "tsia̍h",
     "example": "我欲食食。",
-    "exampleJp": "私は食べるを食べたいです。"
+    "exampleJp": "私は食べるを食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 152,
@@ -1365,7 +1831,10 @@ window.WORDS = [
     "jp": "飲む",
     "pron": "lim",
     "example": "我欲食啉。",
-    "exampleJp": "私は飲むを食べたいです。"
+    "exampleJp": "私は飲むを食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 153,
@@ -1374,7 +1843,10 @@ window.WORDS = [
     "jp": "ご飯",
     "pron": "pn̄g",
     "example": "我欲食飯。",
-    "exampleJp": "私はご飯を食べたいです。"
+    "exampleJp": "私はご飯を食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 154,
@@ -1383,7 +1855,10 @@ window.WORDS = [
     "jp": "おかゆ",
     "pron": "muê",
     "example": "我欲食糜。",
-    "exampleJp": "私はおかゆを食べたいです。"
+    "exampleJp": "私はおかゆを食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 155,
@@ -1392,7 +1867,10 @@ window.WORDS = [
     "jp": "麺",
     "pron": "mī",
     "example": "我欲食麵。",
-    "exampleJp": "私は麺を食べたいです。"
+    "exampleJp": "私は麺を食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 156,
@@ -1401,7 +1879,10 @@ window.WORDS = [
     "jp": "米",
     "pron": "bí",
     "example": "我欲食米。",
-    "exampleJp": "私は米を食べたいです。"
+    "exampleJp": "私は米を食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 157,
@@ -1410,7 +1891,10 @@ window.WORDS = [
     "jp": "料理／野菜",
     "pron": "tshài",
     "example": "我欲食菜。",
-    "exampleJp": "私は料理／野菜を食べたいです。"
+    "exampleJp": "私は料理／野菜を食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 158,
@@ -1419,7 +1903,10 @@ window.WORDS = [
     "jp": "肉",
     "pron": "bah",
     "example": "我欲食肉。",
-    "exampleJp": "私は肉を食べたいです。"
+    "exampleJp": "私は肉を食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 159,
@@ -1428,7 +1915,10 @@ window.WORDS = [
     "jp": "豚肉",
     "pron": "ti-bah",
     "example": "我欲食豬肉。",
-    "exampleJp": "私は豚肉を食べたいです。"
+    "exampleJp": "私は豚肉を食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 160,
@@ -1437,7 +1927,10 @@ window.WORDS = [
     "jp": "牛肉",
     "pron": "gû-bah",
     "example": "我欲食牛肉。",
-    "exampleJp": "私は牛肉を食べたいです。"
+    "exampleJp": "私は牛肉を食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 161,
@@ -1446,7 +1939,10 @@ window.WORDS = [
     "jp": "鶏肉",
     "pron": "ke-bah",
     "example": "我欲食雞肉。",
-    "exampleJp": "私は鶏肉を食べたいです。"
+    "exampleJp": "私は鶏肉を食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 162,
@@ -1455,7 +1951,10 @@ window.WORDS = [
     "jp": "魚",
     "pron": "hî",
     "example": "我欲食魚。",
-    "exampleJp": "私は魚を食べたいです。"
+    "exampleJp": "私は魚を食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 163,
@@ -1464,7 +1963,10 @@ window.WORDS = [
     "jp": "エビ",
     "pron": "hê",
     "example": "我欲食蝦。",
-    "exampleJp": "私はエビを食べたいです。"
+    "exampleJp": "私はエビを食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 164,
@@ -1473,7 +1975,10 @@ window.WORDS = [
     "jp": "卵",
     "pron": "nn̄g",
     "example": "我欲食卵。",
-    "exampleJp": "私は卵を食べたいです。"
+    "exampleJp": "私は卵を食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 165,
@@ -1482,7 +1987,10 @@ window.WORDS = [
     "jp": "豆腐",
     "pron": "tāu-hū",
     "example": "我欲食豆腐。",
-    "exampleJp": "私は豆腐を食べたいです。"
+    "exampleJp": "私は豆腐を食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 166,
@@ -1491,7 +1999,10 @@ window.WORDS = [
     "jp": "青菜／野菜",
     "pron": "tshenn-tshài",
     "example": "我欲食青菜。",
-    "exampleJp": "私は青菜／野菜を食べたいです。"
+    "exampleJp": "私は青菜／野菜を食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 167,
@@ -1500,7 +2011,10 @@ window.WORDS = [
     "jp": "キャベツ",
     "pron": "ko-lê-tshài",
     "example": "我欲食高麗菜。",
-    "exampleJp": "私はキャベツを食べたいです。"
+    "exampleJp": "私はキャベツを食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 168,
@@ -1509,7 +2023,10 @@ window.WORDS = [
     "jp": "大根",
     "pron": "tshài-thâu",
     "example": "我欲食菜頭。",
-    "exampleJp": "私は大根を食べたいです。"
+    "exampleJp": "私は大根を食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 169,
@@ -1518,7 +2035,10 @@ window.WORDS = [
     "jp": "トマト",
     "pron": "kiô-á",
     "example": "我欲食番茄。",
-    "exampleJp": "私はトマトを食べたいです。"
+    "exampleJp": "私はトマトを食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 170,
@@ -1527,7 +2047,10 @@ window.WORDS = [
     "jp": "果物",
     "pron": "tsuí-kó",
     "example": "我欲食水果。",
-    "exampleJp": "私は果物を食べたいです。"
+    "exampleJp": "私は果物を食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 171,
@@ -1536,7 +2059,10 @@ window.WORDS = [
     "jp": "りんご",
     "pron": "phông-kó",
     "example": "我欲食蘋果。",
-    "exampleJp": "私はりんごを食べたいです。"
+    "exampleJp": "私はりんごを食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 172,
@@ -1545,7 +2071,10 @@ window.WORDS = [
     "jp": "バナナ",
     "pron": "king-tsio",
     "example": "我欲食弓蕉。",
-    "exampleJp": "私はバナナを食べたいです。"
+    "exampleJp": "私はバナナを食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 173,
@@ -1554,7 +2083,10 @@ window.WORDS = [
     "jp": "すいか",
     "pron": "si-kue",
     "example": "我欲食西瓜。",
-    "exampleJp": "私はすいかを食べたいです。"
+    "exampleJp": "私はすいかを食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 174,
@@ -1563,7 +2095,10 @@ window.WORDS = [
     "jp": "みかん",
     "pron": "kam-á",
     "example": "我欲食柑仔。",
-    "exampleJp": "私はみかんを食べたいです。"
+    "exampleJp": "私はみかんを食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 175,
@@ -1572,7 +2107,10 @@ window.WORDS = [
     "jp": "マンゴー",
     "pron": "suāinn-á",
     "example": "我欲食檨仔。",
-    "exampleJp": "私はマンゴーを食べたいです。"
+    "exampleJp": "私はマンゴーを食べたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 176,
@@ -1581,7 +2119,10 @@ window.WORDS = [
     "jp": "水",
     "pron": "tsuí",
     "example": "我欲啉水。",
-    "exampleJp": "私は水を飲みたいです。"
+    "exampleJp": "私は水を飲みたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 177,
@@ -1590,7 +2131,10 @@ window.WORDS = [
     "jp": "お茶",
     "pron": "tê",
     "example": "我欲啉茶。",
-    "exampleJp": "私はお茶を飲みたいです。"
+    "exampleJp": "私はお茶を飲みたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 178,
@@ -1599,7 +2143,10 @@ window.WORDS = [
     "jp": "コーヒー",
     "pron": "ka-pi",
     "example": "我欲啉咖啡。",
-    "exampleJp": "私はコーヒーを飲みたいです。"
+    "exampleJp": "私はコーヒーを飲みたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 179,
@@ -1608,7 +2155,10 @@ window.WORDS = [
     "jp": "牛乳",
     "pron": "gû-ling",
     "example": "我欲啉牛奶。",
-    "exampleJp": "私は牛乳を飲みたいです。"
+    "exampleJp": "私は牛乳を飲みたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 180,
@@ -1617,7 +2167,10 @@ window.WORDS = [
     "jp": "豆乳",
     "pron": "tāu-ling",
     "example": "我欲啉豆奶。",
-    "exampleJp": "私は豆乳を飲みたいです。"
+    "exampleJp": "私は豆乳を飲みたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 181,
@@ -1626,7 +2179,10 @@ window.WORDS = [
     "jp": "酒",
     "pron": "tsiú",
     "example": "我欲啉酒。",
-    "exampleJp": "私は酒を飲みたいです。"
+    "exampleJp": "私は酒を飲みたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 182,
@@ -1635,7 +2191,10 @@ window.WORDS = [
     "jp": "ビール",
     "pron": "pi-lú-tsiú",
     "example": "我欲啉啤酒。",
-    "exampleJp": "私はビールを飲みたいです。"
+    "exampleJp": "私はビールを飲みたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 183,
@@ -1644,7 +2203,10 @@ window.WORDS = [
     "jp": "ジュース",
     "pron": "kó-tsiap",
     "example": "我欲啉果汁。",
-    "exampleJp": "私はジュースを飲みたいです。"
+    "exampleJp": "私はジュースを飲みたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 184,
@@ -1653,7 +2215,10 @@ window.WORDS = [
     "jp": "砂糖",
     "pron": "thn̂g",
     "example": "我欲食糖。",
-    "exampleJp": "私は砂糖を食べたいです。"
+    "exampleJp": "私は砂糖を食べたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 185,
@@ -1662,7 +2227,10 @@ window.WORDS = [
     "jp": "塩",
     "pron": "iâm",
     "example": "我欲食鹽。",
-    "exampleJp": "私は塩を食べたいです。"
+    "exampleJp": "私は塩を食べたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 186,
@@ -1671,7 +2239,10 @@ window.WORDS = [
     "jp": "醤油",
     "pron": "tsiùnn-iû",
     "example": "我欲食醬油。",
-    "exampleJp": "私は醤油を食べたいです。"
+    "exampleJp": "私は醤油を食べたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 187,
@@ -1680,7 +2251,10 @@ window.WORDS = [
     "jp": "酢",
     "pron": "tshòo",
     "example": "我欲食醋。",
-    "exampleJp": "私は酢を食べたいです。"
+    "exampleJp": "私は酢を食べたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 188,
@@ -1689,7 +2263,10 @@ window.WORDS = [
     "jp": "香りがよい",
     "pron": "phang",
     "example": "這真芳。",
-    "exampleJp": "これはとても香りがよいです。"
+    "exampleJp": "これはとても香りがよいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 189,
@@ -1698,7 +2275,10 @@ window.WORDS = [
     "jp": "甘い",
     "pron": "tinn",
     "example": "這真甜。",
-    "exampleJp": "これはとても甘いです。"
+    "exampleJp": "これはとても甘いです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 190,
@@ -1707,7 +2287,10 @@ window.WORDS = [
     "jp": "塩辛い",
     "pron": "kiâm",
     "example": "這真鹹。",
-    "exampleJp": "これはとても塩辛いです。"
+    "exampleJp": "これはとても塩辛いです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 191,
@@ -1716,7 +2299,10 @@ window.WORDS = [
     "jp": "酸っぱい",
     "pron": "sng",
     "example": "這真酸。",
-    "exampleJp": "これはとても酸っぱいです。"
+    "exampleJp": "これはとても酸っぱいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 192,
@@ -1725,7 +2311,10 @@ window.WORDS = [
     "jp": "苦い",
     "pron": "khóo",
     "example": "這真苦。",
-    "exampleJp": "これはとても苦いです。"
+    "exampleJp": "これはとても苦いです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 193,
@@ -1734,7 +2323,10 @@ window.WORDS = [
     "jp": "辛い",
     "pron": "lua̍h",
     "example": "這真辣。",
-    "exampleJp": "これはとても辛いです。"
+    "exampleJp": "これはとても辛いです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 194,
@@ -1743,7 +2335,10 @@ window.WORDS = [
     "jp": "おいしい",
     "pron": "hó-tsia̍h",
     "example": "這真好食。",
-    "exampleJp": "これはとてもおいしいです。"
+    "exampleJp": "これはとてもおいしいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 195,
@@ -1752,7 +2347,10 @@ window.WORDS = [
     "jp": "まずい",
     "pron": "pháinn-tsia̍h",
     "example": "這真歹食。",
-    "exampleJp": "これはとてもまずいです。"
+    "exampleJp": "これはとてもまずいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 196,
@@ -1761,7 +2359,10 @@ window.WORDS = [
     "jp": "空腹だ",
     "pron": "iau",
     "example": "我欲食枵。",
-    "exampleJp": "私は空腹だを食べたいです。"
+    "exampleJp": "私は空腹だを食べたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 197,
@@ -1770,7 +2371,10 @@ window.WORDS = [
     "jp": "喉が渇く",
     "pron": "tshuì-ta",
     "example": "我欲食喙焦。",
-    "exampleJp": "私は喉が渇くを食べたいです。"
+    "exampleJp": "私は喉が渇くを食べたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 198,
@@ -1779,7 +2383,10 @@ window.WORDS = [
     "jp": "レストラン",
     "pron": "tshan-thiann",
     "example": "咱去餐廳食飯。",
-    "exampleJp": "レストランへご飯を食べに行きましょう。"
+    "exampleJp": "レストランへご飯を食べに行きましょう。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 199,
@@ -1788,7 +2395,10 @@ window.WORDS = [
     "jp": "弁当",
     "pron": "piān-tong",
     "example": "我欲食便當。",
-    "exampleJp": "私は弁当を食べたいです。"
+    "exampleJp": "私は弁当を食べたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 200,
@@ -1797,7 +2407,10 @@ window.WORDS = [
     "jp": "軽食／おやつ",
     "pron": "tiám-sim",
     "example": "我欲食點心。",
-    "exampleJp": "私は軽食／おやつを食べたいです。"
+    "exampleJp": "私は軽食／おやつを食べたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 201,
@@ -1806,7 +2419,10 @@ window.WORDS = [
     "jp": "家",
     "pron": "tshù",
     "example": "我有厝。",
-    "exampleJp": "私は家を持っています。"
+    "exampleJp": "私は家を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 202,
@@ -1815,7 +2431,10 @@ window.WORDS = [
     "jp": "部屋",
     "pron": "pâng-king",
     "example": "我有房間。",
-    "exampleJp": "私は部屋を持っています。"
+    "exampleJp": "私は部屋を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 203,
@@ -1824,7 +2443,10 @@ window.WORDS = [
     "jp": "居間",
     "pron": "kheh-thiann",
     "example": "我有客廳。",
-    "exampleJp": "私は居間を持っています。"
+    "exampleJp": "私は居間を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 204,
@@ -1833,7 +2455,10 @@ window.WORDS = [
     "jp": "台所",
     "pron": "tsàu-kha",
     "example": "我有灶跤。",
-    "exampleJp": "私は台所を持っています。"
+    "exampleJp": "私は台所を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 205,
@@ -1842,7 +2467,10 @@ window.WORDS = [
     "jp": "トイレ",
     "pron": "piān-sóo",
     "example": "我有便所。",
-    "exampleJp": "私はトイレを持っています。"
+    "exampleJp": "私はトイレを持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 206,
@@ -1851,7 +2479,10 @@ window.WORDS = [
     "jp": "浴室",
     "pron": "io̍k-king",
     "example": "我有浴間。",
-    "exampleJp": "私は浴室を持っています。"
+    "exampleJp": "私は浴室を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 207,
@@ -1860,7 +2491,10 @@ window.WORDS = [
     "jp": "ドア",
     "pron": "mn̂g",
     "example": "我有門。",
-    "exampleJp": "私はドアを持っています。"
+    "exampleJp": "私はドアを持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 208,
@@ -1869,7 +2503,10 @@ window.WORDS = [
     "jp": "窓",
     "pron": "thang",
     "example": "我有窗。",
-    "exampleJp": "私は窓を持っています。"
+    "exampleJp": "私は窓を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 209,
@@ -1878,7 +2515,10 @@ window.WORDS = [
     "jp": "机／テーブル",
     "pron": "toh",
     "example": "我有桌。",
-    "exampleJp": "私は机／テーブルを持っています。"
+    "exampleJp": "私は机／テーブルを持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 210,
@@ -1887,7 +2527,10 @@ window.WORDS = [
     "jp": "椅子",
     "pron": "í",
     "example": "我有椅。",
-    "exampleJp": "私は椅子を持っています。"
+    "exampleJp": "私は椅子を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 211,
@@ -1896,7 +2539,10 @@ window.WORDS = [
     "jp": "ベッド",
     "pron": "bîn-tshn̂g",
     "example": "我有眠床。",
-    "exampleJp": "私はベッドを持っています。"
+    "exampleJp": "私はベッドを持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 212,
@@ -1905,7 +2551,10 @@ window.WORDS = [
     "jp": "枕",
     "pron": "tsím-thâu",
     "example": "我有枕頭。",
-    "exampleJp": "私は枕を持っています。"
+    "exampleJp": "私は枕を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 213,
@@ -1914,7 +2563,10 @@ window.WORDS = [
     "jp": "布団",
     "pron": "phuē",
     "example": "我有被。",
-    "exampleJp": "私は布団を持っています。"
+    "exampleJp": "私は布団を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 214,
@@ -1923,7 +2575,10 @@ window.WORDS = [
     "jp": "テレビ",
     "pron": "tiān-sī",
     "example": "我有電視。",
-    "exampleJp": "私はテレビを持っています。"
+    "exampleJp": "私はテレビを持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 215,
@@ -1932,7 +2587,10 @@ window.WORDS = [
     "jp": "冷蔵庫",
     "pron": "ping-siunn",
     "example": "我有冰箱。",
-    "exampleJp": "私は冷蔵庫を持っています。"
+    "exampleJp": "私は冷蔵庫を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 216,
@@ -1941,7 +2599,10 @@ window.WORDS = [
     "jp": "エアコン",
     "pron": "líng-khì",
     "example": "我有冷氣。",
-    "exampleJp": "私はエアコンを持っています。"
+    "exampleJp": "私はエアコンを持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 217,
@@ -1950,7 +2611,10 @@ window.WORDS = [
     "jp": "扇風機",
     "pron": "tiān-hong",
     "example": "我有電風。",
-    "exampleJp": "私は扇風機を持っています。"
+    "exampleJp": "私は扇風機を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 218,
@@ -1959,7 +2623,10 @@ window.WORDS = [
     "jp": "電灯",
     "pron": "tiān-hué",
     "example": "我有電火。",
-    "exampleJp": "私は電灯を持っています。"
+    "exampleJp": "私は電灯を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 219,
@@ -1968,7 +2635,10 @@ window.WORDS = [
     "jp": "携帯電話",
     "pron": "tshiú-ki-á",
     "example": "我有手機仔。",
-    "exampleJp": "私は携帯電話を持っています。"
+    "exampleJp": "私は携帯電話を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 220,
@@ -1977,7 +2647,10 @@ window.WORDS = [
     "jp": "パソコン",
     "pron": "tiān-náu",
     "example": "我有電腦。",
-    "exampleJp": "私はパソコンを持っています。"
+    "exampleJp": "私はパソコンを持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 221,
@@ -1986,7 +2659,10 @@ window.WORDS = [
     "jp": "インターネット",
     "pron": "bāng-lōo",
     "example": "我有網路。",
-    "exampleJp": "私はインターネットを持っています。"
+    "exampleJp": "私はインターネットを持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 222,
@@ -1995,7 +2671,10 @@ window.WORDS = [
     "jp": "本",
     "pron": "tsheh",
     "example": "我有冊。",
-    "exampleJp": "私は本を持っています。"
+    "exampleJp": "私は本を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 223,
@@ -2004,7 +2683,10 @@ window.WORDS = [
     "jp": "ペン",
     "pron": "pit",
     "example": "我有筆。",
-    "exampleJp": "私はペンを持っています。"
+    "exampleJp": "私はペンを持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 224,
@@ -2013,7 +2695,10 @@ window.WORDS = [
     "jp": "紙",
     "pron": "tsuá",
     "example": "我有紙。",
-    "exampleJp": "私は紙を持っています。"
+    "exampleJp": "私は紙を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 225,
@@ -2022,7 +2707,10 @@ window.WORDS = [
     "jp": "袋",
     "pron": "tē-á",
     "example": "我有袋仔。",
-    "exampleJp": "私は袋を持っています。"
+    "exampleJp": "私は袋を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 226,
@@ -2031,7 +2719,10 @@ window.WORDS = [
     "jp": "鍵",
     "pron": "só-sî",
     "example": "我有鎖匙。",
-    "exampleJp": "私は鍵を持っています。"
+    "exampleJp": "私は鍵を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 227,
@@ -2040,7 +2731,10 @@ window.WORDS = [
     "jp": "服",
     "pron": "sann",
     "example": "我有衫。",
-    "exampleJp": "私は服を持っています。"
+    "exampleJp": "私は服を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 228,
@@ -2049,7 +2743,10 @@ window.WORDS = [
     "jp": "ズボン",
     "pron": "khòo",
     "example": "我有褲。",
-    "exampleJp": "私はズボンを持っています。"
+    "exampleJp": "私はズボンを持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 229,
@@ -2058,7 +2755,10 @@ window.WORDS = [
     "jp": "靴",
     "pron": "ê",
     "example": "我有鞋。",
-    "exampleJp": "私は靴を持っています。"
+    "exampleJp": "私は靴を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 230,
@@ -2067,7 +2767,10 @@ window.WORDS = [
     "jp": "帽子",
     "pron": "bō-á",
     "example": "我有帽仔。",
-    "exampleJp": "私は帽子を持っています。"
+    "exampleJp": "私は帽子を持っています。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 231,
@@ -2076,7 +2779,10 @@ window.WORDS = [
     "jp": "傘",
     "pron": "hōo-suànn",
     "example": "我有雨傘。",
-    "exampleJp": "私は傘を持っています。"
+    "exampleJp": "私は傘を持っています。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 232,
@@ -2085,7 +2791,10 @@ window.WORDS = [
     "jp": "腕時計",
     "pron": "tshiú-pió",
     "example": "我有手錶。",
-    "exampleJp": "私は腕時計を持っています。"
+    "exampleJp": "私は腕時計を持っています。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 233,
@@ -2094,7 +2803,10 @@ window.WORDS = [
     "jp": "鏡",
     "pron": "kiànn",
     "example": "我有鏡。",
-    "exampleJp": "私は鏡を持っています。"
+    "exampleJp": "私は鏡を持っています。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 234,
@@ -2103,7 +2815,10 @@ window.WORDS = [
     "jp": "くし",
     "pron": "se-á",
     "example": "我有梳仔。",
-    "exampleJp": "私はくしを持っています。"
+    "exampleJp": "私はくしを持っています。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 235,
@@ -2112,7 +2827,10 @@ window.WORDS = [
     "jp": "歯ブラシ",
     "pron": "khí-tshat",
     "example": "我有牙刷。",
-    "exampleJp": "私は歯ブラシを持っています。"
+    "exampleJp": "私は歯ブラシを持っています。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 236,
@@ -2121,7 +2839,10 @@ window.WORDS = [
     "jp": "タオル",
     "pron": "bīn-kin",
     "example": "我有面巾。",
-    "exampleJp": "私はタオルを持っています。"
+    "exampleJp": "私はタオルを持っています。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 237,
@@ -2130,7 +2851,10 @@ window.WORDS = [
     "jp": "石けん",
     "pron": "pû-tsō",
     "example": "我有肥皂。",
-    "exampleJp": "私は石けんを持っています。"
+    "exampleJp": "私は石けんを持っています。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 238,
@@ -2139,7 +2863,10 @@ window.WORDS = [
     "jp": "シャンプー",
     "pron": "sé-thâu-mn̂g-tsing",
     "example": "我有洗頭毛精。",
-    "exampleJp": "私はシャンプーを持っています。"
+    "exampleJp": "私はシャンプーを持っています。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 239,
@@ -2148,7 +2875,10 @@ window.WORDS = [
     "jp": "バケツ",
     "pron": "tsuí-tháng",
     "example": "我有水桶。",
-    "exampleJp": "私はバケツを持っています。"
+    "exampleJp": "私はバケツを持っています。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 240,
@@ -2157,7 +2887,10 @@ window.WORDS = [
     "jp": "ほうき",
     "pron": "sàu-tshiú",
     "example": "我有掃帚。",
-    "exampleJp": "私はほうきを持っています。"
+    "exampleJp": "私はほうきを持っています。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 241,
@@ -2166,7 +2899,10 @@ window.WORDS = [
     "jp": "ごみ",
     "pron": "lah-sap",
     "example": "我有垃圾。",
-    "exampleJp": "私はごみを持っています。"
+    "exampleJp": "私はごみを持っています。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 242,
@@ -2175,7 +2911,10 @@ window.WORDS = [
     "jp": "箱",
     "pron": "siunn",
     "example": "我有箱。",
-    "exampleJp": "私は箱を持っています。"
+    "exampleJp": "私は箱を持っています。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 243,
@@ -2184,7 +2923,10 @@ window.WORDS = [
     "jp": "コップ",
     "pron": "pue",
     "example": "我有杯。",
-    "exampleJp": "私はコップを持っています。"
+    "exampleJp": "私はコップを持っています。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 244,
@@ -2193,7 +2935,10 @@ window.WORDS = [
     "jp": "皿",
     "pron": "puânn",
     "example": "我有盤。",
-    "exampleJp": "私は皿を持っています。"
+    "exampleJp": "私は皿を持っています。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 245,
@@ -2202,7 +2947,10 @@ window.WORDS = [
     "jp": "箸",
     "pron": "tī",
     "example": "我有箸。",
-    "exampleJp": "私は箸を持っています。"
+    "exampleJp": "私は箸を持っています。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 246,
@@ -2211,7 +2959,10 @@ window.WORDS = [
     "jp": "スプーン",
     "pron": "sî",
     "example": "我有匙。",
-    "exampleJp": "私はスプーンを持っています。"
+    "exampleJp": "私はスプーンを持っています。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 247,
@@ -2220,7 +2971,10 @@ window.WORDS = [
     "jp": "ナイフ",
     "pron": "to",
     "example": "我有刀。",
-    "exampleJp": "私はナイフを持っています。"
+    "exampleJp": "私はナイフを持っています。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 248,
@@ -2229,7 +2983,10 @@ window.WORDS = [
     "jp": "鍋",
     "pron": "ue",
     "example": "我有鍋。",
-    "exampleJp": "私は鍋を持っています。"
+    "exampleJp": "私は鍋を持っています。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 249,
@@ -2238,7 +2995,10 @@ window.WORDS = [
     "jp": "物／もの",
     "pron": "mi̍h-kiānn",
     "example": "我有物件。",
-    "exampleJp": "私は物／ものを持っています。"
+    "exampleJp": "私は物／ものを持っています。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 250,
@@ -2247,7 +3007,10 @@ window.WORDS = [
     "jp": "場所",
     "pron": "sóo-tsāi",
     "example": "我有所在。",
-    "exampleJp": "私は場所を持っています。"
+    "exampleJp": "私は場所を持っています。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 251,
@@ -2256,7 +3019,10 @@ window.WORDS = [
     "jp": "行く",
     "pron": "khì",
     "example": "我欲去。",
-    "exampleJp": "私は「行く」を使う場面を練習します。"
+    "exampleJp": "私は「行く」を使う場面を練習します。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 252,
@@ -2265,7 +3031,10 @@ window.WORDS = [
     "jp": "来る",
     "pron": "lâi",
     "example": "我欲來。",
-    "exampleJp": "私は「来る」を使う場面を練習します。"
+    "exampleJp": "私は「来る」を使う場面を練習します。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 253,
@@ -2274,7 +3043,10 @@ window.WORDS = [
     "jp": "歩く",
     "pron": "kiânn",
     "example": "我欲行。",
-    "exampleJp": "私は「歩く」を使う場面を練習します。"
+    "exampleJp": "私は「歩く」を使う場面を練習します。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 254,
@@ -2283,7 +3055,10 @@ window.WORDS = [
     "jp": "走る",
     "pron": "tsáu",
     "example": "我欲走。",
-    "exampleJp": "私は「走る」を使う場面を練習します。"
+    "exampleJp": "私は「走る」を使う場面を練習します。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 255,
@@ -2292,7 +3067,10 @@ window.WORDS = [
     "jp": "座る／乗る",
     "pron": "tsē",
     "example": "我欲坐。",
-    "exampleJp": "私は「座る／乗る」を使う場面を練習します。"
+    "exampleJp": "私は「座る／乗る」を使う場面を練習します。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 256,
@@ -2301,7 +3079,10 @@ window.WORDS = [
     "jp": "立つ",
     "pron": "khiā",
     "example": "我欲徛。",
-    "exampleJp": "私は「立つ」を使う場面を練習します。"
+    "exampleJp": "私は「立つ」を使う場面を練習します。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 257,
@@ -2310,7 +3091,10 @@ window.WORDS = [
     "jp": "車",
     "pron": "tshia",
     "example": "我欲去車。",
-    "exampleJp": "私は車へ行きたいです。"
+    "exampleJp": "私は車へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 258,
@@ -2319,7 +3103,10 @@ window.WORDS = [
     "jp": "自動車",
     "pron": "khì-tshia",
     "example": "我欲去汽車。",
-    "exampleJp": "私は自動車へ行きたいです。"
+    "exampleJp": "私は自動車へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 259,
@@ -2328,7 +3115,10 @@ window.WORDS = [
     "jp": "バイク",
     "pron": "ki-tshia",
     "example": "我欲去機車。",
-    "exampleJp": "私はバイクへ行きたいです。"
+    "exampleJp": "私はバイクへ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 260,
@@ -2337,7 +3127,10 @@ window.WORDS = [
     "jp": "自転車",
     "pron": "kha-ta̍h-tshia",
     "example": "我欲去跤踏車。",
-    "exampleJp": "私は自転車へ行きたいです。"
+    "exampleJp": "私は自転車へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 261,
@@ -2346,7 +3139,10 @@ window.WORDS = [
     "jp": "バス",
     "pron": "kong-tshia",
     "example": "我欲去公車。",
-    "exampleJp": "私はバスへ行きたいです。"
+    "exampleJp": "私はバスへ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 262,
@@ -2355,7 +3151,10 @@ window.WORDS = [
     "jp": "列車",
     "pron": "hué-tshia",
     "example": "我欲去火車。",
-    "exampleJp": "私は列車へ行きたいです。"
+    "exampleJp": "私は列車へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 263,
@@ -2364,7 +3163,10 @@ window.WORDS = [
     "jp": "MRT／地下鉄",
     "pron": "tsia̍t-ūn",
     "example": "我欲去捷運。",
-    "exampleJp": "私はMRT／地下鉄へ行きたいです。"
+    "exampleJp": "私はMRT／地下鉄へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 264,
@@ -2373,7 +3175,10 @@ window.WORDS = [
     "jp": "飛行機",
     "pron": "hui-lîng-ki",
     "example": "我欲去飛行機。",
-    "exampleJp": "私は飛行機へ行きたいです。"
+    "exampleJp": "私は飛行機へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 265,
@@ -2382,7 +3187,10 @@ window.WORDS = [
     "jp": "タクシー",
     "pron": "kè-thîng-tshia",
     "example": "我欲去計程車。",
-    "exampleJp": "私はタクシーへ行きたいです。"
+    "exampleJp": "私はタクシーへ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 266,
@@ -2391,7 +3199,10 @@ window.WORDS = [
     "jp": "駅",
     "pron": "tshia-tsām",
     "example": "我欲去車站。",
-    "exampleJp": "私は駅へ行きたいです。"
+    "exampleJp": "私は駅へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 267,
@@ -2400,7 +3211,10 @@ window.WORDS = [
     "jp": "鉄道駅",
     "pron": "hué-tshia-tsām",
     "example": "我欲去火車站。",
-    "exampleJp": "私は鉄道駅へ行きたいです。"
+    "exampleJp": "私は鉄道駅へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 268,
@@ -2409,7 +3223,10 @@ window.WORDS = [
     "jp": "空港",
     "pron": "ki-tiûnn",
     "example": "我欲去機場。",
-    "exampleJp": "私は空港へ行きたいです。"
+    "exampleJp": "私は空港へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 269,
@@ -2418,7 +3235,10 @@ window.WORDS = [
     "jp": "港",
     "pron": "káng",
     "example": "我欲去港。",
-    "exampleJp": "私は港へ行きたいです。"
+    "exampleJp": "私は港へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 270,
@@ -2427,7 +3247,10 @@ window.WORDS = [
     "jp": "道",
     "pron": "lōo",
     "example": "我欲去路。",
-    "exampleJp": "私は道へ行きたいです。"
+    "exampleJp": "私は道へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 271,
@@ -2436,7 +3259,10 @@ window.WORDS = [
     "jp": "通り",
     "pron": "ke",
     "example": "我欲去街。",
-    "exampleJp": "私は通りへ行きたいです。"
+    "exampleJp": "私は通りへ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 272,
@@ -2445,7 +3271,10 @@ window.WORDS = [
     "jp": "交差点",
     "pron": "tsa̍p-jī-lōo",
     "example": "我欲去十字路。",
-    "exampleJp": "私は交差点へ行きたいです。"
+    "exampleJp": "私は交差点へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 273,
@@ -2454,7 +3283,10 @@ window.WORDS = [
     "jp": "橋",
     "pron": "kiô",
     "example": "我欲去橋。",
-    "exampleJp": "私は橋へ行きたいです。"
+    "exampleJp": "私は橋へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 274,
@@ -2463,7 +3295,10 @@ window.WORDS = [
     "jp": "山",
     "pron": "suann",
     "example": "我欲去山。",
-    "exampleJp": "私は山へ行きたいです。"
+    "exampleJp": "私は山へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 275,
@@ -2472,7 +3307,10 @@ window.WORDS = [
     "jp": "海",
     "pron": "hái",
     "example": "我欲去海。",
-    "exampleJp": "私は海へ行きたいです。"
+    "exampleJp": "私は海へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 276,
@@ -2481,7 +3319,10 @@ window.WORDS = [
     "jp": "川",
     "pron": "hô",
     "example": "我欲去河。",
-    "exampleJp": "私は川へ行きたいです。"
+    "exampleJp": "私は川へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 277,
@@ -2490,7 +3331,10 @@ window.WORDS = [
     "jp": "公園",
     "pron": "kong-hn̂g",
     "example": "我欲去公園。",
-    "exampleJp": "私は公園へ行きたいです。"
+    "exampleJp": "私は公園へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 278,
@@ -2499,7 +3343,10 @@ window.WORDS = [
     "jp": "学校",
     "pron": "ha̍k-hāu",
     "example": "我欲去學校。",
-    "exampleJp": "私は学校へ行きたいです。"
+    "exampleJp": "私は学校へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 279,
@@ -2508,7 +3355,10 @@ window.WORDS = [
     "jp": "病院",
     "pron": "pēnn-īnn",
     "example": "我欲去病院。",
-    "exampleJp": "私は病院へ行きたいです。"
+    "exampleJp": "私は病院へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 280,
@@ -2517,7 +3367,10 @@ window.WORDS = [
     "jp": "銀行",
     "pron": "gîn-hâng",
     "example": "我欲去銀行。",
-    "exampleJp": "私は銀行へ行きたいです。"
+    "exampleJp": "私は銀行へ行きたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 281,
@@ -2526,7 +3379,10 @@ window.WORDS = [
     "jp": "郵便局",
     "pron": "iû-kio̍k",
     "example": "我欲去郵局。",
-    "exampleJp": "私は郵便局へ行きたいです。"
+    "exampleJp": "私は郵便局へ行きたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 282,
@@ -2535,7 +3391,10 @@ window.WORDS = [
     "jp": "市場",
     "pron": "tshī-tiûnn",
     "example": "我欲去市場。",
-    "exampleJp": "私は市場へ行きたいです。"
+    "exampleJp": "私は市場へ行きたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 283,
@@ -2544,7 +3403,10 @@ window.WORDS = [
     "jp": "店",
     "pron": "tiàm",
     "example": "我欲去店。",
-    "exampleJp": "私は店へ行きたいです。"
+    "exampleJp": "私は店へ行きたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 284,
@@ -2553,7 +3415,10 @@ window.WORDS = [
     "jp": "コンビニ",
     "pron": "piān-lī siong-tiàm",
     "example": "我欲去便利商店。",
-    "exampleJp": "私はコンビニへ行きたいです。"
+    "exampleJp": "私はコンビニへ行きたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 285,
@@ -2562,7 +3427,10 @@ window.WORDS = [
     "jp": "ホテル",
     "pron": "pn̄g-tiàm",
     "example": "我欲去飯店。",
-    "exampleJp": "私はホテルへ行きたいです。"
+    "exampleJp": "私はホテルへ行きたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 286,
@@ -2571,7 +3439,10 @@ window.WORDS = [
     "jp": "旅館",
     "pron": "lí-kuán",
     "example": "我欲去旅館。",
-    "exampleJp": "私は旅館へ行きたいです。"
+    "exampleJp": "私は旅館へ行きたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 287,
@@ -2580,7 +3451,10 @@ window.WORDS = [
     "jp": "会社",
     "pron": "kong-si",
     "example": "我欲去公司。",
-    "exampleJp": "私は会社へ行きたいです。"
+    "exampleJp": "私は会社へ行きたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 288,
@@ -2589,7 +3463,10 @@ window.WORDS = [
     "jp": "工場",
     "pron": "kang-tshiúnn",
     "example": "我欲去工廠。",
-    "exampleJp": "私は工場へ行きたいです。"
+    "exampleJp": "私は工場へ行きたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 289,
@@ -2598,7 +3475,10 @@ window.WORDS = [
     "jp": "家の中",
     "pron": "tshù-lāi",
     "example": "我欲去厝內。",
-    "exampleJp": "私は家の中へ行きたいです。"
+    "exampleJp": "私は家の中へ行きたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 290,
@@ -2607,7 +3487,10 @@ window.WORDS = [
     "jp": "外",
     "pron": "guā-kháu",
     "example": "我欲去外口。",
-    "exampleJp": "私は外へ行きたいです。"
+    "exampleJp": "私は外へ行きたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 291,
@@ -2616,7 +3499,10 @@ window.WORDS = [
     "jp": "上",
     "pron": "tíng-kuân",
     "example": "我欲去頂懸。",
-    "exampleJp": "私は上へ行きたいです。"
+    "exampleJp": "私は上へ行きたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 292,
@@ -2625,7 +3511,10 @@ window.WORDS = [
     "jp": "下",
     "pron": "ē-kha",
     "example": "我欲去下跤。",
-    "exampleJp": "私は下へ行きたいです。"
+    "exampleJp": "私は下へ行きたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 293,
@@ -2634,7 +3523,10 @@ window.WORDS = [
     "jp": "前",
     "pron": "thâu-tsîng",
     "example": "我欲去頭前。",
-    "exampleJp": "私は前へ行きたいです。"
+    "exampleJp": "私は前へ行きたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 294,
@@ -2643,7 +3535,10 @@ window.WORDS = [
     "jp": "後ろ",
     "pron": "āu-piah",
     "example": "我欲去後壁。",
-    "exampleJp": "私は後ろへ行きたいです。"
+    "exampleJp": "私は後ろへ行きたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 295,
@@ -2652,7 +3547,10 @@ window.WORDS = [
     "jp": "左",
     "pron": "tó-pîng",
     "example": "我欲去倒爿。",
-    "exampleJp": "私は左へ行きたいです。"
+    "exampleJp": "私は左へ行きたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 296,
@@ -2661,7 +3559,10 @@ window.WORDS = [
     "jp": "右",
     "pron": "tsiànn-pîng",
     "example": "我欲去正爿。",
-    "exampleJp": "私は右へ行きたいです。"
+    "exampleJp": "私は右へ行きたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 297,
@@ -2670,7 +3571,10 @@ window.WORDS = [
     "jp": "遠い",
     "pron": "hn̄g",
     "example": "彼个所在真遠。",
-    "exampleJp": "その場所はとても遠いです。"
+    "exampleJp": "その場所はとても遠いです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 298,
@@ -2679,7 +3583,10 @@ window.WORDS = [
     "jp": "近い",
     "pron": "kūn",
     "example": "彼个所在真近。",
-    "exampleJp": "その場所はとても近いです。"
+    "exampleJp": "その場所はとても近いです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 299,
@@ -2688,7 +3595,10 @@ window.WORDS = [
     "jp": "着く",
     "pron": "kàu",
     "example": "我欲到。",
-    "exampleJp": "私は「着く」を使う場面を練習します。"
+    "exampleJp": "私は「着く」を使う場面を練習します。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 300,
@@ -2697,7 +3607,10 @@ window.WORDS = [
     "jp": "帰る",
     "pron": "tńg-khì",
     "example": "我欲轉去。",
-    "exampleJp": "私は「帰る」を使う場面を練習します。"
+    "exampleJp": "私は「帰る」を使う場面を練習します。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 301,
@@ -2706,7 +3619,10 @@ window.WORDS = [
     "jp": "買う",
     "pron": "bé",
     "example": "我欲用「買」來買物件。",
-    "exampleJp": "買い物で「買う」を使います。"
+    "exampleJp": "買い物で「買う」を使います。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 302,
@@ -2715,7 +3631,10 @@ window.WORDS = [
     "jp": "売る",
     "pron": "bē",
     "example": "我欲用「賣」來買物件。",
-    "exampleJp": "買い物で「売る」を使います。"
+    "exampleJp": "買い物で「売る」を使います。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 303,
@@ -2724,7 +3643,10 @@ window.WORDS = [
     "jp": "お金",
     "pron": "tsînn",
     "example": "我欲用「錢」來買物件。",
-    "exampleJp": "買い物で「お金」を使います。"
+    "exampleJp": "買い物で「お金」を使います。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 304,
@@ -2733,7 +3655,10 @@ window.WORDS = [
     "jp": "元／ドル相当の口語助数",
     "pron": "khoo",
     "example": "我欲用「箍」來買物件。",
-    "exampleJp": "買い物で「元／ドル相当の口語助数」を使います。"
+    "exampleJp": "買い物で「元／ドル相当の口語助数」を使います。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 305,
@@ -2742,7 +3667,10 @@ window.WORDS = [
     "jp": "値段",
     "pron": "kè-siàu",
     "example": "我欲用「價數」來買物件。",
-    "exampleJp": "買い物で「値段」を使います。"
+    "exampleJp": "買い物で「値段」を使います。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 306,
@@ -2751,7 +3679,10 @@ window.WORDS = [
     "jp": "高い",
     "pron": "kuì",
     "example": "這个真貴。",
-    "exampleJp": "これはとても高いです。"
+    "exampleJp": "これはとても高いです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 307,
@@ -2760,7 +3691,10 @@ window.WORDS = [
     "jp": "安い",
     "pron": "sio̍k",
     "example": "這个真俗。",
-    "exampleJp": "これはとても安いです。"
+    "exampleJp": "これはとても安いです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 308,
@@ -2769,7 +3703,10 @@ window.WORDS = [
     "jp": "いくら",
     "pron": "guā-tsē tsînn",
     "example": "我欲用「偌濟錢」來買物件。",
-    "exampleJp": "買い物で「いくら」を使います。"
+    "exampleJp": "買い物で「いくら」を使います。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 309,
@@ -2778,7 +3715,10 @@ window.WORDS = [
     "jp": "お釣りを渡す",
     "pron": "tsāu tsînn",
     "example": "我欲用「找錢」來買物件。",
-    "exampleJp": "買い物で「お釣りを渡す」を使います。"
+    "exampleJp": "買い物で「お釣りを渡す」を使います。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 310,
@@ -2787,7 +3727,10 @@ window.WORDS = [
     "jp": "小銭",
     "pron": "suànn-tsînn",
     "example": "我欲用「散錢」來買物件。",
-    "exampleJp": "買い物で「小銭」を使います。"
+    "exampleJp": "買い物で「小銭」を使います。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 311,
@@ -2796,7 +3739,10 @@ window.WORDS = [
     "jp": "紙幣",
     "pron": "tsuá-phiò",
     "example": "我欲用「紙票」來買物件。",
-    "exampleJp": "買い物で「紙幣」を使います。"
+    "exampleJp": "買い物で「紙幣」を使います。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 312,
@@ -2805,7 +3751,10 @@ window.WORDS = [
     "jp": "クレジットカード",
     "pron": "sìn-iōng-khah",
     "example": "我欲用「信用卡」來買物件。",
-    "exampleJp": "買い物で「クレジットカード」を使います。"
+    "exampleJp": "買い物で「クレジットカード」を使います。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 313,
@@ -2814,7 +3763,10 @@ window.WORDS = [
     "jp": "現金",
     "pron": "hiān-kim",
     "example": "我欲用「現金」來買物件。",
-    "exampleJp": "買い物で「現金」を使います。"
+    "exampleJp": "買い物で「現金」を使います。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 314,
@@ -2823,7 +3775,10 @@ window.WORDS = [
     "jp": "支払う",
     "pron": "hù-tsînn",
     "example": "我欲用「付錢」來買物件。",
-    "exampleJp": "買い物で「支払う」を使います。"
+    "exampleJp": "買い物で「支払う」を使います。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 315,
@@ -2832,7 +3787,10 @@ window.WORDS = [
     "jp": "レシート",
     "pron": "siu-kì",
     "example": "我欲用「收據」來買物件。",
-    "exampleJp": "買い物で「レシート」を使います。"
+    "exampleJp": "買い物で「レシート」を使います。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 316,
@@ -2841,7 +3799,10 @@ window.WORDS = [
     "jp": "統一発票／レシート",
     "pron": "huat-phiò",
     "example": "我欲用「發票」來買物件。",
-    "exampleJp": "買い物で「統一発票／レシート」を使います。"
+    "exampleJp": "買い物で「統一発票／レシート」を使います。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 317,
@@ -2850,7 +3811,10 @@ window.WORDS = [
     "jp": "袋",
     "pron": "tē-á",
     "example": "我欲用「袋仔」來買物件。",
-    "exampleJp": "買い物で「袋」を使います。"
+    "exampleJp": "買い物で「袋」を使います。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 318,
@@ -2859,7 +3823,10 @@ window.WORDS = [
     "jp": "1個",
     "pron": "tsi̍t-ê",
     "example": "我欲用「一个」來買物件。",
-    "exampleJp": "買い物で「1個」を使います。"
+    "exampleJp": "買い物で「1個」を使います。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 319,
@@ -2868,7 +3835,10 @@ window.WORDS = [
     "jp": "2個",
     "pron": "nn̄g-ê",
     "example": "我欲用「兩个」來買物件。",
-    "exampleJp": "買い物で「2個」を使います。"
+    "exampleJp": "買い物で「2個」を使います。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 320,
@@ -2877,7 +3847,10 @@ window.WORDS = [
     "jp": "少し／いくらか",
     "pron": "tsi̍t-kuá",
     "example": "我欲用「一寡」來買物件。",
-    "exampleJp": "買い物で「少し／いくらか」を使います。"
+    "exampleJp": "買い物で「少し／いくらか」を使います。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 321,
@@ -2886,7 +3859,10 @@ window.WORDS = [
     "jp": "多い",
     "pron": "tsē",
     "example": "這个真濟。",
-    "exampleJp": "これはとても多いです。"
+    "exampleJp": "これはとても多いです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 322,
@@ -2895,7 +3871,10 @@ window.WORDS = [
     "jp": "少ない",
     "pron": "tsió",
     "example": "這个真少。",
-    "exampleJp": "これはとても少ないです。"
+    "exampleJp": "これはとても少ないです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 323,
@@ -2904,7 +3883,10 @@ window.WORDS = [
     "jp": "大きい",
     "pron": "tuā",
     "example": "這个真大。",
-    "exampleJp": "これはとても大きいです。"
+    "exampleJp": "これはとても大きいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 324,
@@ -2913,7 +3895,10 @@ window.WORDS = [
     "jp": "小さい",
     "pron": "sè",
     "example": "這个真細。",
-    "exampleJp": "これはとても小さいです。"
+    "exampleJp": "これはとても小さいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 325,
@@ -2922,7 +3907,10 @@ window.WORDS = [
     "jp": "長い",
     "pron": "tn̂g",
     "example": "這个真長。",
-    "exampleJp": "これはとても長いです。"
+    "exampleJp": "これはとても長いです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 326,
@@ -2931,7 +3919,10 @@ window.WORDS = [
     "jp": "短い",
     "pron": "té",
     "example": "這个真短。",
-    "exampleJp": "これはとても短いです。"
+    "exampleJp": "これはとても短いです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 327,
@@ -2940,7 +3931,10 @@ window.WORDS = [
     "jp": "新しい",
     "pron": "sin",
     "example": "這个真新。",
-    "exampleJp": "これはとても新しいです。"
+    "exampleJp": "これはとても新しいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 328,
@@ -2949,7 +3943,10 @@ window.WORDS = [
     "jp": "古い",
     "pron": "kū",
     "example": "這个真舊。",
-    "exampleJp": "これはとても古いです。"
+    "exampleJp": "これはとても古いです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 329,
@@ -2958,7 +3955,10 @@ window.WORDS = [
     "jp": "きれい／美しい",
     "pron": "suí",
     "example": "這个真媠。",
-    "exampleJp": "これはとてもきれい／美しいです。"
+    "exampleJp": "これはとてもきれい／美しいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 330,
@@ -2967,7 +3967,10 @@ window.WORDS = [
     "jp": "見た目がよくない",
     "pron": "pháinn-khuànn",
     "example": "這个真歹看。",
-    "exampleJp": "これはとても見た目がよくないです。"
+    "exampleJp": "これはとても見た目がよくないです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 331,
@@ -2976,7 +3979,10 @@ window.WORDS = [
     "jp": "色",
     "pron": "sik",
     "example": "我欲用「色」來買物件。",
-    "exampleJp": "買い物で「色」を使います。"
+    "exampleJp": "買い物で「色」を使います。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 332,
@@ -2985,7 +3991,10 @@ window.WORDS = [
     "jp": "赤",
     "pron": "âng",
     "example": "我欲用「紅」來買物件。",
-    "exampleJp": "買い物で「赤」を使います。"
+    "exampleJp": "買い物で「赤」を使います。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 333,
@@ -2994,7 +4003,10 @@ window.WORDS = [
     "jp": "白",
     "pron": "pe̍h",
     "example": "我欲用「白」來買物件。",
-    "exampleJp": "買い物で「白」を使います。"
+    "exampleJp": "買い物で「白」を使います。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 334,
@@ -3003,7 +4015,10 @@ window.WORDS = [
     "jp": "黒",
     "pron": "oo",
     "example": "我欲用「烏」來買物件。",
-    "exampleJp": "買い物で「黒」を使います。"
+    "exampleJp": "買い物で「黒」を使います。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 335,
@@ -3012,7 +4027,10 @@ window.WORDS = [
     "jp": "青／緑",
     "pron": "tshenn",
     "example": "我欲用「青」來買物件。",
-    "exampleJp": "買い物で「青／緑」を使います。"
+    "exampleJp": "買い物で「青／緑」を使います。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 336,
@@ -3021,7 +4039,10 @@ window.WORDS = [
     "jp": "黄",
     "pron": "n̂g",
     "example": "我欲用「黃」來買物件。",
-    "exampleJp": "買い物で「黄」を使います。"
+    "exampleJp": "買い物で「黄」を使います。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 337,
@@ -3030,7 +4051,10 @@ window.WORDS = [
     "jp": "青／ブルー",
     "pron": "nâ",
     "example": "我欲用「藍」來買物件。",
-    "exampleJp": "買い物で「青／ブルー」を使います。"
+    "exampleJp": "買い物で「青／ブルー」を使います。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 338,
@@ -3039,7 +4063,10 @@ window.WORDS = [
     "jp": "サイズ",
     "pron": "tshioh-tshùn",
     "example": "我欲用「尺寸」來買物件。",
-    "exampleJp": "買い物で「サイズ」を使います。"
+    "exampleJp": "買い物で「サイズ」を使います。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 339,
@@ -3048,7 +4075,10 @@ window.WORDS = [
     "jp": "試着する",
     "pron": "tshì-tshīng",
     "example": "我欲用「試穿」來買物件。",
-    "exampleJp": "買い物で「試着する」を使います。"
+    "exampleJp": "買い物で「試着する」を使います。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 340,
@@ -3057,7 +4087,10 @@ window.WORDS = [
     "jp": "交換する",
     "pron": "uānn",
     "example": "我欲用「換」來買物件。",
-    "exampleJp": "買い物で「交換する」を使います。"
+    "exampleJp": "買い物で「交換する」を使います。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 341,
@@ -3066,7 +4099,10 @@ window.WORDS = [
     "jp": "返品する／退く",
     "pron": "thè",
     "example": "我欲用「退」來買物件。",
-    "exampleJp": "買い物で「返品する／退く」を使います。"
+    "exampleJp": "買い物で「返品する／退く」を使います。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 342,
@@ -3075,7 +4111,10 @@ window.WORDS = [
     "jp": "開ける",
     "pron": "khui",
     "example": "我欲用「開」來買物件。",
-    "exampleJp": "買い物で「開ける」を使います。"
+    "exampleJp": "買い物で「開ける」を使います。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 343,
@@ -3084,7 +4123,10 @@ window.WORDS = [
     "jp": "閉める",
     "pron": "kuainn",
     "example": "我欲用「關」來買物件。",
-    "exampleJp": "買い物で「閉める」を使います。"
+    "exampleJp": "買い物で「閉める」を使います。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 344,
@@ -3093,7 +4135,10 @@ window.WORDS = [
     "jp": "これ",
     "pron": "tsit-ê",
     "example": "我欲用「這个」來買物件。",
-    "exampleJp": "買い物で「これ」を使います。"
+    "exampleJp": "買い物で「これ」を使います。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 345,
@@ -3102,7 +4147,10 @@ window.WORDS = [
     "jp": "それ／あれ",
     "pron": "hit-ê",
     "example": "我欲用「彼个」來買物件。",
-    "exampleJp": "買い物で「それ／あれ」を使います。"
+    "exampleJp": "買い物で「それ／あれ」を使います。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 346,
@@ -3111,7 +4159,10 @@ window.WORDS = [
     "jp": "同じ種類",
     "pron": "siâng-khuán",
     "example": "我欲用「相款」來買物件。",
-    "exampleJp": "買い物で「同じ種類」を使います。"
+    "exampleJp": "買い物で「同じ種類」を使います。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 347,
@@ -3120,7 +4171,10 @@ window.WORDS = [
     "jp": "違う",
     "pron": "bô-kāng",
     "example": "我欲用「無仝」來買物件。",
-    "exampleJp": "買い物で「違う」を使います。"
+    "exampleJp": "買い物で「違う」を使います。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 348,
@@ -3129,7 +4183,10 @@ window.WORDS = [
     "jp": "必要とする",
     "pron": "su-iàu",
     "example": "我欲用「需要」來買物件。",
-    "exampleJp": "買い物で「必要とする」を使います。"
+    "exampleJp": "買い物で「必要とする」を使います。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 349,
@@ -3138,7 +4195,10 @@ window.WORDS = [
     "jp": "欲しい／必要",
     "pron": "beh-ài",
     "example": "我欲用「欲愛」來買物件。",
-    "exampleJp": "買い物で「欲しい／必要」を使います。"
+    "exampleJp": "買い物で「欲しい／必要」を使います。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 350,
@@ -3147,7 +4207,10 @@ window.WORDS = [
     "jp": "注文する",
     "pron": "tsù-bûn",
     "example": "我欲用「注文」來買物件。",
-    "exampleJp": "買い物で「注文する」を使います。"
+    "exampleJp": "買い物で「注文する」を使います。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 351,
@@ -3156,7 +4219,10 @@ window.WORDS = [
     "jp": "体",
     "pron": "sin-khu",
     "example": "我欲記得「身軀」這个講法。",
-    "exampleJp": "「体」という言い方を覚えたいです。"
+    "exampleJp": "「体」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 352,
@@ -3165,7 +4231,10 @@ window.WORDS = [
     "jp": "頭",
     "pron": "thâu",
     "example": "我欲記得「頭」這个講法。",
-    "exampleJp": "「頭」という言い方を覚えたいです。"
+    "exampleJp": "「頭」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 353,
@@ -3174,7 +4243,10 @@ window.WORDS = [
     "jp": "髪",
     "pron": "thâu-mn̂g",
     "example": "我欲記得「頭毛」這个講法。",
-    "exampleJp": "「髪」という言い方を覚えたいです。"
+    "exampleJp": "「髪」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 354,
@@ -3183,7 +4255,10 @@ window.WORDS = [
     "jp": "顔",
     "pron": "bīn",
     "example": "我欲記得「面」這个講法。",
-    "exampleJp": "「顔」という言い方を覚えたいです。"
+    "exampleJp": "「顔」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 355,
@@ -3192,7 +4267,10 @@ window.WORDS = [
     "jp": "目",
     "pron": "ba̍k-tsiu",
     "example": "我欲記得「目睭」這个講法。",
-    "exampleJp": "「目」という言い方を覚えたいです。"
+    "exampleJp": "「目」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 356,
@@ -3201,7 +4279,10 @@ window.WORDS = [
     "jp": "耳",
     "pron": "hīnn",
     "example": "我欲記得「耳」這个講法。",
-    "exampleJp": "「耳」という言い方を覚えたいです。"
+    "exampleJp": "「耳」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 357,
@@ -3210,7 +4291,10 @@ window.WORDS = [
     "jp": "鼻",
     "pron": "phīnn",
     "example": "我欲記得「鼻」這个講法。",
-    "exampleJp": "「鼻」という言い方を覚えたいです。"
+    "exampleJp": "「鼻」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 358,
@@ -3219,7 +4303,10 @@ window.WORDS = [
     "jp": "口",
     "pron": "tshuì",
     "example": "我欲記得「喙」這个講法。",
-    "exampleJp": "「口」という言い方を覚えたいです。"
+    "exampleJp": "「口」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 359,
@@ -3228,7 +4315,10 @@ window.WORDS = [
     "jp": "歯",
     "pron": "tshuì-khí",
     "example": "我欲記得「喙齒」這个講法。",
-    "exampleJp": "「歯」という言い方を覚えたいです。"
+    "exampleJp": "「歯」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 360,
@@ -3237,7 +4327,10 @@ window.WORDS = [
     "jp": "舌",
     "pron": "tsi̍h",
     "example": "我欲記得「舌」這个講法。",
-    "exampleJp": "「舌」という言い方を覚えたいです。"
+    "exampleJp": "「舌」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 361,
@@ -3246,7 +4339,10 @@ window.WORDS = [
     "jp": "首",
     "pron": "ām-kún",
     "example": "我欲記得「頷頸」這个講法。",
-    "exampleJp": "「首」という言い方を覚えたいです。"
+    "exampleJp": "「首」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 362,
@@ -3255,7 +4351,10 @@ window.WORDS = [
     "jp": "肩",
     "pron": "king-kah",
     "example": "我欲記得「肩胛」這个講法。",
-    "exampleJp": "「肩」という言い方を覚えたいです。"
+    "exampleJp": "「肩」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 363,
@@ -3264,7 +4363,10 @@ window.WORDS = [
     "jp": "手",
     "pron": "tshiú",
     "example": "我欲記得「手」這个講法。",
-    "exampleJp": "「手」という言い方を覚えたいです。"
+    "exampleJp": "「手」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 364,
@@ -3273,7 +4375,10 @@ window.WORDS = [
     "jp": "指",
     "pron": "tshiú-tsí",
     "example": "我欲記得「手指」這个講法。",
-    "exampleJp": "「指」という言い方を覚えたいです。"
+    "exampleJp": "「指」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 365,
@@ -3282,7 +4387,10 @@ window.WORDS = [
     "jp": "お腹",
     "pron": "pak-tóo",
     "example": "我欲記得「腹肚」這个講法。",
-    "exampleJp": "「お腹」という言い方を覚えたいです。"
+    "exampleJp": "「お腹」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 366,
@@ -3291,7 +4399,10 @@ window.WORDS = [
     "jp": "足",
     "pron": "kha",
     "example": "我欲記得「跤」這个講法。",
-    "exampleJp": "「足」という言い方を覚えたいです。"
+    "exampleJp": "「足」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 367,
@@ -3300,7 +4411,10 @@ window.WORDS = [
     "jp": "膝",
     "pron": "tshik-thâu",
     "example": "我欲記得「膝頭」這个講法。",
-    "exampleJp": "「膝」という言い方を覚えたいです。"
+    "exampleJp": "「膝」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 368,
@@ -3309,7 +4423,10 @@ window.WORDS = [
     "jp": "血",
     "pron": "hueh",
     "example": "我欲記得「血」這个講法。",
-    "exampleJp": "「血」という言い方を覚えたいです。"
+    "exampleJp": "「血」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 369,
@@ -3318,7 +4435,10 @@ window.WORDS = [
     "jp": "心／心臓",
     "pron": "sim",
     "example": "我欲記得「心」這个講法。",
-    "exampleJp": "「心／心臓」という言い方を覚えたいです。"
+    "exampleJp": "「心／心臓」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 370,
@@ -3327,7 +4447,10 @@ window.WORDS = [
     "jp": "病気",
     "pron": "pēnn",
     "example": "我欲記得「病」這个講法。",
-    "exampleJp": "「病気」という言い方を覚えたいです。"
+    "exampleJp": "「病気」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 371,
@@ -3336,7 +4459,10 @@ window.WORDS = [
     "jp": "風邪",
     "pron": "kám-mōo",
     "example": "我欲記得「感冒」這个講法。",
-    "exampleJp": "「風邪」という言い方を覚えたいです。"
+    "exampleJp": "「風邪」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 372,
@@ -3345,7 +4471,10 @@ window.WORDS = [
     "jp": "発熱する",
     "pron": "huat-sio",
     "example": "我欲記得「發燒」這个講法。",
-    "exampleJp": "「発熱する」という言い方を覚えたいです。"
+    "exampleJp": "「発熱する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 373,
@@ -3354,7 +4483,10 @@ window.WORDS = [
     "jp": "咳をする",
     "pron": "ka-sàu",
     "example": "我欲記得「咳嗽」這个講法。",
-    "exampleJp": "「咳をする」という言い方を覚えたいです。"
+    "exampleJp": "「咳をする」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 374,
@@ -3363,7 +4495,10 @@ window.WORDS = [
     "jp": "頭痛",
     "pron": "thâu-thiànn",
     "example": "我欲記得「頭疼」這个講法。",
-    "exampleJp": "「頭痛」という言い方を覚えたいです。"
+    "exampleJp": "「頭痛」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 375,
@@ -3372,7 +4507,10 @@ window.WORDS = [
     "jp": "腹痛",
     "pron": "pak-tóo-thiànn",
     "example": "我欲記得「腹肚疼」這个講法。",
-    "exampleJp": "「腹痛」という言い方を覚えたいです。"
+    "exampleJp": "「腹痛」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 376,
@@ -3381,7 +4519,10 @@ window.WORDS = [
     "jp": "痛い",
     "pron": "thiànn",
     "example": "我真疼。",
-    "exampleJp": "私はとても痛いです。"
+    "exampleJp": "私はとても痛いです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 377,
@@ -3390,7 +4531,10 @@ window.WORDS = [
     "jp": "かゆい",
     "pron": "tsiūnn",
     "example": "我真癢。",
-    "exampleJp": "私はとてもかゆいです。"
+    "exampleJp": "私はとてもかゆいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 378,
@@ -3399,7 +4543,10 @@ window.WORDS = [
     "jp": "けが",
     "pron": "siong",
     "example": "我欲記得「傷」這个講法。",
-    "exampleJp": "「けが」という言い方を覚えたいです。"
+    "exampleJp": "「けが」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 379,
@@ -3408,7 +4555,10 @@ window.WORDS = [
     "jp": "薬",
     "pron": "io̍h",
     "example": "我欲記得「藥」這个講法。",
-    "exampleJp": "「薬」という言い方を覚えたいです。"
+    "exampleJp": "「薬」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 380,
@@ -3417,7 +4567,10 @@ window.WORDS = [
     "jp": "薬を飲む",
     "pron": "tsia̍h-io̍h",
     "example": "我欲記得「食藥」這个講法。",
-    "exampleJp": "「薬を飲む」という言い方を覚えたいです。"
+    "exampleJp": "「薬を飲む」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 381,
@@ -3426,7 +4579,10 @@ window.WORDS = [
     "jp": "医者に診てもらう",
     "pron": "khuànn i-sing",
     "example": "我欲記得「看醫生」這个講法。",
-    "exampleJp": "「医者に診てもらう」という言い方を覚えたいです。"
+    "exampleJp": "「医者に診てもらう」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 382,
@@ -3435,7 +4591,10 @@ window.WORDS = [
     "jp": "健康",
     "pron": "kiān-khong",
     "example": "我欲記得「健康」這个講法。",
-    "exampleJp": "「健康」という言い方を覚えたいです。"
+    "exampleJp": "「健康」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 383,
@@ -3444,7 +4603,10 @@ window.WORDS = [
     "jp": "元気／丈夫",
     "pron": "ióng",
     "example": "我欲記得「勇」這个講法。",
-    "exampleJp": "「元気／丈夫」という言い方を覚えたいです。"
+    "exampleJp": "「元気／丈夫」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 384,
@@ -3453,7 +4615,10 @@ window.WORDS = [
     "jp": "疲れた",
     "pron": "luī",
     "example": "我真累。",
-    "exampleJp": "私はとても疲れたです。"
+    "exampleJp": "私はとても疲れたです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 385,
@@ -3462,7 +4627,10 @@ window.WORDS = [
     "jp": "眠い／寝る",
     "pron": "khùn",
     "example": "我真睏。",
-    "exampleJp": "私はとても眠い／寝るです。"
+    "exampleJp": "私はとても眠い／寝るです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 386,
@@ -3471,7 +4639,10 @@ window.WORDS = [
     "jp": "眠る",
     "pron": "khùn-bîn",
     "example": "我欲記得「睏眠」這个講法。",
-    "exampleJp": "「眠る」という言い方を覚えたいです。"
+    "exampleJp": "「眠る」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 387,
@@ -3480,7 +4651,10 @@ window.WORDS = [
     "jp": "起床する",
     "pron": "khí-tshn̂g",
     "example": "我欲記得「起床」這个講法。",
-    "exampleJp": "「起床する」という言い方を覚えたいです。"
+    "exampleJp": "「起床する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 388,
@@ -3489,7 +4663,10 @@ window.WORDS = [
     "jp": "顔を洗う",
     "pron": "sé-bīn",
     "example": "我欲記得「洗面」這个講法。",
-    "exampleJp": "「顔を洗う」という言い方を覚えたいです。"
+    "exampleJp": "「顔を洗う」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 389,
@@ -3498,7 +4675,10 @@ window.WORDS = [
     "jp": "体を洗う／入浴する",
     "pron": "sé-sin-khu",
     "example": "我欲記得「洗身軀」這个講法。",
-    "exampleJp": "「体を洗う／入浴する」という言い方を覚えたいです。"
+    "exampleJp": "「体を洗う／入浴する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 390,
@@ -3507,7 +4687,10 @@ window.WORDS = [
     "jp": "歯を磨く",
     "pron": "tshat-tshuì-khí",
     "example": "我欲記得「刷喙齒」這个講法。",
-    "exampleJp": "「歯を磨く」という言い方を覚えたいです。"
+    "exampleJp": "「歯を磨く」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 391,
@@ -3516,7 +4699,10 @@ window.WORDS = [
     "jp": "運動する",
     "pron": "ūn-tōng",
     "example": "我欲記得「運動」這个講法。",
-    "exampleJp": "「運動する」という言い方を覚えたいです。"
+    "exampleJp": "「運動する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 392,
@@ -3525,7 +4711,10 @@ window.WORDS = [
     "jp": "散歩する",
     "pron": "sàn-pōo",
     "example": "我欲記得「散步」這个講法。",
-    "exampleJp": "「散歩する」という言い方を覚えたいです。"
+    "exampleJp": "「散歩する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 393,
@@ -3534,7 +4723,10 @@ window.WORDS = [
     "jp": "休む",
     "pron": "hiu-khùn",
     "example": "我欲記得「休睏」這个講法。",
-    "exampleJp": "「休む」という言い方を覚えたいです。"
+    "exampleJp": "「休む」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 394,
@@ -3543,7 +4735,10 @@ window.WORDS = [
     "jp": "呼吸する",
     "pron": "hoo-khip",
     "example": "我欲記得「呼吸」這个講法。",
-    "exampleJp": "「呼吸する」という言い方を覚えたいです。"
+    "exampleJp": "「呼吸する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 395,
@@ -3552,7 +4747,10 @@ window.WORDS = [
     "jp": "救急車",
     "pron": "kiù-hōo-tshia",
     "example": "我欲記得「救護車」這个講法。",
-    "exampleJp": "「救急車」という言い方を覚えたいです。"
+    "exampleJp": "「救急車」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 396,
@@ -3561,7 +4759,10 @@ window.WORDS = [
     "jp": "救急外来",
     "pron": "kip-tsín",
     "example": "我欲記得「急診」這个講法。",
-    "exampleJp": "「救急外来」という言い方を覚えたいです。"
+    "exampleJp": "「救急外来」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 397,
@@ -3570,7 +4771,10 @@ window.WORDS = [
     "jp": "保険",
     "pron": "pó-hiám",
     "example": "我欲記得「保險」這个講法。",
-    "exampleJp": "「保険」という言い方を覚えたいです。"
+    "exampleJp": "「保険」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 398,
@@ -3579,7 +4783,10 @@ window.WORDS = [
     "jp": "病院",
     "pron": "i-īnn",
     "example": "我欲記得「醫院」這个講法。",
-    "exampleJp": "「病院」という言い方を覚えたいです。"
+    "exampleJp": "「病院」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 399,
@@ -3588,7 +4795,10 @@ window.WORDS = [
     "jp": "薬局",
     "pron": "io̍h-kio̍k",
     "example": "我欲記得「藥局」這个講法。",
-    "exampleJp": "「薬局」という言い方を覚えたいです。"
+    "exampleJp": "「薬局」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 400,
@@ -3597,7 +4807,10 @@ window.WORDS = [
     "jp": "安全",
     "pron": "an-tsuân",
     "example": "我欲記得「安全」這个講法。",
-    "exampleJp": "「安全」という言い方を覚えたいです。"
+    "exampleJp": "「安全」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 401,
@@ -3606,7 +4819,10 @@ window.WORDS = [
     "jp": "空／天気",
     "pron": "thinn",
     "example": "我看著天。",
-    "exampleJp": "私は空／天気を見ました。"
+    "exampleJp": "私は空／天気を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 402,
@@ -3615,7 +4831,10 @@ window.WORDS = [
     "jp": "太陽",
     "pron": "ji̍t-thâu",
     "example": "我看著日頭。",
-    "exampleJp": "私は太陽を見ました。"
+    "exampleJp": "私は太陽を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 403,
@@ -3624,7 +4843,10 @@ window.WORDS = [
     "jp": "月",
     "pron": "gue̍h-niû",
     "example": "我看著月娘。",
-    "exampleJp": "私は月を見ました。"
+    "exampleJp": "私は月を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 404,
@@ -3633,7 +4855,10 @@ window.WORDS = [
     "jp": "星",
     "pron": "tshenn",
     "example": "我看著星。",
-    "exampleJp": "私は星を見ました。"
+    "exampleJp": "私は星を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 405,
@@ -3642,7 +4867,10 @@ window.WORDS = [
     "jp": "雲",
     "pron": "hûn",
     "example": "我看著雲。",
-    "exampleJp": "私は雲を見ました。"
+    "exampleJp": "私は雲を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 406,
@@ -3651,7 +4879,10 @@ window.WORDS = [
     "jp": "雨",
     "pron": "hōo",
     "example": "我看著雨。",
-    "exampleJp": "私は雨を見ました。"
+    "exampleJp": "私は雨を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 407,
@@ -3660,7 +4891,10 @@ window.WORDS = [
     "jp": "雨が降る",
     "pron": "lo̍h-hōo",
     "example": "我看著落雨。",
-    "exampleJp": "私は雨が降るを見ました。"
+    "exampleJp": "私は雨が降るを見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 408,
@@ -3669,7 +4903,10 @@ window.WORDS = [
     "jp": "風",
     "pron": "hong",
     "example": "我看著風。",
-    "exampleJp": "私は風を見ました。"
+    "exampleJp": "私は風を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 409,
@@ -3678,7 +4915,10 @@ window.WORDS = [
     "jp": "強風",
     "pron": "tuā-hong",
     "example": "我看著大風。",
-    "exampleJp": "私は強風を見ました。"
+    "exampleJp": "私は強風を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 410,
@@ -3687,7 +4927,10 @@ window.WORDS = [
     "jp": "雷",
     "pron": "luî",
     "example": "我看著雷。",
-    "exampleJp": "私は雷を見ました。"
+    "exampleJp": "私は雷を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 411,
@@ -3696,7 +4939,10 @@ window.WORDS = [
     "jp": "稲妻",
     "pron": "sih-nah",
     "example": "我看著爍爁。",
-    "exampleJp": "私は稲妻を見ました。"
+    "exampleJp": "私は稲妻を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 412,
@@ -3705,7 +4951,10 @@ window.WORDS = [
     "jp": "霧",
     "pron": "bū",
     "example": "我看著霧。",
-    "exampleJp": "私は霧を見ました。"
+    "exampleJp": "私は霧を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 413,
@@ -3714,7 +4963,10 @@ window.WORDS = [
     "jp": "雪",
     "pron": "seh",
     "example": "我看著雪。",
-    "exampleJp": "私は雪を見ました。"
+    "exampleJp": "私は雪を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 414,
@@ -3723,7 +4975,10 @@ window.WORDS = [
     "jp": "暑い／熱い",
     "pron": "jua̍h",
     "example": "今仔日真熱。",
-    "exampleJp": "今日はとても暑い／熱いです。"
+    "exampleJp": "今日はとても暑い／熱いです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 415,
@@ -3732,7 +4987,10 @@ window.WORDS = [
     "jp": "寒い",
     "pron": "kuânn",
     "example": "今仔日真寒。",
-    "exampleJp": "今日はとても寒いです。"
+    "exampleJp": "今日はとても寒いです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 416,
@@ -3741,7 +4999,10 @@ window.WORDS = [
     "jp": "涼しい",
     "pron": "liâng",
     "example": "今仔日真涼。",
-    "exampleJp": "今日はとても涼しいです。"
+    "exampleJp": "今日はとても涼しいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 417,
@@ -3750,7 +5011,10 @@ window.WORDS = [
     "jp": "熱い／温かい",
     "pron": "sio",
     "example": "今仔日真燒。",
-    "exampleJp": "今日はとても熱い／温かいです。"
+    "exampleJp": "今日はとても熱い／温かいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 418,
@@ -3759,7 +5023,10 @@ window.WORDS = [
     "jp": "冷たい",
     "pron": "líng",
     "example": "今仔日真冷。",
-    "exampleJp": "今日はとても冷たいです。"
+    "exampleJp": "今日はとても冷たいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 419,
@@ -3768,7 +5035,10 @@ window.WORDS = [
     "jp": "晴天",
     "pron": "hó-thinn",
     "example": "我看著好天。",
-    "exampleJp": "私は晴天を見ました。"
+    "exampleJp": "私は晴天を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 420,
@@ -3777,7 +5047,10 @@ window.WORDS = [
     "jp": "悪天候",
     "pron": "pháinn-thinn",
     "example": "我看著歹天。",
-    "exampleJp": "私は悪天候を見ました。"
+    "exampleJp": "私は悪天候を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 421,
@@ -3786,7 +5059,10 @@ window.WORDS = [
     "jp": "天気",
     "pron": "thinn-khì",
     "example": "我看著天氣。",
-    "exampleJp": "私は天気を見ました。"
+    "exampleJp": "私は天気を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 422,
@@ -3795,7 +5071,10 @@ window.WORDS = [
     "jp": "春",
     "pron": "tshun-thinn",
     "example": "我看著春天。",
-    "exampleJp": "私は春を見ました。"
+    "exampleJp": "私は春を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 423,
@@ -3804,7 +5083,10 @@ window.WORDS = [
     "jp": "夏",
     "pron": "jua̍h-thinn",
     "example": "我看著熱天。",
-    "exampleJp": "私は夏を見ました。"
+    "exampleJp": "私は夏を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 424,
@@ -3813,7 +5095,10 @@ window.WORDS = [
     "jp": "秋",
     "pron": "tshiu-thinn",
     "example": "我看著秋天。",
-    "exampleJp": "私は秋を見ました。"
+    "exampleJp": "私は秋を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 425,
@@ -3822,7 +5107,10 @@ window.WORDS = [
     "jp": "冬",
     "pron": "kuânn-thinn",
     "example": "我看著寒天。",
-    "exampleJp": "私は冬を見ました。"
+    "exampleJp": "私は冬を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 426,
@@ -3831,7 +5119,10 @@ window.WORDS = [
     "jp": "山",
     "pron": "suann",
     "example": "我看著山。",
-    "exampleJp": "私は山を見ました。"
+    "exampleJp": "私は山を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 427,
@@ -3840,7 +5131,10 @@ window.WORDS = [
     "jp": "海",
     "pron": "hái",
     "example": "我看著海。",
-    "exampleJp": "私は海を見ました。"
+    "exampleJp": "私は海を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 428,
@@ -3849,7 +5143,10 @@ window.WORDS = [
     "jp": "川／小川",
     "pron": "khe",
     "example": "我看著溪。",
-    "exampleJp": "私は川／小川を見ました。"
+    "exampleJp": "私は川／小川を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 429,
@@ -3858,7 +5155,10 @@ window.WORDS = [
     "jp": "湖",
     "pron": "ôo",
     "example": "我看著湖。",
-    "exampleJp": "私は湖を見ました。"
+    "exampleJp": "私は湖を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 430,
@@ -3867,7 +5167,10 @@ window.WORDS = [
     "jp": "木",
     "pron": "tshiū",
     "example": "我看著樹。",
-    "exampleJp": "私は木を見ました。"
+    "exampleJp": "私は木を見ました。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 431,
@@ -3876,7 +5179,10 @@ window.WORDS = [
     "jp": "花",
     "pron": "hue",
     "example": "我看著花。",
-    "exampleJp": "私は花を見ました。"
+    "exampleJp": "私は花を見ました。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 432,
@@ -3885,7 +5191,10 @@ window.WORDS = [
     "jp": "草",
     "pron": "tsháu",
     "example": "我看著草。",
-    "exampleJp": "私は草を見ました。"
+    "exampleJp": "私は草を見ました。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 433,
@@ -3894,7 +5203,10 @@ window.WORDS = [
     "jp": "竹",
     "pron": "tik",
     "example": "我看著竹。",
-    "exampleJp": "私は竹を見ました。"
+    "exampleJp": "私は竹を見ました。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 434,
@@ -3903,7 +5215,10 @@ window.WORDS = [
     "jp": "石",
     "pron": "tsio̍h-thâu",
     "example": "我看著石頭。",
-    "exampleJp": "私は石を見ました。"
+    "exampleJp": "私は石を見ました。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 435,
@@ -3912,7 +5227,10 @@ window.WORDS = [
     "jp": "土",
     "pron": "thôo",
     "example": "我看著塗。",
-    "exampleJp": "私は土を見ました。"
+    "exampleJp": "私は土を見ました。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 436,
@@ -3921,7 +5239,10 @@ window.WORDS = [
     "jp": "砂",
     "pron": "sua",
     "example": "我看著沙。",
-    "exampleJp": "私は砂を見ました。"
+    "exampleJp": "私は砂を見ました。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 437,
@@ -3930,7 +5251,10 @@ window.WORDS = [
     "jp": "火",
     "pron": "hué",
     "example": "我看著火。",
-    "exampleJp": "私は火を見ました。"
+    "exampleJp": "私は火を見ました。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 438,
@@ -3939,7 +5263,10 @@ window.WORDS = [
     "jp": "水",
     "pron": "tsuí",
     "example": "我看著水。",
-    "exampleJp": "私は水を見ました。"
+    "exampleJp": "私は水を見ました。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 439,
@@ -3948,7 +5275,10 @@ window.WORDS = [
     "jp": "動物",
     "pron": "tōng-bu̍t",
     "example": "我看著動物。",
-    "exampleJp": "私は動物を見ました。"
+    "exampleJp": "私は動物を見ました。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 440,
@@ -3957,7 +5287,10 @@ window.WORDS = [
     "jp": "犬",
     "pron": "káu",
     "example": "我看著狗。",
-    "exampleJp": "私は犬を見ました。"
+    "exampleJp": "私は犬を見ました。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 441,
@@ -3966,7 +5299,10 @@ window.WORDS = [
     "jp": "猫",
     "pron": "niau",
     "example": "我看著貓。",
-    "exampleJp": "私は猫を見ました。"
+    "exampleJp": "私は猫を見ました。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 442,
@@ -3975,7 +5311,10 @@ window.WORDS = [
     "jp": "鳥",
     "pron": "tsiáu",
     "example": "我看著鳥。",
-    "exampleJp": "私は鳥を見ました。"
+    "exampleJp": "私は鳥を見ました。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 443,
@@ -3984,7 +5323,10 @@ window.WORDS = [
     "jp": "鶏",
     "pron": "ke",
     "example": "我看著雞。",
-    "exampleJp": "私は鶏を見ました。"
+    "exampleJp": "私は鶏を見ました。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 444,
@@ -3993,7 +5335,10 @@ window.WORDS = [
     "jp": "豚",
     "pron": "ti",
     "example": "我看著豬。",
-    "exampleJp": "私は豚を見ました。"
+    "exampleJp": "私は豚を見ました。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 445,
@@ -4002,7 +5347,10 @@ window.WORDS = [
     "jp": "牛",
     "pron": "gû",
     "example": "我看著牛。",
-    "exampleJp": "私は牛を見ました。"
+    "exampleJp": "私は牛を見ました。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 446,
@@ -4011,7 +5359,10 @@ window.WORDS = [
     "jp": "馬",
     "pron": "bé",
     "example": "我看著馬。",
-    "exampleJp": "私は馬を見ました。"
+    "exampleJp": "私は馬を見ました。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 447,
@@ -4020,7 +5371,10 @@ window.WORDS = [
     "jp": "魚",
     "pron": "hî",
     "example": "我看著魚。",
-    "exampleJp": "私は魚を見ました。"
+    "exampleJp": "私は魚を見ました。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 448,
@@ -4029,7 +5383,10 @@ window.WORDS = [
     "jp": "虫",
     "pron": "thâng",
     "example": "我看著蟲。",
-    "exampleJp": "私は虫を見ました。"
+    "exampleJp": "私は虫を見ました。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 449,
@@ -4038,7 +5395,10 @@ window.WORDS = [
     "jp": "蚊",
     "pron": "báng-á",
     "example": "我看著蚊仔。",
-    "exampleJp": "私は蚊を見ました。"
+    "exampleJp": "私は蚊を見ました。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 450,
@@ -4047,7 +5407,10 @@ window.WORDS = [
     "jp": "自然",
     "pron": "tsū-jiân",
     "example": "我看著自然。",
-    "exampleJp": "私は自然を見ました。"
+    "exampleJp": "私は自然を見ました。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 451,
@@ -4056,7 +5419,10 @@ window.WORDS = [
     "jp": "〜したい／〜するつもり",
     "pron": "beh",
     "example": "我欲欲。",
-    "exampleJp": "私は「〜したい／〜するつもり」を使って話してみます。"
+    "exampleJp": "私は「〜したい／〜するつもり」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 452,
@@ -4065,7 +5431,10 @@ window.WORDS = [
     "jp": "好き／必要",
     "pron": "ài",
     "example": "我欲愛。",
-    "exampleJp": "私は「好き／必要」を使って話してみます。"
+    "exampleJp": "私は「好き／必要」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 453,
@@ -4074,7 +5443,10 @@ window.WORDS = [
     "jp": "見る",
     "pron": "khuànn",
     "example": "我欲看。",
-    "exampleJp": "私は「見る」を使って話してみます。"
+    "exampleJp": "私は「見る」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 454,
@@ -4083,7 +5455,10 @@ window.WORDS = [
     "jp": "聞く",
     "pron": "thiann",
     "example": "我欲聽。",
-    "exampleJp": "私は「聞く」を使って話してみます。"
+    "exampleJp": "私は「聞く」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 455,
@@ -4092,7 +5467,10 @@ window.WORDS = [
     "jp": "話す",
     "pron": "kóng",
     "example": "我欲講。",
-    "exampleJp": "私は「話す」を使って話してみます。"
+    "exampleJp": "私は「話す」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 456,
@@ -4101,7 +5479,10 @@ window.WORDS = [
     "jp": "尋ねる",
     "pron": "mn̄g",
     "example": "我欲問。",
-    "exampleJp": "私は「尋ねる」を使って話してみます。"
+    "exampleJp": "私は「尋ねる」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 457,
@@ -4110,7 +5491,10 @@ window.WORDS = [
     "jp": "答える",
     "pron": "tap",
     "example": "我欲答。",
-    "exampleJp": "私は「答える」を使って話してみます。"
+    "exampleJp": "私は「答える」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 458,
@@ -4119,7 +5503,10 @@ window.WORDS = [
     "jp": "学ぶ",
     "pron": "o̍h",
     "example": "我欲學。",
-    "exampleJp": "私は「学ぶ」を使って話してみます。"
+    "exampleJp": "私は「学ぶ」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 459,
@@ -4128,7 +5515,10 @@ window.WORDS = [
     "jp": "教える",
     "pron": "kà",
     "example": "我欲教。",
-    "exampleJp": "私は「教える」を使って話してみます。"
+    "exampleJp": "私は「教える」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 460,
@@ -4137,7 +5527,10 @@ window.WORDS = [
     "jp": "書く",
     "pron": "siá",
     "example": "我欲寫。",
-    "exampleJp": "私は「書く」を使って話してみます。"
+    "exampleJp": "私は「書く」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 461,
@@ -4146,7 +5539,10 @@ window.WORDS = [
     "jp": "読む",
     "pron": "tha̍k",
     "example": "我欲讀。",
-    "exampleJp": "私は「読む」を使って話してみます。"
+    "exampleJp": "私は「読む」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 462,
@@ -4155,7 +5551,10 @@ window.WORDS = [
     "jp": "文字を入力する",
     "pron": "phah-jī",
     "example": "我欲拍字。",
-    "exampleJp": "私は「文字を入力する」を使って話してみます。"
+    "exampleJp": "私は「文字を入力する」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 463,
@@ -4164,7 +5563,10 @@ window.WORDS = [
     "jp": "する／作る",
     "pron": "tsò",
     "example": "我欲做。",
-    "exampleJp": "私は「する／作る」を使って話してみます。"
+    "exampleJp": "私は「する／作る」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 464,
@@ -4173,7 +5575,10 @@ window.WORDS = [
     "jp": "働く／仕事",
     "pron": "kang-tsok",
     "example": "我欲工作。",
-    "exampleJp": "私は「働く／仕事」を使って話してみます。"
+    "exampleJp": "私は「働く／仕事」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 465,
@@ -4182,7 +5587,10 @@ window.WORDS = [
     "jp": "食べる",
     "pron": "tsia̍h",
     "example": "我欲食。",
-    "exampleJp": "私は「食べる」を使って話してみます。"
+    "exampleJp": "私は「食べる」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 466,
@@ -4191,7 +5599,10 @@ window.WORDS = [
     "jp": "飲む",
     "pron": "lim",
     "example": "我欲啉。",
-    "exampleJp": "私は「飲む」を使って話してみます。"
+    "exampleJp": "私は「飲む」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 467,
@@ -4200,7 +5611,10 @@ window.WORDS = [
     "jp": "寝る",
     "pron": "khùn",
     "example": "我欲睏。",
-    "exampleJp": "私は「寝る」を使って話してみます。"
+    "exampleJp": "私は「寝る」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 468,
@@ -4209,7 +5623,10 @@ window.WORDS = [
     "jp": "起きる",
     "pron": "khí-lâi",
     "example": "我欲起來。",
-    "exampleJp": "私は「起きる」を使って話してみます。"
+    "exampleJp": "私は「起きる」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 469,
@@ -4218,7 +5635,10 @@ window.WORDS = [
     "jp": "座る",
     "pron": "tsē",
     "example": "我欲坐。",
-    "exampleJp": "私は「座る」を使って話してみます。"
+    "exampleJp": "私は「座る」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 470,
@@ -4227,7 +5647,10 @@ window.WORDS = [
     "jp": "立つ",
     "pron": "khiā",
     "example": "我欲徛。",
-    "exampleJp": "私は「立つ」を使って話してみます。"
+    "exampleJp": "私は「立つ」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 471,
@@ -4236,7 +5659,10 @@ window.WORDS = [
     "jp": "歩く",
     "pron": "kiânn",
     "example": "我欲行。",
-    "exampleJp": "私は「歩く」を使って話してみます。"
+    "exampleJp": "私は「歩く」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 472,
@@ -4245,7 +5671,10 @@ window.WORDS = [
     "jp": "走る",
     "pron": "tsáu",
     "example": "我欲走。",
-    "exampleJp": "私は「走る」を使って話してみます。"
+    "exampleJp": "私は「走る」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 473,
@@ -4254,7 +5683,10 @@ window.WORDS = [
     "jp": "来る",
     "pron": "lâi",
     "example": "我欲來。",
-    "exampleJp": "私は「来る」を使って話してみます。"
+    "exampleJp": "私は「来る」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 474,
@@ -4263,7 +5695,10 @@ window.WORDS = [
     "jp": "行く",
     "pron": "khì",
     "example": "我欲去。",
-    "exampleJp": "私は「行く」を使って話してみます。"
+    "exampleJp": "私は「行く」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 475,
@@ -4272,7 +5707,10 @@ window.WORDS = [
     "jp": "帰る／戻る",
     "pron": "tńg",
     "example": "我欲轉。",
-    "exampleJp": "私は「帰る／戻る」を使って話してみます。"
+    "exampleJp": "私は「帰る／戻る」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 476,
@@ -4281,7 +5719,10 @@ window.WORDS = [
     "jp": "入る",
     "pron": "ji̍p-khì",
     "example": "我欲入去。",
-    "exampleJp": "私は「入る」を使って話してみます。"
+    "exampleJp": "私は「入る」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 477,
@@ -4290,7 +5731,10 @@ window.WORDS = [
     "jp": "出てくる",
     "pron": "tshut-lâi",
     "example": "我欲出來。",
-    "exampleJp": "私は「出てくる」を使って話してみます。"
+    "exampleJp": "私は「出てくる」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 478,
@@ -4299,7 +5743,10 @@ window.WORDS = [
     "jp": "開ける",
     "pron": "khui",
     "example": "我欲開。",
-    "exampleJp": "私は「開ける」を使って話してみます。"
+    "exampleJp": "私は「開ける」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 479,
@@ -4308,7 +5755,10 @@ window.WORDS = [
     "jp": "閉める",
     "pron": "kuainn",
     "example": "我欲關。",
-    "exampleJp": "私は「閉める」を使って話してみます。"
+    "exampleJp": "私は「閉める」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 480,
@@ -4317,7 +5767,10 @@ window.WORDS = [
     "jp": "持つ／取る",
     "pron": "the̍h",
     "example": "我欲提。",
-    "exampleJp": "私は「持つ／取る」を使って話してみます。"
+    "exampleJp": "私は「持つ／取る」を使って話してみます。",
+    "kind": "word",
+    "level": "初級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 481,
@@ -4326,7 +5779,10 @@ window.WORDS = [
     "jp": "置く",
     "pron": "pàng",
     "example": "我欲放。",
-    "exampleJp": "私は「置く」を使って話してみます。"
+    "exampleJp": "私は「置く」を使って話してみます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 482,
@@ -4335,7 +5791,10 @@ window.WORDS = [
     "jp": "与える／〜に",
     "pron": "hōo",
     "example": "我欲予。",
-    "exampleJp": "私は「与える／〜に」を使って話してみます。"
+    "exampleJp": "私は「与える／〜に」を使って話してみます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 483,
@@ -4344,7 +5803,10 @@ window.WORDS = [
     "jp": "探す",
     "pron": "tshuē",
     "example": "我欲揣。",
-    "exampleJp": "私は「探す」を使って話してみます。"
+    "exampleJp": "私は「探す」を使って話してみます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 484,
@@ -4353,7 +5815,10 @@ window.WORDS = [
     "jp": "待つ",
     "pron": "tán",
     "example": "我欲等。",
-    "exampleJp": "私は「待つ」を使って話してみます。"
+    "exampleJp": "私は「待つ」を使って話してみます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 485,
@@ -4362,7 +5827,10 @@ window.WORDS = [
     "jp": "始める",
     "pron": "khai-sí",
     "example": "我欲開始。",
-    "exampleJp": "私は「始める」を使って話してみます。"
+    "exampleJp": "私は「始める」を使って話してみます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 486,
@@ -4371,7 +5839,10 @@ window.WORDS = [
     "jp": "終わる",
     "pron": "suah",
     "example": "我欲煞。",
-    "exampleJp": "私は「終わる」を使って話してみます。"
+    "exampleJp": "私は「終わる」を使って話してみます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 487,
@@ -4380,7 +5851,10 @@ window.WORDS = [
     "jp": "覚えている",
     "pron": "kì-tit",
     "example": "我欲記得。",
-    "exampleJp": "私は「覚えている」を使って話してみます。"
+    "exampleJp": "私は「覚えている」を使って話してみます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 488,
@@ -4389,7 +5863,10 @@ window.WORDS = [
     "jp": "忘れる",
     "pron": "bē-kì-tit",
     "example": "我欲袂記得。",
-    "exampleJp": "私は「忘れる」を使って話してみます。"
+    "exampleJp": "私は「忘れる」を使って話してみます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 489,
@@ -4398,7 +5875,10 @@ window.WORDS = [
     "jp": "思う",
     "pron": "siūnn",
     "example": "我欲想。",
-    "exampleJp": "私は「思う」を使って話してみます。"
+    "exampleJp": "私は「思う」を使って話してみます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 490,
@@ -4407,7 +5887,10 @@ window.WORDS = [
     "jp": "理解する",
     "pron": "liáu-kái",
     "example": "我欲了解。",
-    "exampleJp": "私は「理解する」を使って話してみます。"
+    "exampleJp": "私は「理解する」を使って話してみます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 491,
@@ -4416,7 +5899,10 @@ window.WORDS = [
     "jp": "うれしい",
     "pron": "huann-hí",
     "example": "我欲歡喜。",
-    "exampleJp": "私は「うれしい」を使って話してみます。"
+    "exampleJp": "私は「うれしい」を使って話してみます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 492,
@@ -4425,7 +5911,10 @@ window.WORDS = [
     "jp": "楽しい",
     "pron": "khuài-lo̍k",
     "example": "我欲快樂。",
-    "exampleJp": "私は「楽しい」を使って話してみます。"
+    "exampleJp": "私は「楽しい」を使って話してみます。",
+    "kind": "word",
+    "level": "中級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 493,
@@ -4434,7 +5923,10 @@ window.WORDS = [
     "jp": "怖い／驚く",
     "pron": "kiann",
     "example": "我欲驚。",
-    "exampleJp": "私は「怖い／驚く」を使って話してみます。"
+    "exampleJp": "私は「怖い／驚く」を使って話してみます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 494,
@@ -4443,7 +5935,10 @@ window.WORDS = [
     "jp": "怒る",
     "pron": "senn-khì",
     "example": "我欲生氣。",
-    "exampleJp": "私は「怒る」を使って話してみます。"
+    "exampleJp": "私は「怒る」を使って話してみます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 495,
@@ -4452,7 +5947,10 @@ window.WORDS = [
     "jp": "悲しい",
     "pron": "siong-sim",
     "example": "我欲傷心。",
-    "exampleJp": "私は「悲しい」を使って話してみます。"
+    "exampleJp": "私は「悲しい」を使って話してみます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 496,
@@ -4461,7 +5959,10 @@ window.WORDS = [
     "jp": "心配する",
     "pron": "huân-ló",
     "example": "我欲煩惱。",
-    "exampleJp": "私は「心配する」を使って話してみます。"
+    "exampleJp": "私は「心配する」を使って話してみます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 497,
@@ -4470,7 +5971,10 @@ window.WORDS = [
     "jp": "緊張する",
     "pron": "kín-tiunn",
     "example": "我欲緊張。",
-    "exampleJp": "私は「緊張する」を使って話してみます。"
+    "exampleJp": "私は「緊張する」を使って話してみます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 498,
@@ -4479,7 +5983,10 @@ window.WORDS = [
     "jp": "安心する",
     "pron": "hòng-sim",
     "example": "我欲放心。",
-    "exampleJp": "私は「安心する」を使って話してみます。"
+    "exampleJp": "私は「安心する」を使って話してみます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 499,
@@ -4488,7 +5995,10 @@ window.WORDS = [
     "jp": "気に入る／好む",
     "pron": "ì-ài",
     "example": "我欲意愛。",
-    "exampleJp": "私は「気に入る／好む」を使って話してみます。"
+    "exampleJp": "私は「気に入る／好む」を使って話してみます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
   },
   {
     "id": 500,
@@ -4497,6 +6007,6515 @@ window.WORDS = [
     "jp": "希望する",
     "pron": "hi-bāng",
     "example": "我欲希望。",
-    "exampleJp": "私は「希望する」を使って話してみます。"
+    "exampleJp": "私は「希望する」を使って話してみます。",
+    "kind": "word",
+    "level": "上級",
+    "source": "既存学習語彙／ChhoeTaigiDatabase参照"
+  },
+  {
+    "id": 501,
+    "category": "人・家族",
+    "tw": "阿祖",
+    "jp": "曾祖父・曾祖母",
+    "pron": "a-tsóo",
+    "example": "我欲記得「阿祖」。",
+    "exampleJp": "「曾祖父・曾祖母」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 502,
+    "category": "人・家族",
+    "tw": "外祖",
+    "jp": "母方の曾祖父母",
+    "pron": "guā-tsóo",
+    "example": "我欲記得「外祖」。",
+    "exampleJp": "「母方の曾祖父母」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 503,
+    "category": "人・家族",
+    "tw": "外公",
+    "jp": "母方の祖父",
+    "pron": "guā-kong",
+    "example": "我欲記得「外公」。",
+    "exampleJp": "「母方の祖父」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 504,
+    "category": "人・家族",
+    "tw": "外媽",
+    "jp": "母方の祖母",
+    "pron": "guā-má",
+    "example": "我欲記得「外媽」。",
+    "exampleJp": "「母方の祖母」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 505,
+    "category": "人・家族",
+    "tw": "阿姑",
+    "jp": "父方のおば",
+    "pron": "a-koo",
+    "example": "我欲記得「阿姑」。",
+    "exampleJp": "「父方のおば」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 506,
+    "category": "人・家族",
+    "tw": "姑丈",
+    "jp": "父方のおばの夫",
+    "pron": "koo-tiūnn",
+    "example": "我欲記得「姑丈」。",
+    "exampleJp": "「父方のおばの夫」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 507,
+    "category": "人・家族",
+    "tw": "阿舅",
+    "jp": "母方のおじ",
+    "pron": "a-kū",
+    "example": "我欲記得「阿舅」。",
+    "exampleJp": "「母方のおじ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 508,
+    "category": "人・家族",
+    "tw": "阿妗",
+    "jp": "母方のおじの妻",
+    "pron": "a-kīm",
+    "example": "我欲記得「阿妗」。",
+    "exampleJp": "「母方のおじの妻」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 509,
+    "category": "人・家族",
+    "tw": "阿姨",
+    "jp": "母方のおば",
+    "pron": "a-î",
+    "example": "我欲記得「阿姨」。",
+    "exampleJp": "「母方のおば」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 510,
+    "category": "人・家族",
+    "tw": "姨丈",
+    "jp": "母方のおばの夫",
+    "pron": "î-tiūnn",
+    "example": "我欲記得「姨丈」。",
+    "exampleJp": "「母方のおばの夫」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 511,
+    "category": "人・家族",
+    "tw": "阿伯",
+    "jp": "父の兄",
+    "pron": "a-peh",
+    "example": "我欲記得「阿伯」。",
+    "exampleJp": "「父の兄」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 512,
+    "category": "人・家族",
+    "tw": "阿姆",
+    "jp": "父の兄の妻",
+    "pron": "a-ḿ",
+    "example": "我欲記得「阿姆」。",
+    "exampleJp": "「父の兄の妻」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 513,
+    "category": "人・家族",
+    "tw": "阿叔",
+    "jp": "父の弟",
+    "pron": "a-tsik",
+    "example": "我欲記得「阿叔」。",
+    "exampleJp": "「父の弟」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 514,
+    "category": "人・家族",
+    "tw": "阿嬸",
+    "jp": "父の弟の妻",
+    "pron": "a-tsím",
+    "example": "我欲記得「阿嬸」。",
+    "exampleJp": "「父の弟の妻」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 515,
+    "category": "人・家族",
+    "tw": "阿兄",
+    "jp": "兄",
+    "pron": "a-hiann",
+    "example": "我欲記得「阿兄」。",
+    "exampleJp": "「兄」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 516,
+    "category": "人・家族",
+    "tw": "阿嫂",
+    "jp": "兄の妻",
+    "pron": "a-só",
+    "example": "我欲記得「阿嫂」。",
+    "exampleJp": "「兄の妻」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 517,
+    "category": "人・家族",
+    "tw": "母親",
+    "jp": "母親",
+    "pron": "bú-tshin",
+    "example": "我欲記得「母親」。",
+    "exampleJp": "「母親」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 518,
+    "category": "人・家族",
+    "tw": "查埔人",
+    "jp": "男性",
+    "pron": "tsa-poo-lâng",
+    "example": "我欲記得「查埔人」。",
+    "exampleJp": "「男性」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 519,
+    "category": "食事・飲み物",
+    "tw": "茄仔",
+    "jp": "ナス",
+    "pron": "kiô",
+    "example": "我欲記得「茄仔」。",
+    "exampleJp": "「ナス」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 520,
+    "category": "家・日用品",
+    "tw": "紅毛塗",
+    "jp": "セメント",
+    "pron": "âng-môo-thôo",
+    "example": "我欲記得「紅毛塗」。",
+    "exampleJp": "「セメント」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 521,
+    "category": "家・日用品",
+    "tw": "盒仔",
+    "jp": "小箱／ケース",
+    "pron": "a̍p",
+    "example": "我欲記得「盒仔」。",
+    "exampleJp": "「小箱／ケース」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 522,
+    "category": "動作・感情",
+    "tw": "壓迫",
+    "jp": "圧迫する",
+    "pron": "ap-pik",
+    "example": "我欲記得「壓迫」。",
+    "exampleJp": "「圧迫する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 523,
+    "category": "動作・感情",
+    "tw": "折",
+    "jp": "折る／折れる",
+    "pron": "at",
+    "example": "我欲記得「折」。",
+    "exampleJp": "「折る／折れる」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 524,
+    "category": "交通・場所",
+    "tw": "後",
+    "jp": "後ろ／後",
+    "pron": "āu",
+    "example": "我欲記得「後」。",
+    "exampleJp": "「後ろ／後」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 525,
+    "category": "交通・場所",
+    "tw": "後面",
+    "jp": "後ろ",
+    "pron": "āu-bīn",
+    "example": "我欲記得「後面」。",
+    "exampleJp": "「後ろ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 526,
+    "category": "数字・時間",
+    "tw": "後擺",
+    "jp": "次回／今後",
+    "pron": "āu-pái",
+    "example": "我欲記得「後擺」。",
+    "exampleJp": "「次回／今後」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 527,
+    "category": "数字・時間",
+    "tw": "後來",
+    "jp": "その後／後になって",
+    "pron": "āu-lâi",
+    "example": "我欲記得「後來」。",
+    "exampleJp": "「その後／後になって」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 528,
+    "category": "数字・時間",
+    "tw": "後個月",
+    "jp": "来月",
+    "pron": "āu-kóo-gue̍h",
+    "example": "我欲記得「後個月」。",
+    "exampleJp": "「来月」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 529,
+    "category": "家・日用品",
+    "tw": "甌仔",
+    "jp": "コップ／カップ",
+    "pron": "au-á",
+    "example": "我欲記得「甌仔」。",
+    "exampleJp": "「コップ／カップ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 530,
+    "category": "家・日用品",
+    "tw": "茶甌仔",
+    "jp": "湯のみ／ティーカップ",
+    "pron": "tê au-á",
+    "example": "我欲記得「茶甌仔」。",
+    "exampleJp": "「湯のみ／ティーカップ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 531,
+    "category": "交通・場所",
+    "tw": "歐洲",
+    "jp": "ヨーロッパ",
+    "pron": "au-tsiu",
+    "example": "我欲記得「歐洲」。",
+    "exampleJp": "「ヨーロッパ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 532,
+    "category": "食事・飲み物",
+    "tw": "臭酸",
+    "jp": "腐っている",
+    "pron": "àu",
+    "example": "我欲記得「臭酸」。",
+    "exampleJp": "「腐っている」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 533,
+    "category": "動作・感情",
+    "tw": "拗",
+    "jp": "曲げる",
+    "pron": "áu",
+    "example": "我欲記得「拗」。",
+    "exampleJp": "「曲げる」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 534,
+    "category": "交通・場所",
+    "tw": "騎",
+    "jp": "乗る（またがる）",
+    "pron": "khiâ",
+    "example": "我欲記得「騎」。",
+    "exampleJp": "「乗る（またがる）」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 535,
+    "category": "買い物・お金",
+    "tw": "買賣",
+    "jp": "売買／商売",
+    "pron": "bé-bē",
+    "example": "我欲記得「買賣」。",
+    "exampleJp": "「売買／商売」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 536,
+    "category": "あいさつ・基本",
+    "tw": "袂用得",
+    "jp": "使えない",
+    "pron": "bē īng--tit",
+    "example": "我欲記得「袂用得」。",
+    "exampleJp": "「使えない」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 537,
+    "category": "動作・感情",
+    "tw": "袂信得",
+    "jp": "信じられない",
+    "pron": "bē sìn--tit",
+    "example": "我欲記得「袂信得」。",
+    "exampleJp": "「信じられない」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 538,
+    "category": "動作・感情",
+    "tw": "袂認得",
+    "jp": "見分けられない／知らない",
+    "pron": "bē jīn--tit",
+    "example": "我欲記得「袂認得」。",
+    "exampleJp": "「見分けられない／知らない」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 539,
+    "category": "あいさつ・基本",
+    "tw": "袂當",
+    "jp": "できない／してはいけない",
+    "pron": "bē-tàng",
+    "example": "我欲記得「袂當」。",
+    "exampleJp": "「できない／してはいけない」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 540,
+    "category": "あいさつ・基本",
+    "tw": "無啥物",
+    "jp": "たいしたことがない／特にない",
+    "pron": "bô sím-mih",
+    "example": "我欲記得「無啥物」。",
+    "exampleJp": "「たいしたことがない／特にない」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 541,
+    "category": "動作・感情",
+    "tw": "無彩",
+    "jp": "残念だ／もったいない",
+    "pron": "bô-tshái",
+    "example": "我欲記得「無彩」。",
+    "exampleJp": "「残念だ／もったいない」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 542,
+    "category": "あいさつ・基本",
+    "tw": "無對",
+    "jp": "間違っている",
+    "pron": "bô-tuì",
+    "example": "我欲記得「無對」。",
+    "exampleJp": "「間違っている」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 543,
+    "category": "人・家族",
+    "tw": "無禮貌",
+    "jp": "礼儀がない",
+    "pron": "bô lé-māu",
+    "example": "我欲記得「無禮貌」。",
+    "exampleJp": "「礼儀がない」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 544,
+    "category": "あいさつ・基本",
+    "tw": "無論",
+    "jp": "〜にかかわらず",
+    "pron": "bô-lūn",
+    "example": "我欲記得「無論」。",
+    "exampleJp": "「〜にかかわらず」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 545,
+    "category": "あいさつ・基本",
+    "tw": "無論啥物",
+    "jp": "何であっても",
+    "pron": "bô-lūn sím-mih",
+    "example": "我欲記得「無論啥物」。",
+    "exampleJp": "「何であっても」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 546,
+    "category": "あいさつ・基本",
+    "tw": "無論啥物人",
+    "jp": "誰であっても",
+    "pron": "bô-lūn sím-mih lâng",
+    "example": "我欲記得「無論啥物人」。",
+    "exampleJp": "「誰であっても」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 547,
+    "category": "あいさつ・基本",
+    "tw": "無論佗位",
+    "jp": "どこであっても",
+    "pron": "bô-lūn tó-uī",
+    "example": "我欲記得「無論佗位」。",
+    "exampleJp": "「どこであっても」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 548,
+    "category": "動作・感情",
+    "tw": "描",
+    "jp": "なぞる／描き写す",
+    "pron": "biô",
+    "example": "我欲記得「描」。",
+    "exampleJp": "「なぞる／描き写す」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 549,
+    "category": "食事・飲み物",
+    "tw": "蜜",
+    "jp": "はちみつ",
+    "pron": "bi̍t",
+    "example": "我欲記得「蜜」。",
+    "exampleJp": "「はちみつ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 550,
+    "category": "天気・自然",
+    "tw": "蜜蜂",
+    "jp": "ミツバチ",
+    "pron": "bi̍t-phang",
+    "example": "我欲記得「蜜蜂」。",
+    "exampleJp": "「ミツバチ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 551,
+    "category": "交通・場所",
+    "tw": "蜜月",
+    "jp": "新婚旅行／ハネムーン",
+    "pron": "bi̍t-gua̍t",
+    "example": "我欲記得「蜜月」。",
+    "exampleJp": "「新婚旅行／ハネムーン」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 552,
+    "category": "交通・場所",
+    "tw": "蜜月旅行",
+    "jp": "新婚旅行",
+    "pron": "bi̍t-gua̍t lí-hîng",
+    "example": "我欲記得「蜜月旅行」。",
+    "exampleJp": "「新婚旅行」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 553,
+    "category": "あいさつ・基本",
+    "tw": "問題",
+    "jp": "問題／質問",
+    "pron": "būn-tê",
+    "example": "我欲記得「問題」。",
+    "exampleJp": "「問題／質問」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 554,
+    "category": "あいさつ・基本",
+    "tw": "問答",
+    "jp": "質疑応答／問答",
+    "pron": "būn-tap",
+    "example": "我欲記得「問答」。",
+    "exampleJp": "「質疑応答／問答」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 555,
+    "category": "動作・感情",
+    "tw": "文學",
+    "jp": "文学",
+    "pron": "bûn-ha̍k",
+    "example": "我欲記得「文學」。",
+    "exampleJp": "「文学」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 556,
+    "category": "人・家族",
+    "tw": "文化",
+    "jp": "文化",
+    "pron": "bûn-huà",
+    "example": "我欲記得「文化」。",
+    "exampleJp": "「文化」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 557,
+    "category": "家・日用品",
+    "tw": "文書",
+    "jp": "文書",
+    "pron": "bûn-si",
+    "example": "我欲記得「文書」。",
+    "exampleJp": "「文書」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 558,
+    "category": "家・日用品",
+    "tw": "公文書",
+    "jp": "公文書",
+    "pron": "kong-bûn-si",
+    "example": "我欲記得「公文書」。",
+    "exampleJp": "「公文書」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 559,
+    "category": "交通・場所",
+    "tw": "舞台",
+    "jp": "舞台",
+    "pron": "bú-tâi",
+    "example": "我欲記得「舞台」。",
+    "exampleJp": "「舞台」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 560,
+    "category": "食事・飲み物",
+    "tw": "無花果",
+    "jp": "イチジク",
+    "pron": "bû-hua-kó",
+    "example": "我欲記得「無花果」。",
+    "exampleJp": "「イチジク」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 561,
+    "category": "体・健康",
+    "tw": "盲腸",
+    "jp": "虫垂",
+    "pron": "bông-tn̂g",
+    "example": "我欲記得「盲腸」。",
+    "exampleJp": "「虫垂」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 562,
+    "category": "体・健康",
+    "tw": "盲腸炎",
+    "jp": "虫垂炎",
+    "pron": "bông-tn̂g-iām",
+    "example": "我欲記得「盲腸炎」。",
+    "exampleJp": "「虫垂炎」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 563,
+    "category": "交通・場所",
+    "tw": "墓",
+    "jp": "墓",
+    "pron": "bōng",
+    "example": "我欲記得「墓」。",
+    "exampleJp": "「墓」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 564,
+    "category": "交通・場所",
+    "tw": "車票",
+    "jp": "乗車券／切符",
+    "pron": "tshia-phiò",
+    "example": "我欲記得「車票」。",
+    "exampleJp": "「乗車券／切符」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 565,
+    "category": "交通・場所",
+    "tw": "飛機",
+    "jp": "飛行機",
+    "pron": "hui-ki",
+    "example": "我欲記得「飛機」。",
+    "exampleJp": "「飛行機」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 566,
+    "category": "交通・場所",
+    "tw": "出口",
+    "jp": "出口",
+    "pron": "tshut-kháu",
+    "example": "我欲記得「出口」。",
+    "exampleJp": "「出口」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 567,
+    "category": "交通・場所",
+    "tw": "入口",
+    "jp": "入口",
+    "pron": "ji̍p-kháu",
+    "example": "我欲記得「入口」。",
+    "exampleJp": "「入口」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 568,
+    "category": "交通・場所",
+    "tw": "路口",
+    "jp": "交差点／道の入口",
+    "pron": "lōo-kháu",
+    "example": "我欲記得「路口」。",
+    "exampleJp": "「交差点／道の入口」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 569,
+    "category": "家・日用品",
+    "tw": "電話",
+    "jp": "電話",
+    "pron": "tiān-uē",
+    "example": "我欲記得「電話」。",
+    "exampleJp": "「電話」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 570,
+    "category": "動作・感情",
+    "tw": "拍電話",
+    "jp": "電話をかける",
+    "pron": "phah tiān-uē",
+    "example": "我欲記得「拍電話」。",
+    "exampleJp": "「電話をかける」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 571,
+    "category": "家・日用品",
+    "tw": "手機",
+    "jp": "携帯電話／スマホ",
+    "pron": "tshiú-ki",
+    "example": "我欲記得「手機」。",
+    "exampleJp": "「携帯電話／スマホ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 572,
+    "category": "家・日用品",
+    "tw": "電子批",
+    "jp": "電子メール",
+    "pron": "tiān-tsú-phue",
+    "example": "我欲記得「電子批」。",
+    "exampleJp": "「電子メール」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 573,
+    "category": "家・日用品",
+    "tw": "批",
+    "jp": "手紙",
+    "pron": "phue",
+    "example": "我欲記得「批」。",
+    "exampleJp": "「手紙」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 574,
+    "category": "家・日用品",
+    "tw": "批殼",
+    "jp": "封筒",
+    "pron": "phue-khak",
+    "example": "我欲記得「批殼」。",
+    "exampleJp": "「封筒」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 575,
+    "category": "家・日用品",
+    "tw": "報紙",
+    "jp": "新聞",
+    "pron": "pò-tsuá",
+    "example": "我欲記得「報紙」。",
+    "exampleJp": "「新聞」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 576,
+    "category": "食事・飲み物",
+    "tw": "早頓",
+    "jp": "朝食",
+    "pron": "tsá-tǹg",
+    "example": "我欲記得「早頓」。",
+    "exampleJp": "「朝食」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 577,
+    "category": "食事・飲み物",
+    "tw": "中晝頓",
+    "jp": "昼食",
+    "pron": "tiong-tàu-tǹg",
+    "example": "我欲記得「中晝頓」。",
+    "exampleJp": "「昼食」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 578,
+    "category": "食事・飲み物",
+    "tw": "暗頓",
+    "jp": "夕食",
+    "pron": "àm-tǹg",
+    "example": "我欲記得「暗頓」。",
+    "exampleJp": "「夕食」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 579,
+    "category": "食事・飲み物",
+    "tw": "頓",
+    "jp": "食事の回／一食",
+    "pron": "tǹg",
+    "example": "我欲記得「頓」。",
+    "exampleJp": "「食事の回／一食」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 580,
+    "category": "食事・飲み物",
+    "tw": "湯",
+    "jp": "スープ／汁",
+    "pron": "thng",
+    "example": "我欲記得「湯」。",
+    "exampleJp": "「スープ／汁」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 581,
+    "category": "食事・飲み物",
+    "tw": "菜湯",
+    "jp": "野菜スープ",
+    "pron": "tshài-thng",
+    "example": "我欲記得「菜湯」。",
+    "exampleJp": "「野菜スープ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 582,
+    "category": "食事・飲み物",
+    "tw": "肉湯",
+    "jp": "肉のスープ",
+    "pron": "bah-thng",
+    "example": "我欲記得「肉湯」。",
+    "exampleJp": "「肉のスープ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 583,
+    "category": "食事・飲み物",
+    "tw": "牛肉麵",
+    "jp": "牛肉麺",
+    "pron": "gû-bah-mī",
+    "example": "我欲記得「牛肉麵」。",
+    "exampleJp": "「牛肉麺」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 584,
+    "category": "食事・飲み物",
+    "tw": "炒麵",
+    "jp": "焼きそば／炒め麺",
+    "pron": "tshá-mī",
+    "example": "我欲記得「炒麵」。",
+    "exampleJp": "「焼きそば／炒め麺」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 585,
+    "category": "食事・飲み物",
+    "tw": "炒飯",
+    "jp": "チャーハン",
+    "pron": "tshá-pn̄g",
+    "example": "我欲記得「炒飯」。",
+    "exampleJp": "「チャーハン」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 586,
+    "category": "食事・飲み物",
+    "tw": "肉粽",
+    "jp": "肉入りちまき",
+    "pron": "bah-tsàng",
+    "example": "我欲記得「肉粽」。",
+    "exampleJp": "「肉入りちまき」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 587,
+    "category": "食事・飲み物",
+    "tw": "粽",
+    "jp": "ちまき",
+    "pron": "tsàng",
+    "example": "我欲記得「粽」。",
+    "exampleJp": "「ちまき」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 588,
+    "category": "食事・飲み物",
+    "tw": "丸仔",
+    "jp": "団子／つみれ",
+    "pron": "uân-á",
+    "example": "我欲記得「丸仔」。",
+    "exampleJp": "「団子／つみれ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 589,
+    "category": "食事・飲み物",
+    "tw": "蚵仔",
+    "jp": "カキ",
+    "pron": "ô-á",
+    "example": "我欲記得「蚵仔」。",
+    "exampleJp": "「カキ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 590,
+    "category": "食事・飲み物",
+    "tw": "蚵仔煎",
+    "jp": "カキ入りオムレツ",
+    "pron": "ô-á-tsian",
+    "example": "我欲記得「蚵仔煎」。",
+    "exampleJp": "「カキ入りオムレツ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 591,
+    "category": "食事・飲み物",
+    "tw": "臭豆腐",
+    "jp": "臭豆腐",
+    "pron": "tshàu-tāu-hū",
+    "example": "我欲記得「臭豆腐」。",
+    "exampleJp": "「臭豆腐」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 592,
+    "category": "食事・飲み物",
+    "tw": "豆花",
+    "jp": "豆花",
+    "pron": "tāu-hue",
+    "example": "我欲記得「豆花」。",
+    "exampleJp": "「豆花」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 593,
+    "category": "動作・感情",
+    "tw": "煎",
+    "jp": "焼く／煎る",
+    "pron": "tsian",
+    "example": "我欲記得「煎」。",
+    "exampleJp": "「焼く／煎る」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 594,
+    "category": "動作・感情",
+    "tw": "炒",
+    "jp": "炒める",
+    "pron": "tshá",
+    "example": "我欲記得「炒」。",
+    "exampleJp": "「炒める」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 595,
+    "category": "動作・感情",
+    "tw": "煮",
+    "jp": "煮る／料理する",
+    "pron": "tsú",
+    "example": "我欲記得「煮」。",
+    "exampleJp": "「煮る／料理する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 596,
+    "category": "動作・感情",
+    "tw": "炊",
+    "jp": "蒸す",
+    "pron": "tshue",
+    "example": "我欲記得「炊」。",
+    "exampleJp": "「蒸す」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 597,
+    "category": "動作・感情",
+    "tw": "切",
+    "jp": "切る",
+    "pron": "tshiat",
+    "example": "我欲記得「切」。",
+    "exampleJp": "「切る」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 598,
+    "category": "動作・感情",
+    "tw": "剝",
+    "jp": "むく／はがす",
+    "pron": "pak",
+    "example": "我欲記得「剝」。",
+    "exampleJp": "「むく／はがす」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 599,
+    "category": "動作・感情",
+    "tw": "洗",
+    "jp": "洗う",
+    "pron": "sé",
+    "example": "我欲記得「洗」。",
+    "exampleJp": "「洗う」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 600,
+    "category": "動作・感情",
+    "tw": "拭",
+    "jp": "拭く",
+    "pron": "tshit",
+    "example": "我欲記得「拭」。",
+    "exampleJp": "「拭く」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 601,
+    "category": "動作・感情",
+    "tw": "掃",
+    "jp": "掃く",
+    "pron": "sàu",
+    "example": "我欲記得「掃」。",
+    "exampleJp": "「掃く」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 602,
+    "category": "交通・場所",
+    "tw": "開車",
+    "jp": "車を運転する",
+    "pron": "khui-tshia",
+    "example": "我欲記得「開車」。",
+    "exampleJp": "「車を運転する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 603,
+    "category": "交通・場所",
+    "tw": "駛車",
+    "jp": "車を運転する",
+    "pron": "sái-tshia",
+    "example": "我欲記得「駛車」。",
+    "exampleJp": "「車を運転する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 604,
+    "category": "交通・場所",
+    "tw": "上車",
+    "jp": "乗車する",
+    "pron": "tsiūnn-tshia",
+    "example": "我欲記得「上車」。",
+    "exampleJp": "「乗車する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 605,
+    "category": "交通・場所",
+    "tw": "落車",
+    "jp": "降車する",
+    "pron": "lo̍h-tshia",
+    "example": "我欲記得「落車」。",
+    "exampleJp": "「降車する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 606,
+    "category": "交通・場所",
+    "tw": "轉車",
+    "jp": "乗り換える",
+    "pron": "tńg-tshia",
+    "example": "我欲記得「轉車」。",
+    "exampleJp": "「乗り換える」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 607,
+    "category": "交通・場所",
+    "tw": "過路",
+    "jp": "道を渡る",
+    "pron": "kuè-lōo",
+    "example": "我欲記得「過路」。",
+    "exampleJp": "「道を渡る」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 608,
+    "category": "動作・感情",
+    "tw": "過",
+    "jp": "通る／過ぎる",
+    "pron": "kuè",
+    "example": "我欲記得「過」。",
+    "exampleJp": "「通る／過ぎる」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 609,
+    "category": "交通・場所",
+    "tw": "等車",
+    "jp": "乗り物を待つ",
+    "pron": "tán-tshia",
+    "example": "我欲記得「等車」。",
+    "exampleJp": "「乗り物を待つ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 610,
+    "category": "動作・感情",
+    "tw": "帶",
+    "jp": "連れて行く／持っていく",
+    "pron": "tshuā",
+    "example": "我欲記得「帶」。",
+    "exampleJp": "「連れて行く／持っていく」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 611,
+    "category": "動作・感情",
+    "tw": "蹛",
+    "jp": "住む／滞在する",
+    "pron": "tuà",
+    "example": "我欲記得「蹛」。",
+    "exampleJp": "「住む／滞在する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 612,
+    "category": "動作・感情",
+    "tw": "𨑨迌",
+    "jp": "遊ぶ／出かけて楽しむ",
+    "pron": "tshit-thô",
+    "example": "我欲記得「𨑨迌」。",
+    "exampleJp": "「遊ぶ／出かけて楽しむ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 613,
+    "category": "動作・感情",
+    "tw": "耍",
+    "jp": "遊ぶ",
+    "pron": "sńg",
+    "example": "我欲記得「耍」。",
+    "exampleJp": "「遊ぶ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 614,
+    "category": "動作・感情",
+    "tw": "講話",
+    "jp": "話す",
+    "pron": "kóng-uē",
+    "example": "我欲記得「講話」。",
+    "exampleJp": "「話す」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 615,
+    "category": "動作・感情",
+    "tw": "看冊",
+    "jp": "本を読む",
+    "pron": "khuànn-tsheh",
+    "example": "我欲記得「看冊」。",
+    "exampleJp": "「本を読む」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 616,
+    "category": "動作・感情",
+    "tw": "讀冊",
+    "jp": "勉強する／本を読む",
+    "pron": "tha̍k-tsheh",
+    "example": "我欲記得「讀冊」。",
+    "exampleJp": "「勉強する／本を読む」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 617,
+    "category": "動作・感情",
+    "tw": "寫字",
+    "jp": "字を書く",
+    "pron": "siá-jī",
+    "example": "我欲記得「寫字」。",
+    "exampleJp": "「字を書く」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 618,
+    "category": "動作・感情",
+    "tw": "開會",
+    "jp": "会議をする",
+    "pron": "khui-huē",
+    "example": "我欲記得「開會」。",
+    "exampleJp": "「会議をする」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 619,
+    "category": "家・日用品",
+    "tw": "會議",
+    "jp": "会議",
+    "pron": "huē-gī",
+    "example": "我欲記得「會議」。",
+    "exampleJp": "「会議」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 620,
+    "category": "交通・場所",
+    "tw": "辦公室",
+    "jp": "オフィス",
+    "pron": "pān-kong-sik",
+    "example": "我欲記得「辦公室」。",
+    "exampleJp": "「オフィス」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 621,
+    "category": "人・家族",
+    "tw": "職業",
+    "jp": "職業",
+    "pron": "tsit-gia̍p",
+    "example": "我欲記得「職業」。",
+    "exampleJp": "「職業」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 622,
+    "category": "買い物・お金",
+    "tw": "薪水",
+    "jp": "給料",
+    "pron": "sin-suí",
+    "example": "我欲記得「薪水」。",
+    "exampleJp": "「給料」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 623,
+    "category": "動作・感情",
+    "tw": "請假",
+    "jp": "休暇を取る／欠席を届ける",
+    "pron": "tshíng-ká",
+    "example": "我欲記得「請假」。",
+    "exampleJp": "「休暇を取る／欠席を届ける」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 624,
+    "category": "動作・感情",
+    "tw": "休假",
+    "jp": "休暇を取る",
+    "pron": "hiu-ká",
+    "example": "我欲記得「休假」。",
+    "exampleJp": "「休暇を取る」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 625,
+    "category": "動作・感情",
+    "tw": "幫忙",
+    "jp": "手伝う／手助け",
+    "pron": "pang-bâng",
+    "example": "我欲記得「幫忙」。",
+    "exampleJp": "「手伝う／手助け」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 626,
+    "category": "動作・感情",
+    "tw": "準備",
+    "jp": "準備する",
+    "pron": "tsún-pī",
+    "example": "我欲記得「準備」。",
+    "exampleJp": "「準備する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 627,
+    "category": "動作・感情",
+    "tw": "繼續",
+    "jp": "続ける",
+    "pron": "kè-sio̍k",
+    "example": "我欲記得「繼續」。",
+    "exampleJp": "「続ける」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 628,
+    "category": "動作・感情",
+    "tw": "停止",
+    "jp": "止める／停止する",
+    "pron": "thîng",
+    "example": "我欲記得「停止」。",
+    "exampleJp": "「止める／停止する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 629,
+    "category": "動作・感情",
+    "tw": "明白",
+    "jp": "はっきり分かる",
+    "pron": "bîng-pe̍k",
+    "example": "我欲記得「明白」。",
+    "exampleJp": "「はっきり分かる」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 630,
+    "category": "あいさつ・基本",
+    "tw": "袂曉",
+    "jp": "やり方を知らない",
+    "pron": "bē-hiáu",
+    "example": "我欲記得「袂曉」。",
+    "exampleJp": "「やり方を知らない」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 631,
+    "category": "あいさつ・基本",
+    "tw": "會曉",
+    "jp": "やり方を知っている／できる",
+    "pron": "ē-hiáu",
+    "example": "我欲記得「會曉」。",
+    "exampleJp": "「やり方を知っている／できる」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 632,
+    "category": "あいさつ・基本",
+    "tw": "通",
+    "jp": "〜してよい／可能である",
+    "pron": "thang",
+    "example": "我欲記得「通」。",
+    "exampleJp": "「〜してよい／可能である」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 633,
+    "category": "あいさつ・基本",
+    "tw": "無法度",
+    "jp": "方法がない／できない",
+    "pron": "bô huat-tōo",
+    "example": "我欲記得「無法度」。",
+    "exampleJp": "「方法がない／できない」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 634,
+    "category": "あいさつ・基本",
+    "tw": "有法度",
+    "jp": "方法がある／できる",
+    "pron": "ū huat-tōo",
+    "example": "我欲記得「有法度」。",
+    "exampleJp": "「方法がある／できる」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 635,
+    "category": "動作・感情",
+    "tw": "趣味",
+    "jp": "面白さ／趣味",
+    "pron": "tshù-bī",
+    "example": "我欲記得「趣味」。",
+    "exampleJp": "「面白さ／趣味」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 636,
+    "category": "動作・感情",
+    "tw": "無趣味",
+    "jp": "退屈だ／面白くない",
+    "pron": "bô-tshù-bī",
+    "example": "我欲記得「無趣味」。",
+    "exampleJp": "「退屈だ／面白くない」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 637,
+    "category": "動作・感情",
+    "tw": "簡單",
+    "jp": "簡単",
+    "pron": "kán-tan",
+    "example": "我欲記得「簡單」。",
+    "exampleJp": "「簡単」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 638,
+    "category": "動作・感情",
+    "tw": "困難",
+    "jp": "困難／難しい",
+    "pron": "khùn-lân",
+    "example": "我欲記得「困難」。",
+    "exampleJp": "「困難／難しい」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 639,
+    "category": "動作・感情",
+    "tw": "方便",
+    "jp": "便利",
+    "pron": "hong-piān",
+    "example": "我欲記得「方便」。",
+    "exampleJp": "「便利」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 640,
+    "category": "動作・感情",
+    "tw": "麻煩",
+    "jp": "面倒／迷惑",
+    "pron": "mâ-huân",
+    "example": "我欲記得「麻煩」。",
+    "exampleJp": "「面倒／迷惑」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 641,
+    "category": "動作・感情",
+    "tw": "重要",
+    "jp": "重要",
+    "pron": "tiōng-iàu",
+    "example": "我欲記得「重要」。",
+    "exampleJp": "「重要」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 642,
+    "category": "動作・感情",
+    "tw": "特別",
+    "jp": "特別",
+    "pron": "ti̍k-pia̍t",
+    "example": "我欲記得「特別」。",
+    "exampleJp": "「特別」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 643,
+    "category": "家・日用品",
+    "tw": "清氣",
+    "jp": "清潔／きれい",
+    "pron": "tshing-khì",
+    "example": "我欲記得「清氣」。",
+    "exampleJp": "「清潔／きれい」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 644,
+    "category": "天気・自然",
+    "tw": "烏暗",
+    "jp": "暗い",
+    "pron": "oo-àm",
+    "example": "我欲記得「烏暗」。",
+    "exampleJp": "「暗い」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 645,
+    "category": "天気・自然",
+    "tw": "光",
+    "jp": "明るい／光",
+    "pron": "kng",
+    "example": "我欲記得「光」。",
+    "exampleJp": "「明るい／光」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 646,
+    "category": "動作・感情",
+    "tw": "懸",
+    "jp": "高い",
+    "pron": "kuân",
+    "example": "我欲記得「懸」。",
+    "exampleJp": "「高い」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 647,
+    "category": "動作・感情",
+    "tw": "低",
+    "jp": "低い",
+    "pron": "kē",
+    "example": "我欲記得「低」。",
+    "exampleJp": "「低い」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 648,
+    "category": "動作・感情",
+    "tw": "闊",
+    "jp": "広い",
+    "pron": "khuah",
+    "example": "我欲記得「闊」。",
+    "exampleJp": "「広い」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 649,
+    "category": "動作・感情",
+    "tw": "狹",
+    "jp": "狭い",
+    "pron": "e̍h",
+    "example": "我欲記得「狹」。",
+    "exampleJp": "「狭い」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 650,
+    "category": "動作・感情",
+    "tw": "重",
+    "jp": "重い",
+    "pron": "tāng",
+    "example": "我欲記得「重」。",
+    "exampleJp": "「重い」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 651,
+    "category": "動作・感情",
+    "tw": "輕",
+    "jp": "軽い",
+    "pron": "khin",
+    "example": "我欲記得「輕」。",
+    "exampleJp": "「軽い」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 652,
+    "category": "動作・感情",
+    "tw": "厚",
+    "jp": "厚い",
+    "pron": "kāu",
+    "example": "我欲記得「厚」。",
+    "exampleJp": "「厚い」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 653,
+    "category": "動作・感情",
+    "tw": "薄",
+    "jp": "薄い",
+    "pron": "po̍h",
+    "example": "我欲記得「薄」。",
+    "exampleJp": "「薄い」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 654,
+    "category": "動作・感情",
+    "tw": "硬",
+    "jp": "硬い",
+    "pron": "ngē",
+    "example": "我欲記得「硬」。",
+    "exampleJp": "「硬い」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 655,
+    "category": "動作・感情",
+    "tw": "軟",
+    "jp": "柔らかい",
+    "pron": "nńg",
+    "example": "我欲記得「軟」。",
+    "exampleJp": "「柔らかい」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 656,
+    "category": "動作・感情",
+    "tw": "緊",
+    "jp": "速い／急いで",
+    "pron": "kín",
+    "example": "我欲記得「緊」。",
+    "exampleJp": "「速い／急いで」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 657,
+    "category": "動作・感情",
+    "tw": "好看",
+    "jp": "見た目がよい",
+    "pron": "hó-khuànn",
+    "example": "我欲記得「好看」。",
+    "exampleJp": "「見た目がよい」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 658,
+    "category": "動作・感情",
+    "tw": "䆀",
+    "jp": "醜い／よくない",
+    "pron": "bái",
+    "example": "我欲記得「䆀」。",
+    "exampleJp": "「醜い／よくない」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 659,
+    "category": "動作・感情",
+    "tw": "較好",
+    "jp": "よりよい",
+    "pron": "khah hó",
+    "example": "我欲記得「較好」。",
+    "exampleJp": "「よりよい」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 660,
+    "category": "動作・感情",
+    "tw": "上好",
+    "jp": "最もよい",
+    "pron": "siōng hó",
+    "example": "我欲記得「上好」。",
+    "exampleJp": "「最もよい」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 661,
+    "category": "人・家族",
+    "tw": "有名",
+    "jp": "有名",
+    "pron": "ū-miâ",
+    "example": "我欲記得「有名」。",
+    "exampleJp": "「有名」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 662,
+    "category": "食事・飲み物",
+    "tw": "新鮮",
+    "jp": "新鮮",
+    "pron": "sin-sian",
+    "example": "我欲記得「新鮮」。",
+    "exampleJp": "「新鮮」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 663,
+    "category": "体・健康",
+    "tw": "精神",
+    "jp": "元気／精神",
+    "pron": "tsing-sîn",
+    "example": "我欲記得「精神」。",
+    "exampleJp": "「元気／精神」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 664,
+    "category": "体・健康",
+    "tw": "無精神",
+    "jp": "元気がない",
+    "pron": "bô tsing-sîn",
+    "example": "我欲記得「無精神」。",
+    "exampleJp": "「元気がない」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 665,
+    "category": "動作・感情",
+    "tw": "要緊",
+    "jp": "重要／大事",
+    "pron": "iàu-kín",
+    "example": "我欲記得「要緊」。",
+    "exampleJp": "「重要／大事」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 666,
+    "category": "あいさつ・基本",
+    "tw": "親像",
+    "jp": "〜のようだ／似ている",
+    "pron": "tshin-tshiūnn",
+    "example": "我欲記得「親像」。",
+    "exampleJp": "「〜のようだ／似ている」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 667,
+    "category": "あいさつ・基本",
+    "tw": "仝款",
+    "jp": "同じ種類／同じよう",
+    "pron": "kāng-khuán",
+    "example": "我欲記得「仝款」。",
+    "exampleJp": "「同じ種類／同じよう」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 668,
+    "category": "あいさつ・基本",
+    "tw": "閣較",
+    "jp": "さらに／もっと",
+    "pron": "koh-khah",
+    "example": "我欲記得「閣較」。",
+    "exampleJp": "「さらに／もっと」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 669,
+    "category": "動作・感情",
+    "tw": "自在",
+    "jp": "気楽／自在",
+    "pron": "tsū-tsāi",
+    "example": "我欲記得「自在」。",
+    "exampleJp": "「気楽／自在」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 670,
+    "category": "数字・時間",
+    "tw": "逐暗",
+    "jp": "毎晩",
+    "pron": "ta̍k-àm",
+    "example": "我欲記得「逐暗」。",
+    "exampleJp": "「毎晩」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 671,
+    "category": "数字・時間",
+    "tw": "逐早",
+    "jp": "毎朝",
+    "pron": "ta̍k-tsá",
+    "example": "我欲記得「逐早」。",
+    "exampleJp": "「毎朝」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 672,
+    "category": "数字・時間",
+    "tw": "一擺",
+    "jp": "一回",
+    "pron": "tsi̍t-pái",
+    "example": "我欲記得「一擺」。",
+    "exampleJp": "「一回」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 673,
+    "category": "数字・時間",
+    "tw": "兩擺",
+    "jp": "二回",
+    "pron": "nn̄g-pái",
+    "example": "我欲記得「兩擺」。",
+    "exampleJp": "「二回」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 674,
+    "category": "数字・時間",
+    "tw": "逐擺",
+    "jp": "毎回",
+    "pron": "ta̍k-pái",
+    "example": "我欲記得「逐擺」。",
+    "exampleJp": "「毎回」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 675,
+    "category": "数字・時間",
+    "tw": "一下",
+    "jp": "少しの間／ちょっと",
+    "pron": "tsi̍t-ē",
+    "example": "我欲記得「一下」。",
+    "exampleJp": "「少しの間／ちょっと」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 676,
+    "category": "数字・時間",
+    "tw": "規工",
+    "jp": "一日中",
+    "pron": "kui-kang",
+    "example": "我欲記得「規工」。",
+    "exampleJp": "「一日中」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 677,
+    "category": "人・家族",
+    "tw": "新娘",
+    "jp": "花嫁",
+    "pron": "sin-niû",
+    "example": "我欲記得「新娘」。",
+    "exampleJp": "「花嫁」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 678,
+    "category": "人・家族",
+    "tw": "新郎",
+    "jp": "花婿",
+    "pron": "sin-lông",
+    "example": "我欲記得「新郎」。",
+    "exampleJp": "「花婿」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 679,
+    "category": "人・家族",
+    "tw": "結婚",
+    "jp": "結婚する",
+    "pron": "kiat-hun",
+    "example": "我欲記得「結婚」。",
+    "exampleJp": "「結婚する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 680,
+    "category": "人・家族",
+    "tw": "婚姻",
+    "jp": "婚姻",
+    "pron": "hun-in",
+    "example": "我欲記得「婚姻」。",
+    "exampleJp": "「婚姻」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 681,
+    "category": "人・家族",
+    "tw": "出世",
+    "jp": "生まれる",
+    "pron": "tshut-sì",
+    "example": "我欲記得「出世」。",
+    "exampleJp": "「生まれる」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 682,
+    "category": "人・家族",
+    "tw": "姓",
+    "jp": "姓／名字",
+    "pron": "sènn",
+    "example": "我欲記得「姓」。",
+    "exampleJp": "「姓／名字」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 683,
+    "category": "交通・場所",
+    "tw": "國家",
+    "jp": "国",
+    "pron": "kok-ka",
+    "example": "我欲記得「國家」。",
+    "exampleJp": "「国」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 684,
+    "category": "交通・場所",
+    "tw": "台灣",
+    "jp": "台湾",
+    "pron": "Tâi-uân",
+    "example": "我欲記得「台灣」。",
+    "exampleJp": "「台湾」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 685,
+    "category": "交通・場所",
+    "tw": "日本",
+    "jp": "日本",
+    "pron": "Ji̍t-pún",
+    "example": "我欲記得「日本」。",
+    "exampleJp": "「日本」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 686,
+    "category": "交通・場所",
+    "tw": "美國",
+    "jp": "アメリカ",
+    "pron": "Bí-kok",
+    "example": "我欲記得「美國」。",
+    "exampleJp": "「アメリカ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 687,
+    "category": "交通・場所",
+    "tw": "台北",
+    "jp": "台北",
+    "pron": "Tâi-pak",
+    "example": "我欲記得「台北」。",
+    "exampleJp": "「台北」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 688,
+    "category": "交通・場所",
+    "tw": "台中",
+    "jp": "台中",
+    "pron": "Tâi-tiong",
+    "example": "我欲記得「台中」。",
+    "exampleJp": "「台中」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 689,
+    "category": "交通・場所",
+    "tw": "台南",
+    "jp": "台南",
+    "pron": "Tâi-lâm",
+    "example": "我欲記得「台南」。",
+    "exampleJp": "「台南」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 690,
+    "category": "交通・場所",
+    "tw": "高雄",
+    "jp": "高雄",
+    "pron": "Ko-hiông",
+    "example": "我欲記得「高雄」。",
+    "exampleJp": "「高雄」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 691,
+    "category": "交通・場所",
+    "tw": "市內",
+    "jp": "市内",
+    "pron": "tshī-lāi",
+    "example": "我欲記得「市內」。",
+    "exampleJp": "「市内」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 692,
+    "category": "交通・場所",
+    "tw": "鄉下",
+    "jp": "田舎",
+    "pron": "hiong-hā",
+    "example": "我欲記得「鄉下」。",
+    "exampleJp": "「田舎」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 693,
+    "category": "交通・場所",
+    "tw": "東",
+    "jp": "東",
+    "pron": "tang",
+    "example": "我欲記得「東」。",
+    "exampleJp": "「東」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 694,
+    "category": "交通・場所",
+    "tw": "西",
+    "jp": "西",
+    "pron": "sai",
+    "example": "我欲記得「西」。",
+    "exampleJp": "「西」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 695,
+    "category": "交通・場所",
+    "tw": "南",
+    "jp": "南",
+    "pron": "lâm",
+    "example": "我欲記得「南」。",
+    "exampleJp": "「南」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 696,
+    "category": "数字・時間",
+    "tw": "前日",
+    "jp": "一昨日",
+    "pron": "tsîng--ji̍t",
+    "example": "我欲記得「前日」。",
+    "exampleJp": "「一昨日」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 697,
+    "category": "数字・時間",
+    "tw": "頂禮拜",
+    "jp": "先週",
+    "pron": "tíng lé-pài",
+    "example": "我欲記得「頂禮拜」。",
+    "exampleJp": "「先週」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 698,
+    "category": "数字・時間",
+    "tw": "後禮拜",
+    "jp": "来週",
+    "pron": "āu lé-pài",
+    "example": "我欲記得「後禮拜」。",
+    "exampleJp": "「来週」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 699,
+    "category": "数字・時間",
+    "tw": "頂個月",
+    "jp": "先月",
+    "pron": "tíng-kóo-gue̍h",
+    "example": "我欲記得「頂個月」。",
+    "exampleJp": "「先月」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 700,
+    "category": "数字・時間",
+    "tw": "後年",
+    "jp": "再来年",
+    "pron": "āu--nî",
+    "example": "我欲記得「後年」。",
+    "exampleJp": "「再来年」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase『台灣白話基礎語句』等を参照"
+  },
+  {
+    "id": 701,
+    "category": "人・家族",
+    "tw": "家己",
+    "jp": "自分",
+    "pron": "ka-kī",
+    "example": "我欲記得「家己」。",
+    "exampleJp": "「自分」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 702,
+    "category": "人・家族",
+    "tw": "別人",
+    "jp": "他人／ほかの人",
+    "pron": "pa̍t-lâng",
+    "example": "我欲記得「別人」。",
+    "exampleJp": "「他人／ほかの人」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 703,
+    "category": "人・家族",
+    "tw": "查某人",
+    "jp": "女性",
+    "pron": "tsa-bóo-lâng",
+    "example": "我欲記得「查某人」。",
+    "exampleJp": "「女性」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 704,
+    "category": "人・家族",
+    "tw": "父母",
+    "jp": "両親",
+    "pron": "pē-bú",
+    "example": "我欲記得「父母」。",
+    "exampleJp": "「両親」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 705,
+    "category": "人・家族",
+    "tw": "祖父",
+    "jp": "祖父",
+    "pron": "tsóo-hū",
+    "example": "我欲記得「祖父」。",
+    "exampleJp": "「祖父」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 706,
+    "category": "人・家族",
+    "tw": "祖母",
+    "jp": "祖母",
+    "pron": "tsóo-bú",
+    "example": "我欲記得「祖母」。",
+    "exampleJp": "「祖母」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 707,
+    "category": "人・家族",
+    "tw": "兄弟姊妹",
+    "jp": "きょうだい",
+    "pron": "hiann-tī tsí-bē",
+    "example": "我欲記得「兄弟姊妹」。",
+    "exampleJp": "「きょうだい」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 708,
+    "category": "人・家族",
+    "tw": "囝孫",
+    "jp": "子や孫／子孫",
+    "pron": "kiánn-sun",
+    "example": "我欲記得「囝孫」。",
+    "exampleJp": "「子や孫／子孫」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 709,
+    "category": "人・家族",
+    "tw": "親人",
+    "jp": "家族・身内",
+    "pron": "tshin-lâng",
+    "example": "我欲記得「親人」。",
+    "exampleJp": "「家族・身内」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 710,
+    "category": "人・家族",
+    "tw": "熟似人",
+    "jp": "知り合い",
+    "pron": "si̍k-sāi-lâng",
+    "example": "我欲記得「熟似人」。",
+    "exampleJp": "「知り合い」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 711,
+    "category": "人・家族",
+    "tw": "人客",
+    "jp": "客／来客",
+    "pron": "lâng-kheh",
+    "example": "我欲記得「人客」。",
+    "exampleJp": "「客／来客」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 712,
+    "category": "人・家族",
+    "tw": "主人",
+    "jp": "主人／ホスト",
+    "pron": "tsú-lâng",
+    "example": "我欲記得「主人」。",
+    "exampleJp": "「主人／ホスト」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 713,
+    "category": "人・家族",
+    "tw": "少年",
+    "jp": "若者",
+    "pron": "siàu-liân",
+    "example": "我欲記得「少年」。",
+    "exampleJp": "「若者」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 714,
+    "category": "人・家族",
+    "tw": "查某",
+    "jp": "女性／女",
+    "pron": "tsa-bóo",
+    "example": "我欲記得「查某」。",
+    "exampleJp": "「女性／女」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 715,
+    "category": "人・家族",
+    "tw": "查埔",
+    "jp": "男性／男",
+    "pron": "tsa-poo",
+    "example": "我欲記得「查埔」。",
+    "exampleJp": "「男性／男」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 716,
+    "category": "人・家族",
+    "tw": "臺灣人",
+    "jp": "台湾人",
+    "pron": "Tâi-uân-lâng",
+    "example": "我欲記得「臺灣人」。",
+    "exampleJp": "「台湾人」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 717,
+    "category": "人・家族",
+    "tw": "日本人",
+    "jp": "日本人",
+    "pron": "Ji̍t-pún-lâng",
+    "example": "我欲記得「日本人」。",
+    "exampleJp": "「日本人」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 718,
+    "category": "人・家族",
+    "tw": "外國人",
+    "jp": "外国人",
+    "pron": "guā-kok-lâng",
+    "example": "我欲記得「外國人」。",
+    "exampleJp": "「外国人」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 719,
+    "category": "人・家族",
+    "tw": "旅客",
+    "jp": "旅行者／乗客",
+    "pron": "lí-kheh",
+    "example": "我欲記得「旅客」。",
+    "exampleJp": "「旅行者／乗客」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 720,
+    "category": "人・家族",
+    "tw": "司機",
+    "jp": "運転手",
+    "pron": "su-ki",
+    "example": "我欲記得「司機」。",
+    "exampleJp": "「運転手」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 721,
+    "category": "人・家族",
+    "tw": "警察",
+    "jp": "警察官",
+    "pron": "kíng-tshat",
+    "example": "我欲記得「警察」。",
+    "exampleJp": "「警察官」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 722,
+    "category": "人・家族",
+    "tw": "店員",
+    "jp": "店員",
+    "pron": "tiàm-uân",
+    "example": "我欲記得「店員」。",
+    "exampleJp": "「店員」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 723,
+    "category": "人・家族",
+    "tw": "服務員",
+    "jp": "スタッフ／給仕",
+    "pron": "ho̍k-bū-uân",
+    "example": "我欲記得「服務員」。",
+    "exampleJp": "「スタッフ／給仕」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 724,
+    "category": "人・家族",
+    "tw": "經理",
+    "jp": "マネージャー",
+    "pron": "king-lí",
+    "example": "我欲記得「經理」。",
+    "exampleJp": "「マネージャー」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 725,
+    "category": "人・家族",
+    "tw": "主管",
+    "jp": "責任者／上司",
+    "pron": "tsú-kuán",
+    "example": "我欲記得「主管」。",
+    "exampleJp": "「責任者／上司」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 726,
+    "category": "人・家族",
+    "tw": "客戶",
+    "jp": "顧客／取引先",
+    "pron": "kheh-hōo",
+    "example": "我欲記得「客戶」。",
+    "exampleJp": "「顧客／取引先」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 727,
+    "category": "人・家族",
+    "tw": "名字",
+    "jp": "名前",
+    "pron": "miâ-jī",
+    "example": "我欲記得「名字」。",
+    "exampleJp": "「名前」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 728,
+    "category": "交通・場所",
+    "tw": "地址",
+    "jp": "住所",
+    "pron": "tē-tsí",
+    "example": "我欲記得「地址」。",
+    "exampleJp": "「住所」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 729,
+    "category": "家・日用品",
+    "tw": "電話號碼",
+    "jp": "電話番号",
+    "pron": "tiān-uē hō-bé",
+    "example": "我欲記得「電話號碼」。",
+    "exampleJp": "「電話番号」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 730,
+    "category": "数字・時間",
+    "tw": "生日",
+    "jp": "誕生日",
+    "pron": "senn-ji̍t",
+    "example": "我欲記得「生日」。",
+    "exampleJp": "「誕生日」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 731,
+    "category": "家・日用品",
+    "tw": "飯廳",
+    "jp": "食堂／ダイニング",
+    "pron": "pn̄g-thiann",
+    "example": "我欲記得「飯廳」。",
+    "exampleJp": "「食堂／ダイニング」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 732,
+    "category": "家・日用品",
+    "tw": "眠房",
+    "jp": "寝室",
+    "pron": "bîn-pâng",
+    "example": "我欲記得「眠房」。",
+    "exampleJp": "「寝室」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 733,
+    "category": "家・日用品",
+    "tw": "樓梯",
+    "jp": "階段",
+    "pron": "lâu-thui",
+    "example": "我欲記得「樓梯」。",
+    "exampleJp": "「階段」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 734,
+    "category": "家・日用品",
+    "tw": "電梯",
+    "jp": "エレベーター",
+    "pron": "tiān-thui",
+    "example": "我欲記得「電梯」。",
+    "exampleJp": "「エレベーター」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 735,
+    "category": "家・日用品",
+    "tw": "厝頂",
+    "jp": "屋上／屋根の上",
+    "pron": "tshù-tíng",
+    "example": "我欲記得「厝頂」。",
+    "exampleJp": "「屋上／屋根の上」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 736,
+    "category": "家・日用品",
+    "tw": "門口",
+    "jp": "玄関／入口",
+    "pron": "mn̂g-kháu",
+    "example": "我欲記得「門口」。",
+    "exampleJp": "「玄関／入口」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 737,
+    "category": "家・日用品",
+    "tw": "地板",
+    "jp": "床",
+    "pron": "tē-pán",
+    "example": "我欲記得「地板」。",
+    "exampleJp": "「床」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 738,
+    "category": "家・日用品",
+    "tw": "塗跤",
+    "jp": "床／地面",
+    "pron": "thôo-kha",
+    "example": "我欲記得「塗跤」。",
+    "exampleJp": "「床／地面」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 739,
+    "category": "家・日用品",
+    "tw": "壁",
+    "jp": "壁",
+    "pron": "piah",
+    "example": "我欲記得「壁」。",
+    "exampleJp": "「壁」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 740,
+    "category": "家・日用品",
+    "tw": "天花板",
+    "jp": "天井",
+    "pron": "thian-hue-pán",
+    "example": "我欲記得「天花板」。",
+    "exampleJp": "「天井」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 741,
+    "category": "家・日用品",
+    "tw": "櫥仔",
+    "jp": "戸棚／キャビネット",
+    "pron": "tû-á",
+    "example": "我欲記得「櫥仔」。",
+    "exampleJp": "「戸棚／キャビネット」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 742,
+    "category": "家・日用品",
+    "tw": "冊架",
+    "jp": "本棚",
+    "pron": "tsheh-kè",
+    "example": "我欲記得「冊架」。",
+    "exampleJp": "「本棚」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 743,
+    "category": "家・日用品",
+    "tw": "沙發",
+    "jp": "ソファ",
+    "pron": "sa-huat",
+    "example": "我欲記得「沙發」。",
+    "exampleJp": "「ソファ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 744,
+    "category": "家・日用品",
+    "tw": "眠床單",
+    "jp": "シーツ",
+    "pron": "bîn-tshn̂g-tuann",
+    "example": "我欲記得「眠床單」。",
+    "exampleJp": "「シーツ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 745,
+    "category": "家・日用品",
+    "tw": "棉被",
+    "jp": "掛け布団",
+    "pron": "mî-phuē",
+    "example": "我欲記得「棉被」。",
+    "exampleJp": "「掛け布団」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 746,
+    "category": "家・日用品",
+    "tw": "電鍋",
+    "jp": "電気炊飯器",
+    "pron": "tiān-ko",
+    "example": "我欲記得「電鍋」。",
+    "exampleJp": "「電気炊飯器」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 747,
+    "category": "家・日用品",
+    "tw": "電爐",
+    "jp": "電気コンロ",
+    "pron": "tiān-lôo",
+    "example": "我欲記得「電爐」。",
+    "exampleJp": "「電気コンロ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 748,
+    "category": "家・日用品",
+    "tw": "洗衫機",
+    "jp": "洗濯機",
+    "pron": "sé-sann-ki",
+    "example": "我欲記得「洗衫機」。",
+    "exampleJp": "「洗濯機」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 749,
+    "category": "家・日用品",
+    "tw": "吹風機",
+    "jp": "ドライヤー",
+    "pron": "tshue-hong-ki",
+    "example": "我欲記得「吹風機」。",
+    "exampleJp": "「ドライヤー」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 750,
+    "category": "家・日用品",
+    "tw": "熱水器",
+    "jp": "給湯器",
+    "pron": "jia̍t-tsuí-khì",
+    "example": "我欲記得「熱水器」。",
+    "exampleJp": "「給湯器」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 751,
+    "category": "家・日用品",
+    "tw": "插頭",
+    "jp": "プラグ",
+    "pron": "tshah-thâu",
+    "example": "我欲記得「插頭」。",
+    "exampleJp": "「プラグ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 752,
+    "category": "家・日用品",
+    "tw": "插座",
+    "jp": "コンセント",
+    "pron": "tshah-tsō",
+    "example": "我欲記得「插座」。",
+    "exampleJp": "「コンセント」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 753,
+    "category": "家・日用品",
+    "tw": "電池",
+    "jp": "電池",
+    "pron": "tiān-tî",
+    "example": "我欲記得「電池」。",
+    "exampleJp": "「電池」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 754,
+    "category": "家・日用品",
+    "tw": "充電",
+    "jp": "充電する",
+    "pron": "tshiong-tiān",
+    "example": "我欲記得「充電」。",
+    "exampleJp": "「充電する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 755,
+    "category": "家・日用品",
+    "tw": "剪刀",
+    "jp": "はさみ",
+    "pron": "tsián-to",
+    "example": "我欲記得「剪刀」。",
+    "exampleJp": "「はさみ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 756,
+    "category": "家・日用品",
+    "tw": "鉸刀",
+    "jp": "はさみ",
+    "pron": "ka-to",
+    "example": "我欲記得「鉸刀」。",
+    "exampleJp": "「はさみ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 757,
+    "category": "家・日用品",
+    "tw": "雨鞋",
+    "jp": "長靴／レインシューズ",
+    "pron": "hōo-ê",
+    "example": "我欲記得「雨鞋」。",
+    "exampleJp": "「長靴／レインシューズ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 758,
+    "category": "家・日用品",
+    "tw": "皮包",
+    "jp": "バッグ／財布",
+    "pron": "phuê-pau",
+    "example": "我欲記得「皮包」。",
+    "exampleJp": "「バッグ／財布」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 759,
+    "category": "家・日用品",
+    "tw": "錢包",
+    "jp": "財布",
+    "pron": "tsînn-pau",
+    "example": "我欲記得「錢包」。",
+    "exampleJp": "「財布」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 760,
+    "category": "家・日用品",
+    "tw": "手巾",
+    "jp": "ハンカチ",
+    "pron": "tshiú-kin",
+    "example": "我欲記得「手巾」。",
+    "exampleJp": "「ハンカチ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 761,
+    "category": "家・日用品",
+    "tw": "衛生紙",
+    "jp": "ティッシュ／トイレットペーパー",
+    "pron": "uē-sing-tsuá",
+    "example": "我欲記得「衛生紙」。",
+    "exampleJp": "「ティッシュ／トイレットペーパー」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 762,
+    "category": "家・日用品",
+    "tw": "垃圾桶",
+    "jp": "ごみ箱",
+    "pron": "lah-sap-tháng",
+    "example": "我欲記得「垃圾桶」。",
+    "exampleJp": "「ごみ箱」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 763,
+    "category": "家・日用品",
+    "tw": "洗衣粉",
+    "jp": "洗濯洗剤",
+    "pron": "sé-i-hún",
+    "example": "我欲記得「洗衣粉」。",
+    "exampleJp": "「洗濯洗剤」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 764,
+    "category": "家・日用品",
+    "tw": "牙膏",
+    "jp": "歯磨き粉",
+    "pron": "khí-ko",
+    "example": "我欲記得「牙膏」。",
+    "exampleJp": "「歯磨き粉」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 765,
+    "category": "家・日用品",
+    "tw": "肥皂水",
+    "jp": "石けん水",
+    "pron": "pû-tsō-tsuí",
+    "example": "我欲記得「肥皂水」。",
+    "exampleJp": "「石けん水」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 766,
+    "category": "家・日用品",
+    "tw": "電火球",
+    "jp": "電球",
+    "pron": "tiān-hué-kiû",
+    "example": "我欲記得「電火球」。",
+    "exampleJp": "「電球」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 767,
+    "category": "家・日用品",
+    "tw": "電線",
+    "jp": "電線",
+    "pron": "tiān-suànn",
+    "example": "我欲記得「電線」。",
+    "exampleJp": "「電線」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 768,
+    "category": "家・日用品",
+    "tw": "時鐘",
+    "jp": "時計",
+    "pron": "sî-tsing",
+    "example": "我欲記得「時鐘」。",
+    "exampleJp": "「時計」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 769,
+    "category": "家・日用品",
+    "tw": "鬧鐘",
+    "jp": "目覚まし時計",
+    "pron": "nāu-tsing",
+    "example": "我欲記得「鬧鐘」。",
+    "exampleJp": "「目覚まし時計」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 770,
+    "category": "家・日用品",
+    "tw": "相片",
+    "jp": "写真",
+    "pron": "siòng-phìnn",
+    "example": "我欲記得「相片」。",
+    "exampleJp": "「写真」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 771,
+    "category": "食事・飲み物",
+    "tw": "米粉",
+    "jp": "ビーフン",
+    "pron": "bí-hún",
+    "example": "我欲記得「米粉」。",
+    "exampleJp": "「ビーフン」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 772,
+    "category": "食事・飲み物",
+    "tw": "冬粉",
+    "jp": "春雨",
+    "pron": "tang-hún",
+    "example": "我欲記得「冬粉」。",
+    "exampleJp": "「春雨」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 773,
+    "category": "食事・飲み物",
+    "tw": "粿",
+    "jp": "米粉などで作る餅",
+    "pron": "kué",
+    "example": "我欲記得「粿」。",
+    "exampleJp": "「米粉などで作る餅」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 774,
+    "category": "食事・飲み物",
+    "tw": "米糕",
+    "jp": "おこわ／米糕",
+    "pron": "bí-ko",
+    "example": "我欲記得「米糕」。",
+    "exampleJp": "「おこわ／米糕」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 775,
+    "category": "食事・飲み物",
+    "tw": "饅頭",
+    "jp": "まんじゅう／蒸しパン",
+    "pron": "bán-thô",
+    "example": "我欲記得「饅頭」。",
+    "exampleJp": "「まんじゅう／蒸しパン」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 776,
+    "category": "食事・飲み物",
+    "tw": "包仔",
+    "jp": "包子",
+    "pron": "pau-á",
+    "example": "我欲記得「包仔」。",
+    "exampleJp": "「包子」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 777,
+    "category": "食事・飲み物",
+    "tw": "水餃",
+    "jp": "水餃子",
+    "pron": "tsuí-kiáu",
+    "example": "我欲記得「水餃」。",
+    "exampleJp": "「水餃子」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 778,
+    "category": "食事・飲み物",
+    "tw": "燒賣",
+    "jp": "シューマイ",
+    "pron": "sio-māi",
+    "example": "我欲記得「燒賣」。",
+    "exampleJp": "「シューマイ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 779,
+    "category": "食事・飲み物",
+    "tw": "滷肉飯",
+    "jp": "ルーロー飯",
+    "pron": "lóo-bah-pn̄g",
+    "example": "我欲記得「滷肉飯」。",
+    "exampleJp": "「ルーロー飯」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 780,
+    "category": "食事・飲み物",
+    "tw": "肉燥飯",
+    "jp": "肉そぼろご飯",
+    "pron": "bah-sò-pn̄g",
+    "example": "我欲記得「肉燥飯」。",
+    "exampleJp": "「肉そぼろご飯」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "初級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 781,
+    "category": "食事・飲み物",
+    "tw": "雞肉飯",
+    "jp": "鶏肉ご飯",
+    "pron": "ke-bah-pn̄g",
+    "example": "我欲記得「雞肉飯」。",
+    "exampleJp": "「鶏肉ご飯」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 782,
+    "category": "食事・飲み物",
+    "tw": "魚丸",
+    "jp": "魚のつみれ",
+    "pron": "hî-uân",
+    "example": "我欲記得「魚丸」。",
+    "exampleJp": "「魚のつみれ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 783,
+    "category": "食事・飲み物",
+    "tw": "魚丸湯",
+    "jp": "魚のつみれスープ",
+    "pron": "hî-uân-thng",
+    "example": "我欲記得「魚丸湯」。",
+    "exampleJp": "「魚のつみれスープ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 784,
+    "category": "食事・飲み物",
+    "tw": "貢丸",
+    "jp": "肉団子",
+    "pron": "kòng-uân",
+    "example": "我欲記得「貢丸」。",
+    "exampleJp": "「肉団子」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 785,
+    "category": "食事・飲み物",
+    "tw": "貢丸湯",
+    "jp": "肉団子スープ",
+    "pron": "kòng-uân-thng",
+    "example": "我欲記得「貢丸湯」。",
+    "exampleJp": "「肉団子スープ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 786,
+    "category": "食事・飲み物",
+    "tw": "雞卵",
+    "jp": "鶏卵",
+    "pron": "ke-nn̄g",
+    "example": "我欲記得「雞卵」。",
+    "exampleJp": "「鶏卵」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 787,
+    "category": "食事・飲み物",
+    "tw": "鴨卵",
+    "jp": "アヒルの卵",
+    "pron": "ah-nn̄g",
+    "example": "我欲記得「鴨卵」。",
+    "exampleJp": "「アヒルの卵」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 788,
+    "category": "食事・飲み物",
+    "tw": "豬跤",
+    "jp": "豚足",
+    "pron": "ti-kha",
+    "example": "我欲記得「豬跤」。",
+    "exampleJp": "「豚足」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 789,
+    "category": "食事・飲み物",
+    "tw": "豬肝",
+    "jp": "豚レバー",
+    "pron": "ti-kuann",
+    "example": "我欲記得「豬肝」。",
+    "exampleJp": "「豚レバー」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 790,
+    "category": "食事・飲み物",
+    "tw": "魚肉",
+    "jp": "魚肉",
+    "pron": "hî-bah",
+    "example": "我欲記得「魚肉」。",
+    "exampleJp": "「魚肉」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 791,
+    "category": "食事・飲み物",
+    "tw": "肉脯",
+    "jp": "肉でんぶ／肉鬆",
+    "pron": "bah-hú",
+    "example": "我欲記得「肉脯」。",
+    "exampleJp": "「肉でんぶ／肉鬆」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 792,
+    "category": "食事・飲み物",
+    "tw": "肉圓",
+    "jp": "肉圓（バーワン）",
+    "pron": "bah-uân",
+    "example": "我欲記得「肉圓」。",
+    "exampleJp": "「肉圓（バーワン）」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 793,
+    "category": "食事・飲み物",
+    "tw": "菜包",
+    "jp": "野菜まん／菜包",
+    "pron": "tshài-pau",
+    "example": "我欲記得「菜包」。",
+    "exampleJp": "「野菜まん／菜包」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 794,
+    "category": "食事・飲み物",
+    "tw": "油飯",
+    "jp": "おこわ",
+    "pron": "iû-pn̄g",
+    "example": "我欲記得「油飯」。",
+    "exampleJp": "「おこわ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 795,
+    "category": "食事・飲み物",
+    "tw": "糋",
+    "jp": "揚げ物",
+    "pron": "tsìnn",
+    "example": "我欲記得「糋」。",
+    "exampleJp": "「揚げ物」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 796,
+    "category": "食事・飲み物",
+    "tw": "炸物",
+    "jp": "揚げ物",
+    "pron": "tsà-bu̍t",
+    "example": "我欲記得「炸物」。",
+    "exampleJp": "「揚げ物」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 797,
+    "category": "食事・飲み物",
+    "tw": "甜粿",
+    "jp": "甘い餅",
+    "pron": "tinn-kué",
+    "example": "我欲記得「甜粿」。",
+    "exampleJp": "「甘い餅」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 798,
+    "category": "食事・飲み物",
+    "tw": "蘿蔔糕",
+    "jp": "大根餅",
+    "pron": "tshài-thâu-kué",
+    "example": "我欲記得「蘿蔔糕」。",
+    "exampleJp": "「大根餅」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 799,
+    "category": "食事・飲み物",
+    "tw": "蔥油餅",
+    "jp": "ねぎ入り焼き餅",
+    "pron": "tshang-iû-piánn",
+    "example": "我欲記得「蔥油餅」。",
+    "exampleJp": "「ねぎ入り焼き餅」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 800,
+    "category": "食事・飲み物",
+    "tw": "蛋餅",
+    "jp": "卵入りクレープ",
+    "pron": "nn̄g-piánn",
+    "example": "我欲記得「蛋餅」。",
+    "exampleJp": "「卵入りクレープ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 801,
+    "category": "食事・飲み物",
+    "tw": "葡萄",
+    "jp": "ぶどう",
+    "pron": "phû-tô",
+    "example": "我欲記得「葡萄」。",
+    "exampleJp": "「ぶどう」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 802,
+    "category": "食事・飲み物",
+    "tw": "木瓜",
+    "jp": "パパイヤ",
+    "pron": "bo̍k-kue",
+    "example": "我欲記得「木瓜」。",
+    "exampleJp": "「パパイヤ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 803,
+    "category": "食事・飲み物",
+    "tw": "鳳梨",
+    "jp": "パイナップル",
+    "pron": "ông-lâi",
+    "example": "我欲記得「鳳梨」。",
+    "exampleJp": "「パイナップル」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 804,
+    "category": "食事・飲み物",
+    "tw": "柳丁",
+    "jp": "オレンジ",
+    "pron": "liú-ting",
+    "example": "我欲記得「柳丁」。",
+    "exampleJp": "「オレンジ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 805,
+    "category": "食事・飲み物",
+    "tw": "草莓",
+    "jp": "いちご",
+    "pron": "tsháu-m̂",
+    "example": "我欲記得「草莓」。",
+    "exampleJp": "「いちご」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 806,
+    "category": "食事・飲み物",
+    "tw": "梨仔",
+    "jp": "梨",
+    "pron": "lâi-á",
+    "example": "我欲記得「梨仔」。",
+    "exampleJp": "「梨」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 807,
+    "category": "食事・飲み物",
+    "tw": "桃仔",
+    "jp": "桃",
+    "pron": "thô-á",
+    "example": "我欲記得「桃仔」。",
+    "exampleJp": "「桃」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 808,
+    "category": "食事・飲み物",
+    "tw": "柚仔",
+    "jp": "柚子／ザボン",
+    "pron": "iū-á",
+    "example": "我欲記得「柚仔」。",
+    "exampleJp": "「柚子／ザボン」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 809,
+    "category": "食事・飲み物",
+    "tw": "甘蔗",
+    "jp": "さとうきび",
+    "pron": "kam-tsià",
+    "example": "我欲記得「甘蔗」。",
+    "exampleJp": "「さとうきび」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 810,
+    "category": "食事・飲み物",
+    "tw": "龍眼",
+    "jp": "リュウガン",
+    "pron": "lîng-gíng",
+    "example": "我欲記得「龍眼」。",
+    "exampleJp": "「リュウガン」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 811,
+    "category": "食事・飲み物",
+    "tw": "蕹菜",
+    "jp": "空心菜",
+    "pron": "ìng-tshài",
+    "example": "我欲記得「蕹菜」。",
+    "exampleJp": "「空心菜」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 812,
+    "category": "食事・飲み物",
+    "tw": "白菜",
+    "jp": "白菜",
+    "pron": "pe̍h-tshài",
+    "example": "我欲記得「白菜」。",
+    "exampleJp": "「白菜」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 813,
+    "category": "食事・飲み物",
+    "tw": "黃瓜",
+    "jp": "きゅうり",
+    "pron": "n̂g-kue",
+    "example": "我欲記得「黃瓜」。",
+    "exampleJp": "「きゅうり」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 814,
+    "category": "食事・飲み物",
+    "tw": "絲瓜",
+    "jp": "ヘチマ",
+    "pron": "tshì-kue",
+    "example": "我欲記得「絲瓜」。",
+    "exampleJp": "「ヘチマ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 815,
+    "category": "食事・飲み物",
+    "tw": "苦瓜",
+    "jp": "ゴーヤ",
+    "pron": "khóo-kue",
+    "example": "我欲記得「苦瓜」。",
+    "exampleJp": "「ゴーヤ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 816,
+    "category": "食事・飲み物",
+    "tw": "冬瓜",
+    "jp": "冬瓜",
+    "pron": "tang-kue",
+    "example": "我欲記得「冬瓜」。",
+    "exampleJp": "「冬瓜」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 817,
+    "category": "食事・飲み物",
+    "tw": "南瓜",
+    "jp": "かぼちゃ",
+    "pron": "lâm-kue",
+    "example": "我欲記得「南瓜」。",
+    "exampleJp": "「かぼちゃ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 818,
+    "category": "食事・飲み物",
+    "tw": "蔥",
+    "jp": "ねぎ",
+    "pron": "tshang",
+    "example": "我欲記得「蔥」。",
+    "exampleJp": "「ねぎ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 819,
+    "category": "食事・飲み物",
+    "tw": "蒜",
+    "jp": "にんにく",
+    "pron": "suàn",
+    "example": "我欲記得「蒜」。",
+    "exampleJp": "「にんにく」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 820,
+    "category": "食事・飲み物",
+    "tw": "薑",
+    "jp": "しょうが",
+    "pron": "kiunn",
+    "example": "我欲記得「薑」。",
+    "exampleJp": "「しょうが」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 821,
+    "category": "食事・飲み物",
+    "tw": "菜豆",
+    "jp": "いんげん豆",
+    "pron": "tshài-tāu",
+    "example": "我欲記得「菜豆」。",
+    "exampleJp": "「いんげん豆」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 822,
+    "category": "食事・飲み物",
+    "tw": "豆仔",
+    "jp": "豆",
+    "pron": "tāu-á",
+    "example": "我欲記得「豆仔」。",
+    "exampleJp": "「豆」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 823,
+    "category": "食事・飲み物",
+    "tw": "塗豆",
+    "jp": "落花生／ピーナッツ",
+    "pron": "thôo-tāu",
+    "example": "我欲記得「塗豆」。",
+    "exampleJp": "「落花生／ピーナッツ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 824,
+    "category": "食事・飲み物",
+    "tw": "冰",
+    "jp": "氷",
+    "pron": "ping",
+    "example": "我欲記得「冰」。",
+    "exampleJp": "「氷」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 825,
+    "category": "食事・飲み物",
+    "tw": "冰水",
+    "jp": "冷たい水",
+    "pron": "ping-tsuí",
+    "example": "我欲記得「冰水」。",
+    "exampleJp": "「冷たい水」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 826,
+    "category": "食事・飲み物",
+    "tw": "燒水",
+    "jp": "お湯",
+    "pron": "sio-tsuí",
+    "example": "我欲記得「燒水」。",
+    "exampleJp": "「お湯」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 827,
+    "category": "食事・飲み物",
+    "tw": "熱茶",
+    "jp": "熱いお茶",
+    "pron": "jia̍t-tê",
+    "example": "我欲記得「熱茶」。",
+    "exampleJp": "「熱いお茶」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 828,
+    "category": "食事・飲み物",
+    "tw": "冰咖啡",
+    "jp": "アイスコーヒー",
+    "pron": "ping ka-pi",
+    "example": "我欲記得「冰咖啡」。",
+    "exampleJp": "「アイスコーヒー」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 829,
+    "category": "食事・飲み物",
+    "tw": "糖水",
+    "jp": "砂糖水／甘いシロップ",
+    "pron": "thn̂g-tsuí",
+    "example": "我欲記得「糖水」。",
+    "exampleJp": "「砂糖水／甘いシロップ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 830,
+    "category": "食事・飲み物",
+    "tw": "早餐店",
+    "jp": "朝食店",
+    "pron": "tsá-tshan-tiàm",
+    "example": "我欲記得「早餐店」。",
+    "exampleJp": "「朝食店」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 831,
+    "category": "交通・場所",
+    "tw": "高鐵",
+    "jp": "台湾高速鉄道",
+    "pron": "ko-thih",
+    "example": "我欲記得「高鐵」。",
+    "exampleJp": "「台湾高速鉄道」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 832,
+    "category": "交通・場所",
+    "tw": "台鐵",
+    "jp": "台湾鉄道",
+    "pron": "Tâi-thih",
+    "example": "我欲記得「台鐵」。",
+    "exampleJp": "「台湾鉄道」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 833,
+    "category": "交通・場所",
+    "tw": "捷運站",
+    "jp": "MRT駅",
+    "pron": "tsia̍t-ūn-tsām",
+    "example": "我欲記得「捷運站」。",
+    "exampleJp": "「MRT駅」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 834,
+    "category": "交通・場所",
+    "tw": "公車站",
+    "jp": "バス停",
+    "pron": "kong-tshia-tsām",
+    "example": "我欲記得「公車站」。",
+    "exampleJp": "「バス停」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 835,
+    "category": "交通・場所",
+    "tw": "月台",
+    "jp": "ホーム／プラットホーム",
+    "pron": "gue̍h-tâi",
+    "example": "我欲記得「月台」。",
+    "exampleJp": "「ホーム／プラットホーム」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 836,
+    "category": "交通・場所",
+    "tw": "車門",
+    "jp": "車両のドア",
+    "pron": "tshia-mn̂g",
+    "example": "我欲記得「車門」。",
+    "exampleJp": "「車両のドア」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 837,
+    "category": "交通・場所",
+    "tw": "車內",
+    "jp": "車内",
+    "pron": "tshia-lāi",
+    "example": "我欲記得「車內」。",
+    "exampleJp": "「車内」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 838,
+    "category": "交通・場所",
+    "tw": "車外",
+    "jp": "車外",
+    "pron": "tshia-guā",
+    "example": "我欲記得「車外」。",
+    "exampleJp": "「車外」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 839,
+    "category": "交通・場所",
+    "tw": "路邊",
+    "jp": "道端",
+    "pron": "lōo-pinn",
+    "example": "我欲記得「路邊」。",
+    "exampleJp": "「道端」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 840,
+    "category": "交通・場所",
+    "tw": "路中央",
+    "jp": "道路の中央",
+    "pron": "lōo-tiong-ng",
+    "example": "我欲記得「路中央」。",
+    "exampleJp": "「道路の中央」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 841,
+    "category": "交通・場所",
+    "tw": "紅綠燈",
+    "jp": "信号機",
+    "pron": "âng-li̍k-ting",
+    "example": "我欲記得「紅綠燈」。",
+    "exampleJp": "「信号機」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 842,
+    "category": "交通・場所",
+    "tw": "斑馬線",
+    "jp": "横断歩道",
+    "pron": "pan-má-suànn",
+    "example": "我欲記得「斑馬線」。",
+    "exampleJp": "「横断歩道」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 843,
+    "category": "交通・場所",
+    "tw": "停車場",
+    "jp": "駐車場",
+    "pron": "thîng-tshia-tiûnn",
+    "example": "我欲記得「停車場」。",
+    "exampleJp": "「駐車場」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 844,
+    "category": "交通・場所",
+    "tw": "加油站",
+    "jp": "ガソリンスタンド",
+    "pron": "ka-iû-tsām",
+    "example": "我欲記得「加油站」。",
+    "exampleJp": "「ガソリンスタンド」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 845,
+    "category": "交通・場所",
+    "tw": "加油",
+    "jp": "給油する",
+    "pron": "ka-iû",
+    "example": "我欲記得「加油」。",
+    "exampleJp": "「給油する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 846,
+    "category": "交通・場所",
+    "tw": "圖書館",
+    "jp": "図書館",
+    "pron": "tôo-su-kuán",
+    "example": "我欲記得「圖書館」。",
+    "exampleJp": "「図書館」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 847,
+    "category": "交通・場所",
+    "tw": "博物館",
+    "jp": "博物館",
+    "pron": "phok-bu̍t-kuán",
+    "example": "我欲記得「博物館」。",
+    "exampleJp": "「博物館」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 848,
+    "category": "交通・場所",
+    "tw": "美術館",
+    "jp": "美術館",
+    "pron": "bí-su̍t-kuán",
+    "example": "我欲記得「美術館」。",
+    "exampleJp": "「美術館」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 849,
+    "category": "交通・場所",
+    "tw": "百貨公司",
+    "jp": "デパート",
+    "pron": "pah-huè-kong-si",
+    "example": "我欲記得「百貨公司」。",
+    "exampleJp": "「デパート」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 850,
+    "category": "交通・場所",
+    "tw": "超級市場",
+    "jp": "スーパーマーケット",
+    "pron": "tshiau-kip-tshī-tiûnn",
+    "example": "我欲記得「超級市場」。",
+    "exampleJp": "「スーパーマーケット」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 851,
+    "category": "交通・場所",
+    "tw": "夜市",
+    "jp": "夜市",
+    "pron": "iā-tshī",
+    "example": "我欲記得「夜市」。",
+    "exampleJp": "「夜市」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 852,
+    "category": "交通・場所",
+    "tw": "菜市仔",
+    "jp": "青果市場／市場",
+    "pron": "tshài-tshī-á",
+    "example": "我欲記得「菜市仔」。",
+    "exampleJp": "「青果市場／市場」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 853,
+    "category": "交通・場所",
+    "tw": "警察局",
+    "jp": "警察署",
+    "pron": "kíng-tshat-kio̍k",
+    "example": "我欲記得「警察局」。",
+    "exampleJp": "「警察署」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 854,
+    "category": "交通・場所",
+    "tw": "派出所",
+    "jp": "交番／派出所",
+    "pron": "phài-tshut-sóo",
+    "example": "我欲記得「派出所」。",
+    "exampleJp": "「交番／派出所」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 855,
+    "category": "交通・場所",
+    "tw": "消防隊",
+    "jp": "消防隊",
+    "pron": "siau-hông-tuī",
+    "example": "我欲記得「消防隊」。",
+    "exampleJp": "「消防隊」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 856,
+    "category": "交通・場所",
+    "tw": "廟",
+    "jp": "廟",
+    "pron": "biō",
+    "example": "我欲記得「廟」。",
+    "exampleJp": "「廟」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 857,
+    "category": "交通・場所",
+    "tw": "教會",
+    "jp": "教会",
+    "pron": "kàu-huē",
+    "example": "我欲記得「教會」。",
+    "exampleJp": "「教会」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 858,
+    "category": "交通・場所",
+    "tw": "教堂",
+    "jp": "教会堂",
+    "pron": "kàu-tn̂g",
+    "example": "我欲記得「教堂」。",
+    "exampleJp": "「教会堂」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 859,
+    "category": "交通・場所",
+    "tw": "海邊",
+    "jp": "海辺",
+    "pron": "hái-pinn",
+    "example": "我欲記得「海邊」。",
+    "exampleJp": "「海辺」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 860,
+    "category": "交通・場所",
+    "tw": "山頂",
+    "jp": "山頂",
+    "pron": "suann-tíng",
+    "example": "我欲記得「山頂」。",
+    "exampleJp": "「山頂」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 861,
+    "category": "交通・場所",
+    "tw": "山跤",
+    "jp": "山のふもと",
+    "pron": "suann-kha",
+    "example": "我欲記得「山跤」。",
+    "exampleJp": "「山のふもと」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 862,
+    "category": "交通・場所",
+    "tw": "河邊",
+    "jp": "川辺",
+    "pron": "hô-pinn",
+    "example": "我欲記得「河邊」。",
+    "exampleJp": "「川辺」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 863,
+    "category": "交通・場所",
+    "tw": "中央",
+    "jp": "中央",
+    "pron": "tiong-ng",
+    "example": "我欲記得「中央」。",
+    "exampleJp": "「中央」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 864,
+    "category": "交通・場所",
+    "tw": "附近",
+    "jp": "付近",
+    "pron": "hū-kīn",
+    "example": "我欲記得「附近」。",
+    "exampleJp": "「付近」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 865,
+    "category": "交通・場所",
+    "tw": "對面",
+    "jp": "向かい側",
+    "pron": "tuì-bīn",
+    "example": "我欲記得「對面」。",
+    "exampleJp": "「向かい側」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 866,
+    "category": "交通・場所",
+    "tw": "隔壁",
+    "jp": "隣／隣家",
+    "pron": "keh-piah",
+    "example": "我欲記得「隔壁」。",
+    "exampleJp": "「隣／隣家」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 867,
+    "category": "交通・場所",
+    "tw": "內底",
+    "jp": "中／内部",
+    "pron": "lāi-té",
+    "example": "我欲記得「內底」。",
+    "exampleJp": "「中／内部」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 868,
+    "category": "交通・場所",
+    "tw": "外底",
+    "jp": "外側",
+    "pron": "guā-té",
+    "example": "我欲記得「外底」。",
+    "exampleJp": "「外側」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 869,
+    "category": "交通・場所",
+    "tw": "東爿",
+    "jp": "東側",
+    "pron": "tang-pîng",
+    "example": "我欲記得「東爿」。",
+    "exampleJp": "「東側」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 870,
+    "category": "交通・場所",
+    "tw": "西爿",
+    "jp": "西側",
+    "pron": "sai-pîng",
+    "example": "我欲記得「西爿」。",
+    "exampleJp": "「西側」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 871,
+    "category": "数字・時間",
+    "tw": "前年",
+    "jp": "一昨年",
+    "pron": "tsûn-nî",
+    "example": "我欲記得「前年」。",
+    "exampleJp": "「一昨年」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 872,
+    "category": "動作・感情",
+    "tw": "歷史",
+    "jp": "歴史",
+    "pron": "li̍k-sú",
+    "example": "我欲記得「歷史」。",
+    "exampleJp": "「歴史」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 873,
+    "category": "数字・時間",
+    "tw": "半點",
+    "jp": "30分／半時間",
+    "pron": "puànn-tiám",
+    "example": "我欲記得「半點」。",
+    "exampleJp": "「30分／半時間」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 874,
+    "category": "数字・時間",
+    "tw": "一點鐘",
+    "jp": "1時",
+    "pron": "tsi̍t tiám-tsing",
+    "example": "我欲記得「一點鐘」。",
+    "exampleJp": "「1時」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 875,
+    "category": "数字・時間",
+    "tw": "兩點鐘",
+    "jp": "2時",
+    "pron": "nn̄g tiám-tsing",
+    "example": "我欲記得「兩點鐘」。",
+    "exampleJp": "「2時」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 876,
+    "category": "数字・時間",
+    "tw": "早起時",
+    "jp": "朝の時間",
+    "pron": "tsá-khí-sî",
+    "example": "我欲記得「早起時」。",
+    "exampleJp": "「朝の時間」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 877,
+    "category": "数字・時間",
+    "tw": "日時仔",
+    "jp": "時刻／時間",
+    "pron": "ji̍t-sî-á",
+    "example": "我欲記得「日時仔」。",
+    "exampleJp": "「時刻／時間」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 878,
+    "category": "数字・時間",
+    "tw": "暫時",
+    "jp": "しばらく／一時",
+    "pron": "tsiām-sî",
+    "example": "我欲記得「暫時」。",
+    "exampleJp": "「しばらく／一時」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 879,
+    "category": "数字・時間",
+    "tw": "永遠",
+    "jp": "永遠",
+    "pron": "íng-uán",
+    "example": "我欲記得「永遠」。",
+    "exampleJp": "「永遠」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 880,
+    "category": "数字・時間",
+    "tw": "馬上",
+    "jp": "すぐに",
+    "pron": "má-siōng",
+    "example": "我欲記得「馬上」。",
+    "exampleJp": "「すぐに」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 881,
+    "category": "数字・時間",
+    "tw": "以前",
+    "jp": "以前",
+    "pron": "í-tsîng",
+    "example": "我欲記得「以前」。",
+    "exampleJp": "「以前」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 882,
+    "category": "数字・時間",
+    "tw": "以後",
+    "jp": "以後",
+    "pron": "í-āu",
+    "example": "我欲記得「以後」。",
+    "exampleJp": "「以後」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 883,
+    "category": "数字・時間",
+    "tw": "當時",
+    "jp": "当時／その時",
+    "pron": "tong-sî",
+    "example": "我欲記得「當時」。",
+    "exampleJp": "「当時／その時」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 884,
+    "category": "数字・時間",
+    "tw": "同時",
+    "jp": "同時",
+    "pron": "tông-sî",
+    "example": "我欲記得「同時」。",
+    "exampleJp": "「同時」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 885,
+    "category": "数字・時間",
+    "tw": "最近",
+    "jp": "最近",
+    "pron": "tsuè-kīn",
+    "example": "我欲記得「最近」。",
+    "exampleJp": "「最近」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 886,
+    "category": "天気・自然",
+    "tw": "風颱",
+    "jp": "台風",
+    "pron": "hong-thai",
+    "example": "我欲記得「風颱」。",
+    "exampleJp": "「台風」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 887,
+    "category": "天気・自然",
+    "tw": "風颱天",
+    "jp": "台風の日",
+    "pron": "hong-thai-thinn",
+    "example": "我欲記得「風颱天」。",
+    "exampleJp": "「台風の日」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 888,
+    "category": "天気・自然",
+    "tw": "雨天",
+    "jp": "雨の日",
+    "pron": "hōo-thinn",
+    "example": "我欲記得「雨天」。",
+    "exampleJp": "「雨の日」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 889,
+    "category": "天気・自然",
+    "tw": "烏陰",
+    "jp": "曇っている",
+    "pron": "oo-im",
+    "example": "我欲記得「烏陰」。",
+    "exampleJp": "「曇っている」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 890,
+    "category": "天気・自然",
+    "tw": "大雨",
+    "jp": "大雨",
+    "pron": "tuā-hōo",
+    "example": "我欲記得「大雨」。",
+    "exampleJp": "「大雨」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 891,
+    "category": "天気・自然",
+    "tw": "細雨",
+    "jp": "小雨",
+    "pron": "sè-hōo",
+    "example": "我欲記得「細雨」。",
+    "exampleJp": "「小雨」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 892,
+    "category": "天気・自然",
+    "tw": "落大雨",
+    "jp": "大雨が降る",
+    "pron": "lo̍h tuā-hōo",
+    "example": "我欲記得「落大雨」。",
+    "exampleJp": "「大雨が降る」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 893,
+    "category": "天気・自然",
+    "tw": "溫度",
+    "jp": "温度",
+    "pron": "un-tōo",
+    "example": "我欲記得「溫度」。",
+    "exampleJp": "「温度」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 894,
+    "category": "天気・自然",
+    "tw": "氣溫",
+    "jp": "気温",
+    "pron": "khì-un",
+    "example": "我欲記得「氣溫」。",
+    "exampleJp": "「気温」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 895,
+    "category": "天気・自然",
+    "tw": "濕度",
+    "jp": "湿度",
+    "pron": "sip-tōo",
+    "example": "我欲記得「濕度」。",
+    "exampleJp": "「湿度」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 896,
+    "category": "天気・自然",
+    "tw": "天空",
+    "jp": "空",
+    "pron": "thinn-khong",
+    "example": "我欲記得「天空」。",
+    "exampleJp": "「空」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 897,
+    "category": "天気・自然",
+    "tw": "海水",
+    "jp": "海水",
+    "pron": "hái-tsuí",
+    "example": "我欲記得「海水」。",
+    "exampleJp": "「海水」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 898,
+    "category": "天気・自然",
+    "tw": "海湧",
+    "jp": "波",
+    "pron": "hái-íng",
+    "example": "我欲記得「海湧」。",
+    "exampleJp": "「波」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 899,
+    "category": "天気・自然",
+    "tw": "山路",
+    "jp": "山道",
+    "pron": "suann-lōo",
+    "example": "我欲記得「山路」。",
+    "exampleJp": "「山道」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 900,
+    "category": "天気・自然",
+    "tw": "樹林",
+    "jp": "林",
+    "pron": "tshiū-nâ",
+    "example": "我欲記得「樹林」。",
+    "exampleJp": "「林」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 901,
+    "category": "天気・自然",
+    "tw": "森林",
+    "jp": "森林",
+    "pron": "sim-lîm",
+    "example": "我欲記得「森林」。",
+    "exampleJp": "「森林」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 902,
+    "category": "天気・自然",
+    "tw": "田園",
+    "jp": "田園",
+    "pron": "tshân-hn̂g",
+    "example": "我欲記得「田園」。",
+    "exampleJp": "「田園」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 903,
+    "category": "天気・自然",
+    "tw": "稻田",
+    "jp": "田んぼ",
+    "pron": "tiū-tshân",
+    "example": "我欲記得「稻田」。",
+    "exampleJp": "「田んぼ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 904,
+    "category": "天気・自然",
+    "tw": "稻仔",
+    "jp": "稲",
+    "pron": "tiū-á",
+    "example": "我欲記得「稻仔」。",
+    "exampleJp": "「稲」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 905,
+    "category": "天気・自然",
+    "tw": "土地",
+    "jp": "土地",
+    "pron": "thóo-tē",
+    "example": "我欲記得「土地」。",
+    "exampleJp": "「土地」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 906,
+    "category": "天気・自然",
+    "tw": "兔仔",
+    "jp": "ウサギ",
+    "pron": "thòo-á",
+    "example": "我欲記得「兔仔」。",
+    "exampleJp": "「ウサギ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 907,
+    "category": "天気・自然",
+    "tw": "蛇",
+    "jp": "ヘビ",
+    "pron": "tsuâ",
+    "example": "我欲記得「蛇」。",
+    "exampleJp": "「ヘビ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 908,
+    "category": "天気・自然",
+    "tw": "羊",
+    "jp": "羊",
+    "pron": "iûnn",
+    "example": "我欲記得「羊」。",
+    "exampleJp": "「羊」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 909,
+    "category": "天気・自然",
+    "tw": "猴",
+    "jp": "サル",
+    "pron": "kâu",
+    "example": "我欲記得「猴」。",
+    "exampleJp": "「サル」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 910,
+    "category": "天気・自然",
+    "tw": "虎",
+    "jp": "トラ",
+    "pron": "hóo",
+    "example": "我欲記得「虎」。",
+    "exampleJp": "「トラ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 911,
+    "category": "体・健康",
+    "tw": "皮膚",
+    "jp": "皮膚",
+    "pron": "phuê-hu",
+    "example": "我欲記得「皮膚」。",
+    "exampleJp": "「皮膚」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 912,
+    "category": "体・健康",
+    "tw": "骨",
+    "jp": "骨",
+    "pron": "kut",
+    "example": "我欲記得「骨」。",
+    "exampleJp": "「骨」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 913,
+    "category": "体・健康",
+    "tw": "骨頭",
+    "jp": "骨",
+    "pron": "kut-thâu",
+    "example": "我欲記得「骨頭」。",
+    "exampleJp": "「骨」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 914,
+    "category": "体・健康",
+    "tw": "背脊",
+    "jp": "背中",
+    "pron": "puē-tsiah",
+    "example": "我欲記得「背脊」。",
+    "exampleJp": "「背中」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 915,
+    "category": "体・健康",
+    "tw": "腰",
+    "jp": "腰",
+    "pron": "io",
+    "example": "我欲記得「腰」。",
+    "exampleJp": "「腰」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 916,
+    "category": "体・健康",
+    "tw": "胸坎",
+    "jp": "胸",
+    "pron": "hing-khám",
+    "example": "我欲記得「胸坎」。",
+    "exampleJp": "「胸」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 917,
+    "category": "体・健康",
+    "tw": "喉嚨",
+    "jp": "喉",
+    "pron": "âu-lîng",
+    "example": "我欲記得「喉嚨」。",
+    "exampleJp": "「喉」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 918,
+    "category": "体・健康",
+    "tw": "指甲",
+    "jp": "爪",
+    "pron": "tsí-kah",
+    "example": "我欲記得「指甲」。",
+    "exampleJp": "「爪」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 919,
+    "category": "体・健康",
+    "tw": "跤趾",
+    "jp": "足の指",
+    "pron": "kha-tsí",
+    "example": "我欲記得「跤趾」。",
+    "exampleJp": "「足の指」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 920,
+    "category": "体・健康",
+    "tw": "目眉",
+    "jp": "眉",
+    "pron": "ba̍k-bâi",
+    "example": "我欲記得「目眉」。",
+    "exampleJp": "「眉」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "中級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 921,
+    "category": "体・健康",
+    "tw": "目屎",
+    "jp": "涙",
+    "pron": "ba̍k-sái",
+    "example": "我欲記得「目屎」。",
+    "exampleJp": "「涙」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 922,
+    "category": "体・健康",
+    "tw": "鼻水",
+    "jp": "鼻水",
+    "pron": "phīnn-tsuí",
+    "example": "我欲記得「鼻水」。",
+    "exampleJp": "「鼻水」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 923,
+    "category": "体・健康",
+    "tw": "汗",
+    "jp": "汗",
+    "pron": "kuānn",
+    "example": "我欲記得「汗」。",
+    "exampleJp": "「汗」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 924,
+    "category": "体・健康",
+    "tw": "屎",
+    "jp": "便",
+    "pron": "sái",
+    "example": "我欲記得「屎」。",
+    "exampleJp": "「便」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 925,
+    "category": "体・健康",
+    "tw": "尿",
+    "jp": "尿",
+    "pron": "jiō",
+    "example": "我欲記得「尿」。",
+    "exampleJp": "「尿」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 926,
+    "category": "体・健康",
+    "tw": "流鼻水",
+    "jp": "鼻水が出る",
+    "pron": "lâu phīnn-tsuí",
+    "example": "我欲記得「流鼻水」。",
+    "exampleJp": "「鼻水が出る」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 927,
+    "category": "体・健康",
+    "tw": "喉嚨疼",
+    "jp": "喉が痛い",
+    "pron": "âu-lîng-thiànn",
+    "example": "我欲記得「喉嚨疼」。",
+    "exampleJp": "「喉が痛い」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 928,
+    "category": "体・健康",
+    "tw": "發炎",
+    "jp": "炎症を起こす",
+    "pron": "huat-iām",
+    "example": "我欲記得「發炎」。",
+    "exampleJp": "「炎症を起こす」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 929,
+    "category": "体・健康",
+    "tw": "過敏",
+    "jp": "アレルギー／過敏",
+    "pron": "kuè-bín",
+    "example": "我欲記得「過敏」。",
+    "exampleJp": "「アレルギー／過敏」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 930,
+    "category": "体・健康",
+    "tw": "頭暈",
+    "jp": "めまい",
+    "pron": "thâu-hîn",
+    "example": "我欲記得「頭暈」。",
+    "exampleJp": "「めまい」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 931,
+    "category": "体・健康",
+    "tw": "嘔吐",
+    "jp": "吐く／嘔吐",
+    "pron": "áu-thòo",
+    "example": "我欲記得「嘔吐」。",
+    "exampleJp": "「吐く／嘔吐」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 932,
+    "category": "体・健康",
+    "tw": "落屎",
+    "jp": "下痢をする",
+    "pron": "làu-sái",
+    "example": "我欲記得「落屎」。",
+    "exampleJp": "「下痢をする」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 933,
+    "category": "体・健康",
+    "tw": "便秘",
+    "jp": "便秘",
+    "pron": "piān-pì",
+    "example": "我欲記得「便秘」。",
+    "exampleJp": "「便秘」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 934,
+    "category": "体・健康",
+    "tw": "受傷",
+    "jp": "けがをする",
+    "pron": "siū-siong",
+    "example": "我欲記得「受傷」。",
+    "exampleJp": "「けがをする」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 935,
+    "category": "体・健康",
+    "tw": "流血",
+    "jp": "出血する",
+    "pron": "lâu-hueh",
+    "example": "我欲記得「流血」。",
+    "exampleJp": "「出血する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 936,
+    "category": "体・健康",
+    "tw": "消毒",
+    "jp": "消毒する",
+    "pron": "siau-to̍k",
+    "example": "我欲記得「消毒」。",
+    "exampleJp": "「消毒する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 937,
+    "category": "体・健康",
+    "tw": "包紮",
+    "jp": "包帯を巻く",
+    "pron": "pau-tsat",
+    "example": "我欲記得「包紮」。",
+    "exampleJp": "「包帯を巻く」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 938,
+    "category": "体・健康",
+    "tw": "掛號",
+    "jp": "受付をする／診察登録",
+    "pron": "kuà-hō",
+    "example": "我欲記得「掛號」。",
+    "exampleJp": "「受付をする／診察登録」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 939,
+    "category": "体・健康",
+    "tw": "住院",
+    "jp": "入院する",
+    "pron": "tsū-īnn",
+    "example": "我欲記得「住院」。",
+    "exampleJp": "「入院する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 940,
+    "category": "体・健康",
+    "tw": "出院",
+    "jp": "退院する",
+    "pron": "tshut-īnn",
+    "example": "我欲記得「出院」。",
+    "exampleJp": "「退院する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 941,
+    "category": "動作・感情",
+    "tw": "課程",
+    "jp": "授業／コース",
+    "pron": "khò-tîng",
+    "example": "我欲記得「課程」。",
+    "exampleJp": "「授業／コース」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 942,
+    "category": "動作・感情",
+    "tw": "功課",
+    "jp": "宿題／勉強",
+    "pron": "kong-khò",
+    "example": "我欲記得「功課」。",
+    "exampleJp": "「宿題／勉強」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 943,
+    "category": "動作・感情",
+    "tw": "考試",
+    "jp": "試験",
+    "pron": "khó-tshì",
+    "example": "我欲記得「考試」。",
+    "exampleJp": "「試験」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 944,
+    "category": "動作・感情",
+    "tw": "成績",
+    "jp": "成績",
+    "pron": "sîng-tsik",
+    "example": "我欲記得「成績」。",
+    "exampleJp": "「成績」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 945,
+    "category": "動作・感情",
+    "tw": "答案",
+    "jp": "答え",
+    "pron": "tap-àn",
+    "example": "我欲記得「答案」。",
+    "exampleJp": "「答え」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 946,
+    "category": "交通・場所",
+    "tw": "教室",
+    "jp": "教室",
+    "pron": "kàu-sik",
+    "example": "我欲記得「教室」。",
+    "exampleJp": "「教室」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 947,
+    "category": "交通・場所",
+    "tw": "大學",
+    "jp": "大学",
+    "pron": "tāi-ha̍k",
+    "example": "我欲記得「大學」。",
+    "exampleJp": "「大学」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 948,
+    "category": "交通・場所",
+    "tw": "高中",
+    "jp": "高校",
+    "pron": "ko-tiong",
+    "example": "我欲記得「高中」。",
+    "exampleJp": "「高校」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 949,
+    "category": "交通・場所",
+    "tw": "國中",
+    "jp": "中学校",
+    "pron": "kok-tiong",
+    "example": "我欲記得「國中」。",
+    "exampleJp": "「中学校」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 950,
+    "category": "交通・場所",
+    "tw": "小學",
+    "jp": "小学校",
+    "pron": "sió-ha̍k",
+    "example": "我欲記得「小學」。",
+    "exampleJp": "「小学校」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 951,
+    "category": "動作・感情",
+    "tw": "作業",
+    "jp": "課題／作業",
+    "pron": "tsok-gia̍p",
+    "example": "我欲記得「作業」。",
+    "exampleJp": "「課題／作業」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 952,
+    "category": "動作・感情",
+    "tw": "上課",
+    "jp": "授業を受ける／授業開始",
+    "pron": "siōng-khò",
+    "example": "我欲記得「上課」。",
+    "exampleJp": "「授業を受ける／授業開始」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 953,
+    "category": "動作・感情",
+    "tw": "下課",
+    "jp": "授業が終わる",
+    "pron": "hā-khò",
+    "example": "我欲記得「下課」。",
+    "exampleJp": "「授業が終わる」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 954,
+    "category": "動作・感情",
+    "tw": "放學",
+    "jp": "学校が終わる",
+    "pron": "pàng-ha̍k",
+    "example": "我欲記得「放學」。",
+    "exampleJp": "「学校が終わる」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 955,
+    "category": "動作・感情",
+    "tw": "畢業",
+    "jp": "卒業する",
+    "pron": "pit-gia̍p",
+    "example": "我欲記得「畢業」。",
+    "exampleJp": "「卒業する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 956,
+    "category": "動作・感情",
+    "tw": "上班",
+    "jp": "出勤する",
+    "pron": "siōng-pan",
+    "example": "我欲記得「上班」。",
+    "exampleJp": "「出勤する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 957,
+    "category": "動作・感情",
+    "tw": "下班",
+    "jp": "退勤する",
+    "pron": "hā-pan",
+    "example": "我欲記得「下班」。",
+    "exampleJp": "「退勤する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 958,
+    "category": "家・日用品",
+    "tw": "名片",
+    "jp": "名刺",
+    "pron": "miâ-phìnn",
+    "example": "我欲記得「名片」。",
+    "exampleJp": "「名刺」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 959,
+    "category": "家・日用品",
+    "tw": "網站",
+    "jp": "ウェブサイト",
+    "pron": "bāng-tsām",
+    "example": "我欲記得「網站」。",
+    "exampleJp": "「ウェブサイト」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 960,
+    "category": "家・日用品",
+    "tw": "網頁",
+    "jp": "ウェブページ",
+    "pron": "bāng-ia̍h",
+    "example": "我欲記得「網頁」。",
+    "exampleJp": "「ウェブページ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 961,
+    "category": "家・日用品",
+    "tw": "密碼",
+    "jp": "パスワード",
+    "pron": "bi̍t-bé",
+    "example": "我欲記得「密碼」。",
+    "exampleJp": "「パスワード」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 962,
+    "category": "家・日用品",
+    "tw": "帳號",
+    "jp": "アカウント",
+    "pron": "tiùnn-hō",
+    "example": "我欲記得「帳號」。",
+    "exampleJp": "「アカウント」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 963,
+    "category": "家・日用品",
+    "tw": "檔案",
+    "jp": "ファイル",
+    "pron": "tóng-àn",
+    "example": "我欲記得「檔案」。",
+    "exampleJp": "「ファイル」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 964,
+    "category": "家・日用品",
+    "tw": "相機",
+    "jp": "カメラ",
+    "pron": "siòng-ki",
+    "example": "我欲記得「相機」。",
+    "exampleJp": "「カメラ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 965,
+    "category": "家・日用品",
+    "tw": "螢幕",
+    "jp": "画面／モニター",
+    "pron": "îng-bōo",
+    "example": "我欲記得「螢幕」。",
+    "exampleJp": "「画面／モニター」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 966,
+    "category": "家・日用品",
+    "tw": "鍵盤",
+    "jp": "キーボード",
+    "pron": "kiān-puânn",
+    "example": "我欲記得「鍵盤」。",
+    "exampleJp": "「キーボード」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 967,
+    "category": "家・日用品",
+    "tw": "滑鼠",
+    "jp": "マウス",
+    "pron": "ku̍t-tshí",
+    "example": "我欲記得「滑鼠」。",
+    "exampleJp": "「マウス」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 968,
+    "category": "動作・感情",
+    "tw": "地理",
+    "jp": "地理",
+    "pron": "tē-lí",
+    "example": "我欲記得「地理」。",
+    "exampleJp": "「地理」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 969,
+    "category": "家・日用品",
+    "tw": "訊息",
+    "jp": "メッセージ／情報",
+    "pron": "sìn-sit",
+    "example": "我欲記得「訊息」。",
+    "exampleJp": "「メッセージ／情報」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 970,
+    "category": "家・日用品",
+    "tw": "新聞",
+    "jp": "ニュース／新聞",
+    "pron": "sin-bûn",
+    "example": "我欲記得「新聞」。",
+    "exampleJp": "「ニュース／新聞」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 971,
+    "category": "動作・感情",
+    "tw": "看見",
+    "jp": "見える／見かける",
+    "pron": "khuànn-kìnn",
+    "example": "我欲記得「看見」。",
+    "exampleJp": "「見える／見かける」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 972,
+    "category": "動作・感情",
+    "tw": "聽見",
+    "jp": "聞こえる",
+    "pron": "thiann-kìnn",
+    "example": "我欲記得「聽見」。",
+    "exampleJp": "「聞こえる」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 973,
+    "category": "動作・感情",
+    "tw": "揣著",
+    "jp": "見つける",
+    "pron": "tshuē-tio̍h",
+    "example": "我欲記得「揣著」。",
+    "exampleJp": "「見つける」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 974,
+    "category": "動作・感情",
+    "tw": "認得",
+    "jp": "見覚えがある／認識する",
+    "pron": "jīn-tit",
+    "example": "我欲記得「認得」。",
+    "exampleJp": "「見覚えがある／認識する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 975,
+    "category": "動作・感情",
+    "tw": "相信",
+    "jp": "信じる",
+    "pron": "siong-sìn",
+    "example": "我欲記得「相信」。",
+    "exampleJp": "「信じる」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 976,
+    "category": "動作・感情",
+    "tw": "決定",
+    "jp": "決める／決定",
+    "pron": "kuat-tīng",
+    "example": "我欲記得「決定」。",
+    "exampleJp": "「決める／決定」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 977,
+    "category": "動作・感情",
+    "tw": "選擇",
+    "jp": "選ぶ／選択",
+    "pron": "suán-ti̍k",
+    "example": "我欲記得「選擇」。",
+    "exampleJp": "「選ぶ／選択」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 978,
+    "category": "動作・感情",
+    "tw": "改變",
+    "jp": "変える／変化",
+    "pron": "kái-piàn",
+    "example": "我欲記得「改變」。",
+    "exampleJp": "「変える／変化」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 979,
+    "category": "動作・感情",
+    "tw": "注意",
+    "jp": "注意する",
+    "pron": "tsù-ì",
+    "example": "我欲記得「注意」。",
+    "exampleJp": "「注意する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 980,
+    "category": "動作・感情",
+    "tw": "小心",
+    "jp": "気をつける",
+    "pron": "sió-sim",
+    "example": "我欲記得「小心」。",
+    "exampleJp": "「気をつける」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 981,
+    "category": "動作・感情",
+    "tw": "結束",
+    "jp": "終える／終了",
+    "pron": "kiat-sok",
+    "example": "我欲記得「結束」。",
+    "exampleJp": "「終える／終了」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 982,
+    "category": "動作・感情",
+    "tw": "成功",
+    "jp": "成功する",
+    "pron": "sîng-kong",
+    "example": "我欲記得「成功」。",
+    "exampleJp": "「成功する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 983,
+    "category": "動作・感情",
+    "tw": "失敗",
+    "jp": "失敗する",
+    "pron": "sit-pāi",
+    "example": "我欲記得「失敗」。",
+    "exampleJp": "「失敗する」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 984,
+    "category": "あいさつ・基本",
+    "tw": "應該",
+    "jp": "〜すべき／〜のはず",
+    "pron": "ing-kai",
+    "example": "我欲記得「應該」。",
+    "exampleJp": "「〜すべき／〜のはず」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 985,
+    "category": "あいさつ・基本",
+    "tw": "可能",
+    "jp": "可能／〜かもしれない",
+    "pron": "khó-lîng",
+    "example": "我欲記得「可能」。",
+    "exampleJp": "「可能／〜かもしれない」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 986,
+    "category": "あいさつ・基本",
+    "tw": "一定",
+    "jp": "必ず／きっと",
+    "pron": "it-tīng",
+    "example": "我欲記得「一定」。",
+    "exampleJp": "「必ず／きっと」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 987,
+    "category": "あいさつ・基本",
+    "tw": "大概",
+    "jp": "だいたい／おそらく",
+    "pron": "tāi-khài",
+    "example": "我欲記得「大概」。",
+    "exampleJp": "「だいたい／おそらく」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 988,
+    "category": "あいさつ・基本",
+    "tw": "差不多",
+    "jp": "ほぼ／だいたい同じ",
+    "pron": "tsha-put-to",
+    "example": "我欲記得「差不多」。",
+    "exampleJp": "「ほぼ／だいたい同じ」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 989,
+    "category": "あいさつ・基本",
+    "tw": "當然",
+    "jp": "もちろん",
+    "pron": "tong-jiân",
+    "example": "我欲記得「當然」。",
+    "exampleJp": "「もちろん」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 990,
+    "category": "あいさつ・基本",
+    "tw": "原來",
+    "jp": "なるほど／もともと",
+    "pron": "guân-lâi",
+    "example": "我欲記得「原來」。",
+    "exampleJp": "「なるほど／もともと」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 991,
+    "category": "あいさつ・基本",
+    "tw": "突然",
+    "jp": "突然",
+    "pron": "tu̍t-jiân",
+    "example": "我欲記得「突然」。",
+    "exampleJp": "「突然」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 992,
+    "category": "あいさつ・基本",
+    "tw": "慢慢",
+    "jp": "ゆっくり",
+    "pron": "bān-bān",
+    "example": "我欲記得「慢慢」。",
+    "exampleJp": "「ゆっくり」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 993,
+    "category": "あいさつ・基本",
+    "tw": "趕緊",
+    "jp": "急いで",
+    "pron": "kuánn-kín",
+    "example": "我欲記得「趕緊」。",
+    "exampleJp": "「急いで」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 994,
+    "category": "あいさつ・基本",
+    "tw": "特別是",
+    "jp": "特に",
+    "pron": "ti̍k-pia̍t sī",
+    "example": "我欲記得「特別是」。",
+    "exampleJp": "「特に」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 995,
+    "category": "あいさつ・基本",
+    "tw": "主要",
+    "jp": "主に／主要",
+    "pron": "tsú-iàu",
+    "example": "我欲記得「主要」。",
+    "exampleJp": "「主に／主要」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 996,
+    "category": "あいさつ・基本",
+    "tw": "普通",
+    "jp": "普通／一般的",
+    "pron": "phóo-thong",
+    "example": "我欲記得「普通」。",
+    "exampleJp": "「普通／一般的」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 997,
+    "category": "あいさつ・基本",
+    "tw": "完全",
+    "jp": "完全に",
+    "pron": "uân-tsuân",
+    "example": "我欲記得「完全」。",
+    "exampleJp": "「完全に」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 998,
+    "category": "あいさつ・基本",
+    "tw": "真正",
+    "jp": "本当に",
+    "pron": "tsin-tsiànn",
+    "example": "我欲記得「真正」。",
+    "exampleJp": "「本当に」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 999,
+    "category": "人・家族",
+    "tw": "社會",
+    "jp": "社会",
+    "pron": "siā-huē",
+    "example": "我欲記得「社會」。",
+    "exampleJp": "「社会」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  },
+  {
+    "id": 1000,
+    "category": "あいさつ・基本",
+    "tw": "清楚",
+    "jp": "はっきり／明確",
+    "pron": "tshing-tshóo",
+    "example": "我欲記得「清楚」。",
+    "exampleJp": "「はっきり／明確」という言い方を覚えたいです。",
+    "kind": "word",
+    "level": "上級",
+    "source": "ChhoeTaigiDatabase公開資料を語彙・表記確認の参照元として使用"
+  }
+];
+window.PATTERNS = [
+  {
+    "id": "p1",
+    "level": "初級",
+    "title": "我欲〜",
+    "structure": "我欲＋動作／物",
+    "meaning": "私は〜したい／〜するつもりです",
+    "pron": "guá beh ...",
+    "note": "希望や予定を表す最重要パターン。",
+    "examples": [
+      [
+        "我欲食飯。",
+        "ご飯を食べたいです。",
+        "guá beh tsia̍h-pn̄g"
+      ],
+      [
+        "我欲去台北。",
+        "台北へ行きたいです。",
+        "guá beh khì Tâi-pak"
+      ]
+    ]
+  },
+  {
+    "id": "p2",
+    "level": "初級",
+    "title": "〜佇佗位？",
+    "structure": "場所・物＋佇佗位？",
+    "meaning": "〜はどこにありますか？",
+    "pron": "... tī tó-uī?",
+    "note": "道を尋ねるときの基本型。",
+    "examples": [
+      [
+        "便所佇佗位？",
+        "トイレはどこですか？",
+        "piān-sóo tī tó-uī"
+      ],
+      [
+        "車站佇佗位？",
+        "駅はどこですか？",
+        "tshia-tsām tī tó-uī"
+      ]
+    ]
+  },
+  {
+    "id": "p3",
+    "level": "初級",
+    "title": "這是啥物？",
+    "structure": "這是＋啥物？",
+    "meaning": "これは何ですか？",
+    "pron": "tse sī siánn-mih?",
+    "note": "物の名前を尋ねる基本表現。",
+    "examples": [
+      [
+        "這是啥物？",
+        "これは何ですか？",
+        "tse sī siánn-mih"
+      ],
+      [
+        "彼个是啥物？",
+        "あれは何ですか？",
+        "hit-ê sī siánn-mih"
+      ]
+    ]
+  },
+  {
+    "id": "p4",
+    "level": "初級",
+    "title": "你有〜無？",
+    "structure": "你有＋名詞＋無？",
+    "meaning": "〜を持っていますか／ありますか？",
+    "pron": "lí ū ... bô?",
+    "note": "有無疑問文。",
+    "examples": [
+      [
+        "你有時間無？",
+        "時間がありますか？",
+        "lí ū sî-kan bô"
+      ],
+      [
+        "你有錢無？",
+        "お金がありますか？",
+        "lí ū tsînn bô"
+      ]
+    ]
+  },
+  {
+    "id": "p5",
+    "level": "初級",
+    "title": "我無〜",
+    "structure": "我無＋名詞",
+    "meaning": "私は〜を持っていません／〜がありません",
+    "pron": "guá bô ...",
+    "note": "「ない」を簡潔に伝える。",
+    "examples": [
+      [
+        "我無時間。",
+        "時間がありません。",
+        "guá bô sî-kan"
+      ],
+      [
+        "我無錢。",
+        "お金がありません。",
+        "guá bô tsînn"
+      ]
+    ]
+  },
+  {
+    "id": "p6",
+    "level": "初級",
+    "title": "會使〜無？",
+    "structure": "會使＋動作＋無？",
+    "meaning": "〜してもいいですか／できますか？",
+    "pron": "ē-sái ... bô?",
+    "note": "許可や可能を尋ねる便利な型。",
+    "examples": [
+      [
+        "會使坐遮無？",
+        "ここに座ってもいいですか？",
+        "ē-sái tsē tsia bô"
+      ],
+      [
+        "會使拍電話無？",
+        "電話してもいいですか？",
+        "ē-sái phah tiān-uē bô"
+      ]
+    ]
+  },
+  {
+    "id": "p7",
+    "level": "初級",
+    "title": "袂使〜",
+    "structure": "袂使＋動作",
+    "meaning": "〜してはいけません／できません",
+    "pron": "bē-sái ...",
+    "note": "禁止・不可能を表す。",
+    "examples": [
+      [
+        "遮袂使食薰。",
+        "ここでは喫煙できません。",
+        "tsia bē-sái tsia̍h-hun"
+      ],
+      [
+        "袂使入去。",
+        "入ってはいけません。",
+        "bē-sái ji̍p-khì"
+      ]
+    ]
+  },
+  {
+    "id": "p8",
+    "level": "初級",
+    "title": "我袂曉〜",
+    "structure": "我袂曉＋動作",
+    "meaning": "私は〜のやり方が分かりません",
+    "pron": "guá bē-hiáu ...",
+    "note": "技能として「できない」を言うときに便利。",
+    "examples": [
+      [
+        "我袂曉講台語。",
+        "台湾語を話せません。",
+        "guá bē-hiáu kóng Tâi-gí"
+      ],
+      [
+        "我袂曉寫。",
+        "書き方が分かりません。",
+        "guá bē-hiáu siá"
+      ]
+    ]
+  },
+  {
+    "id": "p9",
+    "level": "初級",
+    "title": "請〜",
+    "structure": "請＋動作",
+    "meaning": "どうぞ〜してください",
+    "pron": "tshiánn ...",
+    "note": "依頼を丁寧にする基本形。",
+    "examples": [
+      [
+        "請坐。",
+        "どうぞ座ってください。",
+        "tshiánn tsē"
+      ],
+      [
+        "請講。",
+        "どうぞ話してください。",
+        "tshiánn kóng"
+      ]
+    ]
+  },
+  {
+    "id": "p10",
+    "level": "初級",
+    "title": "請閣講一擺",
+    "structure": "請＋閣＋動作＋一擺",
+    "meaning": "もう一度〜してください",
+    "pron": "tshiánn koh ... tsi̍t-pái",
+    "note": "聞き取れなかったときに最重要。",
+    "examples": [
+      [
+        "請閣講一擺。",
+        "もう一度言ってください。",
+        "tshiánn koh kóng tsi̍t-pái"
+      ],
+      [
+        "請閣讀一擺。",
+        "もう一度読んでください。",
+        "tshiánn koh tha̍k tsi̍t-pái"
+      ]
+    ]
+  },
+  {
+    "id": "p11",
+    "level": "初級",
+    "title": "〜真…",
+    "structure": "名詞＋真＋形容詞",
+    "meaning": "〜はとても…です",
+    "pron": "... tsin ...",
+    "note": "程度を強調する自然な型。",
+    "examples": [
+      [
+        "這真好食。",
+        "これはとてもおいしいです。",
+        "tse tsin hó-tsia̍h"
+      ],
+      [
+        "今仔日真熱。",
+        "今日はとても暑いです。",
+        "kin-á-ji̍t tsin jua̍h"
+      ]
+    ]
+  },
+  {
+    "id": "p12",
+    "level": "初級",
+    "title": "〜傷…",
+    "structure": "名詞＋傷＋形容詞",
+    "meaning": "〜は…すぎます",
+    "pron": "... siunn ...",
+    "note": "「〜すぎる」を表す。",
+    "examples": [
+      [
+        "這傷貴矣。",
+        "これは高すぎます。",
+        "tse siunn kuì--ah"
+      ],
+      [
+        "咖啡傷苦。",
+        "コーヒーが苦すぎます。",
+        "ka-pi siunn khóo"
+      ]
+    ]
+  },
+  {
+    "id": "p13",
+    "level": "初級",
+    "title": "我愛〜",
+    "structure": "我愛＋名詞／動作",
+    "meaning": "私は〜が好きです／〜したいです",
+    "pron": "guá ài ...",
+    "note": "好みや必要を表す。文脈で意味が変わる。",
+    "examples": [
+      [
+        "我愛台灣。",
+        "台湾が好きです。",
+        "guá ài Tâi-uân"
+      ],
+      [
+        "我愛啉茶。",
+        "お茶を飲むのが好きです。",
+        "guá ài lim tê"
+      ]
+    ]
+  },
+  {
+    "id": "p14",
+    "level": "初級",
+    "title": "咱做伙〜",
+    "structure": "咱做伙＋動作",
+    "meaning": "一緒に〜しましょう",
+    "pron": "lán tsò-hué ...",
+    "note": "相手を含む「私たち＝咱」を使う。",
+    "examples": [
+      [
+        "咱做伙食飯。",
+        "一緒にご飯を食べましょう。",
+        "lán tsò-hué tsia̍h-pn̄g"
+      ],
+      [
+        "咱做伙去。",
+        "一緒に行きましょう。",
+        "lán tsò-hué khì"
+      ]
+    ]
+  },
+  {
+    "id": "p15",
+    "level": "初級",
+    "title": "你欲〜無？",
+    "structure": "你欲＋動作＋無？",
+    "meaning": "〜したいですか？／〜しますか？",
+    "pron": "lí beh ... bô?",
+    "note": "相手の希望を尋ねる。",
+    "examples": [
+      [
+        "你欲食飯無？",
+        "ご飯を食べますか？",
+        "lí beh tsia̍h-pn̄g bô"
+      ],
+      [
+        "你欲去無？",
+        "行きますか？",
+        "lí beh khì bô"
+      ]
+    ]
+  },
+  {
+    "id": "p16",
+    "level": "初級",
+    "title": "〜偌濟錢？",
+    "structure": "品物＋偌濟錢？",
+    "meaning": "〜はいくらですか？",
+    "pron": "... guā-tsē tsînn?",
+    "note": "買い物で必須。",
+    "examples": [
+      [
+        "這个偌濟錢？",
+        "これはいくらですか？",
+        "tsit-ê guā-tsē tsînn"
+      ],
+      [
+        "咖啡偌濟錢？",
+        "コーヒーはいくらですか？",
+        "ka-pi guā-tsē tsînn"
+      ]
+    ]
+  },
+  {
+    "id": "p17",
+    "level": "中級",
+    "title": "我欲去〜",
+    "structure": "我欲去＋場所",
+    "meaning": "〜へ行きたいです",
+    "pron": "guá beh khì ...",
+    "note": "移動の目的地を言う型。",
+    "examples": [
+      [
+        "我欲去機場。",
+        "空港へ行きたいです。",
+        "guá beh khì ki-tiûnn"
+      ],
+      [
+        "我欲去市場。",
+        "市場へ行きたいです。",
+        "guá beh khì tshī-tiûnn"
+      ]
+    ]
+  },
+  {
+    "id": "p18",
+    "level": "中級",
+    "title": "啥物時陣〜？",
+    "structure": "啥物時陣＋動作？",
+    "meaning": "いつ〜しますか？",
+    "pron": "siánn-mih sî-tsūn ...?",
+    "note": "時刻・時期を尋ねる。",
+    "examples": [
+      [
+        "你啥物時陣來？",
+        "いつ来ますか？",
+        "lí siánn-mih sî-tsūn lâi"
+      ],
+      [
+        "啥物時陣開始？",
+        "いつ始まりますか？",
+        "siánn-mih sî-tsūn khai-sí"
+      ]
+    ]
+  },
+  {
+    "id": "p19",
+    "level": "中級",
+    "title": "因為〜，所以…",
+    "structure": "因為＋理由，所以＋結果",
+    "meaning": "〜なので、…です",
+    "pron": "in-uī ..., sóo-í ...",
+    "note": "理由と結果をつなぐ。",
+    "examples": [
+      [
+        "因為落雨，所以我無去。",
+        "雨なので、私は行きませんでした。",
+        "in-uī lo̍h-hōo, sóo-í guá bô khì"
+      ],
+      [
+        "因為真枵，所以我欲食飯。",
+        "とても空腹なので、ご飯を食べたいです。",
+        "in-uī tsin iau, sóo-í guá beh tsia̍h-pn̄g"
+      ]
+    ]
+  },
+  {
+    "id": "p20",
+    "level": "中級",
+    "title": "若是〜，就…",
+    "structure": "若是＋条件，就＋結果",
+    "meaning": "もし〜なら、…",
+    "pron": "nā-sī ..., tō ...",
+    "note": "条件を示す。",
+    "examples": [
+      [
+        "若是落雨，我就無去。",
+        "もし雨なら、私は行きません。",
+        "nā-sī lo̍h-hōo, guá tō bô khì"
+      ],
+      [
+        "若是有時間，咱就做伙去。",
+        "時間があれば、一緒に行きましょう。",
+        "nā-sī ū sî-kan, lán tō tsò-hué khì"
+      ]
+    ]
+  },
+  {
+    "id": "p21",
+    "level": "中級",
+    "title": "已經〜矣",
+    "structure": "已經＋動作＋矣",
+    "meaning": "もう〜しました",
+    "pron": "í-king ... --ah",
+    "note": "完了を強調する。",
+    "examples": [
+      [
+        "我已經食飽矣。",
+        "私はもうお腹いっぱい食べました。",
+        "guá í-king tsia̍h-pá--ah"
+      ],
+      [
+        "伊已經來矣。",
+        "彼／彼女はもう来ました。",
+        "i í-king lâi--ah"
+      ]
+    ]
+  },
+  {
+    "id": "p22",
+    "level": "中級",
+    "title": "猶未〜",
+    "structure": "猶未＋動作",
+    "meaning": "まだ〜していません",
+    "pron": "iáu-buē ...",
+    "note": "「まだ〜していない」を表す。",
+    "examples": [
+      [
+        "我猶未食飯。",
+        "私はまだご飯を食べていません。",
+        "guá iáu-buē tsia̍h-pn̄g"
+      ],
+      [
+        "伊猶未來。",
+        "彼／彼女はまだ来ていません。",
+        "i iáu-buē lâi"
+      ]
+    ]
+  },
+  {
+    "id": "p23",
+    "level": "上級",
+    "title": "先〜，才…",
+    "structure": "先＋動作A，才＋動作B",
+    "meaning": "まず〜して、それから…する",
+    "pron": "sing ..., tsiah ...",
+    "note": "行動の順序を示す。",
+    "examples": [
+      [
+        "先食飯，才出去。",
+        "まず食事をして、それから出かけます。",
+        "sing tsia̍h-pn̄g, tsiah tshut-khì"
+      ],
+      [
+        "先買票，才上車。",
+        "まず切符を買って、それから乗ります。",
+        "sing bé phiò, tsiah tsiūnn-tshia"
+      ]
+    ]
+  },
+  {
+    "id": "p24",
+    "level": "上級",
+    "title": "毋但〜，閣…",
+    "structure": "毋但＋A，閣＋B",
+    "meaning": "Aだけでなく、さらにB",
+    "pron": "m̄-nā ..., koh ...",
+    "note": "情報を付け加える表現。",
+    "examples": [
+      [
+        "伊毋但會講台語，閣會講日語。",
+        "彼／彼女は台湾語だけでなく、日本語も話せます。",
+        "i m̄-nā ē kóng Tâi-gí, koh ē kóng Ji̍t-gí"
+      ],
+      [
+        "這毋但俗，閣真好食。",
+        "これは安いだけでなく、とてもおいしいです。",
+        "tse m̄-nā sio̍k, koh tsin hó-tsia̍h"
+      ]
+    ]
   }
 ];
