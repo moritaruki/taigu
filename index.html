@@ -49,12 +49,18 @@ input,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:
 .sourcebox{margin-top:18px;background:#fffdf9;border:1px solid var(--line);border-radius:18px;padding:14px}.sourcebox h3{margin:0 0 8px;color:var(--ink)}.sourcebox a{color:var(--ink2);font-weight:700}
 .switchline{display:flex;align-items:center;gap:8px;background:#fffdf9;border:1px solid var(--line);border-radius:13px;padding:9px 11px;font-size:13px}.switchline input{width:auto}
 .empty{text-align:center;padding:32px 10px;color:var(--muted)}
+.audioLine{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:12px}
+.speakbtn{background:#fff;border:1px solid var(--line);padding:8px 11px;font-size:12px;color:var(--ink2)}
+.speakbtn:hover{background:#f1ece2}.rowActions{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:4px}
+.audioDock{position:fixed;left:50%;bottom:calc(10px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:30;width:min(720px,calc(100% - 20px));background:#173b33;color:white;border-radius:18px;padding:12px 14px;box-shadow:0 12px 35px rgba(0,0,0,.25)}
+.audioDockTop{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:start}.audioDockTitle{font-weight:850;line-height:1.4}.audioDockSource{font-size:11px;line-height:1.45;opacity:.78;margin-top:2px}.audioDockStatus{font-size:11px;opacity:.82;margin-top:5px}.audioDock audio{width:100%;height:38px;margin-top:8px}.audioClose{background:rgba(255,255,255,.14);color:white;padding:7px 10px}
+.audioHint{margin-top:10px;padding:10px 12px;background:#f0ebe1;border-radius:12px;font-size:11px;line-height:1.6;color:var(--muted)}
 @media(max-width:520px){.toolbar.three{grid-template-columns:1fr 1fr}.tw{font-size:38px}.quizQ{font-size:29px}.card{min-height:315px;padding:18px}nav button{font-size:12px}.actions button{font-size:13px}}
 </style>
 </head>
 <body>
 <header>
-<div class="headrow"><div><h1>台語1000</h1><div class="sub">台湾語1,000語｜型・クイズ・3段階学習</div></div><div class="countpill">1,000語</div></div>
+<div class="headrow"><div><h1>台語1000</h1><div class="sub">台湾語1,000語｜発音・型・クイズ・3段階学習</div></div><div class="countpill">1,000語</div></div>
 <nav>
 <button data-tab="learn" class="active">カード</button>
 <button data-tab="patterns">型</button>
@@ -74,6 +80,7 @@ input,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:
 </div>
 <div id="card" class="card"></div>
 <div class="actions"><button id="again" class="danger">まだ</button><button id="show" class="primary">答えを見る</button><button id="known">覚えた</button></div>
+<div class="audioHint">答えを表示すると「🔊 発音を聞く」が使えます。公式音声がある語は教育部の真人録音、ない語は臺羅ベースの合成参考音を再生します。</div>
 </section>
 
 <section id="patterns" class="panel">
@@ -122,11 +129,19 @@ input,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:
 <p class="note">ChhoeTaigi のライブWebサイトを機械的に取得せず、ChhoeTaigiDatabaseで公開されている資料を語彙・表記確認の参照元として使用しています。主な参照元は「台灣白話基礎語句」と「台華線頂對照典」（いずれも CC BY-SA 4.0）。日本語訳、難易度分類、学習用例文・定型表現は本教材向けに編集しています。</p>
 <p class="note"><a href="https://chhoe.taigi.info/" target="_blank" rel="noopener">ChhoeTaigi 台語辭典⁺を開く</a>　／　<a href="https://github.com/ChhoeTaigi/ChhoeTaigiDatabase" target="_blank" rel="noopener">ChhoeTaigiDatabase</a></p>
 <p class="note">台湾語には地域差・語形差・変調があります。ローマ字はTâi-lô系を中心とした学習表記です。</p>
+<p class="note"><strong>音声：</strong>対応する語は教育部《臺灣台語常用詞辭典》の真人音声を無加工で再生します（CC BY-ND 3.0 TW、ChhoeTaigi KipSutianDataMirror経由）。対応音声がない語と「型」の例文は、臺羅から意傳科技「媠聲」で合成した学習用参考音です。合成音は真人録音ではなく、発音・変調・自然さを保証するものではありません。展示サービスのため利用状況により再生できない場合があります。商用・大量利用には各提供元の条件確認が必要です。</p>
 </div>
 </section>
 </main>
 
+<div id="audioDock" class="audioDock" hidden aria-live="polite">
+ <div class="audioDockTop"><div><div id="audioTitle" class="audioDockTitle">台湾語音声</div><div id="audioSource" class="audioDockSource"></div><div id="audioStatus" class="audioDockStatus"></div></div><button id="audioClose" class="audioClose" type="button">閉じる</button></div>
+ <audio id="audioPlayer" controls preload="none"></audio>
+</div>
+
 <script src="data.js"></script>
+<script src="audio-map.js"></script>
+<script src="audio.js"></script>
 <script>
 const $=id=>document.getElementById(id);
 const cardLevel=$('cardLevel'),cardCat=$('cardCat'),reviewOnly=$('reviewOnly'),
@@ -168,7 +183,7 @@ function renderCard(){
  card.innerHTML=`<div class="badges"><span class="badge ${current.level}">${current.level}</span><span class="badge">${current.category}</span></div>
  <div class="tw">${current.tw}</div>
  <button class="fav" aria-label="お気に入り" onclick="toggleFav(${current.id})">${fav?'★':'☆'}</button>
- <div class="${revealed?'':'hidden'}"><div class="jp">${current.jp}</div><div class="pron">${current.pron}</div><div class="ex">${current.example}</div><div class="exjp">${current.exampleJp}</div></div>
+ <div class="${revealed?'':'hidden'}"><div class="jp">${current.jp}</div><div class="pron">${current.pron}</div><div class="audioLine"><button class="speakbtn" type="button" onclick="playWordById(${current.id})">🔊 発音を聞く</button></div><div class="ex">${current.example}</div><div class="exjp">${current.exampleJp}</div></div>
  <div class="small" style="margin-top:12px">${known?'習得済み':'未習得'}${due(current.id)?'・復習タイミング':''}</div>`
 }
 window.toggleFav=id=>{S.fav[id]=!S.fav[id];save();renderCard();stats()}
@@ -178,6 +193,10 @@ again.onclick=()=>{if(!current)return;delete S.known[current.id];S.review[curren
 shuffle.onclick=pick;
 [cardLevel,cardCat,reviewOnly].forEach(el=>el.onchange=pick);
 
+window.playWordById=id=>{const w=WORDS.find(x=>String(x.id)===String(id));if(w)window.TaigiAudio?.playWord(w)};
+window.playPatternExample=(pid,index)=>{const p=PATTERNS.find(x=>x.id===pid),x=p?.examples?.[index];if(x)window.TaigiAudio?.playSynth(x[2],`${x[0]} — ${x[1]}`,{reason:'定型表現の例文'})};
+window.playCurrentQuizAudio=()=>{if(!currentQuiz)return;const q=currentQuiz.q;if(currentQuiz.mode==='pattern')window.TaigiAudio?.playSynth(q.pron,`${q.tw} — ${q.jp}`,{reason:'定型表現クイズ'});else window.TaigiAudio?.playWord(q)};
+
 function renderPatterns(){
  const lv=patternLevel.value,q=patternSearch.value.trim().toLowerCase();
  const ps=PATTERNS.filter(p=>(lv==='すべての級'||p.level===lv)&&(`${p.title} ${p.structure} ${p.meaning} ${p.note}`.toLowerCase().includes(q)));
@@ -185,7 +204,7 @@ function renderPatterns(){
   <div class="patternTitle"><h3>${p.title}</h3><span class="badge ${p.level}">${p.level}</span></div>
   <div class="structure">${p.structure}</div>
   <div><b>${p.meaning}</b></div><div class="pron">${p.pron}</div><div class="small">${p.note}</div>
-  ${p.examples.map(x=>`<div class="patternEx"><b>${x[0]}</b><div>${x[1]}</div><div class="small">${x[2]}</div></div>`).join('')}
+  ${p.examples.map((x,i)=>`<div class="patternEx"><b>${x[0]}</b><div>${x[1]}</div><div class="small">${x[2]}</div><div class="audioLine" style="justify-content:flex-start"><button class="speakbtn" type="button" onclick="playPatternExample('${p.id}',${i})">🔊 例文を聞く</button></div></div>`).join('')}
  </div>`).join(''):'<div class="empty">該当する型がありません。</div>'
 }
 patternLevel.onchange=renderPatterns;patternSearch.oninput=renderPatterns;
@@ -237,10 +256,10 @@ function answerQuiz(btn,id){
  const fb=$('quizFeedback');
  fb.className='feedback show '+(ok?'good':'bad');
  if(mode==='pattern'){
-   fb.innerHTML=`<b>${ok?'正解！':'不正解'}</b>${ok?'その表現で合っています。':`正解は「${q.tw}」です。`}<br><strong>${q.patternTitle}</strong><br>${q.tw}<br><span class="pron">${q.pron}</span><br><span class="small">${q.jp}</span>`;
+   fb.innerHTML=`<b>${ok?'正解！':'不正解'}</b>${ok?'その表現で合っています。':`正解は「${q.tw}」です。`}<br><strong>${q.patternTitle}</strong><br>${q.tw}<br><span class="pron">${q.pron}</span><br><span class="small">${q.jp}</span><div class="audioLine"><button class="speakbtn" type="button" onclick="playCurrentQuizAudio()">🔊 正解の発音</button></div>`;
  }else{
    const answer=mode==='tw-jp'?q.jp:q.tw;
-   fb.innerHTML=`<b>${ok?'正解！':'不正解'}</b>${ok?'その答えで合っています。':`正解は「${answer}」です。`}<br><strong>${q.tw}</strong> — ${q.jp}<br><span>${q.pron}</span><br><span class="small">${q.example}　${q.exampleJp}</span>`;
+   fb.innerHTML=`<b>${ok?'正解！':'不正解'}</b>${ok?'その答えで合っています。':`正解は「${answer}」です。`}<br><strong>${q.tw}</strong> — ${q.jp}<br><span>${q.pron}</span><br><span class="small">${q.example}　${q.exampleJp}</span><div class="audioLine"><button class="speakbtn" type="button" onclick="playCurrentQuizAudio()">🔊 正解の発音</button></div>`;
  }
 }
 nextQuiz.onclick=makeQuiz;[quizMode,quizLevel,quizCat].forEach(el=>el.onchange=makeQuiz);
@@ -251,7 +270,7 @@ function renderList(){
  wordList.innerHTML=arr.length?arr.map(w=>`<div class="row"><div>
  <div class="badges" style="justify-content:flex-start"><span class="badge ${w.level}">${w.level}</span><span class="badge">${w.category}</span></div>
  <b>${w.tw}</b>　${w.jp}<div class="small">${w.pron}｜${w.category}</div><div class="small">${w.example} — ${w.exampleJp}</div>
- </div><button class="fav" onclick="listFav(${w.id})">${S.fav[w.id]?'★':'☆'}</button></div>`).join(''):'<div class="empty">見つかりませんでした。</div>'
+ </div><div class="rowActions"><button class="speakbtn" type="button" onclick="playWordById(${w.id})">🔊</button><button class="fav" onclick="listFav(${w.id})">${S.fav[w.id]?'★':'☆'}</button></div></div>`).join(''):'<div class="empty">見つかりませんでした。</div>'
 }
 window.listFav=id=>{S.fav[id]=!S.fav[id];save();renderList();stats()}
 [search,listLevel,listCat].forEach(el=>el.oninput=renderList);

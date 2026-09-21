@@ -1,31 +1,27 @@
-# Attribution / 出典
+# 出典・ライセンス
 
-このPWAの台湾語語彙・ローマ字表記の確認には、ChhoeTaigi プロジェクトが公開する **ChhoeTaigiDatabase** を参照しています。
+## 語彙・表記
+本教材は ChhoeTaigiDatabase の公開資料を語彙・表記確認の参照元として使用しています。日本語訳、難易度分類、学習用例文、定型表現は本教材向けに編集しています。
 
-## 主な参照資料
+## 教育部 台湾語真人音声
+対応する単語では、中華民国教育部《臺灣台語常用詞辭典》の詞條音檔を使用します。
 
-### 台灣白話基礎語句
-- 原題: *A Basic Vocabulary for a Beginner in Taiwanese*
-- 原作者: Ko Chek-hoàn（高積煥）、Tân Pang-tìn（陳邦鎮）
-- デジタル化・編集: Lîm Bûn-cheng、Tēⁿ Tì-têng、Tân Kim-hoa、Chiúⁿ Ji̍t-êng
-- 配布元: ChhoeTaigiDatabase
-- ライセンス: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+- 原典: https://sutian.moe.edu.tw/
+- 公式版権声明: https://sutian.moe.edu.tw/zh-hant/piantsip/pankhuan-singbing/
+- ライセンス: Creative Commons Attribution-NoDerivatives 3.0 Taiwan (CC BY-ND 3.0 TW)
+- 音声ミラー: ChhoeTaigi/KipSutianDataMirror
+- 使用スナップショット: 20260912-0758
+- 本PWAは音声ファイルを加工・再エンコードせず、そのまま再生します。
 
-### 台華線頂對照典
-- 基礎資料提供: Tēⁿ Liông-úi（鄭良偉）教授
-- 資料追加・編集: Iûⁿ Ún-giân（楊允言）教授および校正協力者
-- 配布元: ChhoeTaigiDatabase
-- ライセンス: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+1,000語と教育部音声ファイルの対応表は、教育部データを無改変で検索提示する `yazelin/mandarin-taigi` の公開ランタイム辞書データを用いて完全一致照合し、本PWA用にファイル名だけを抽出しています。
 
-ChhoeTaigiDatabase:
-https://github.com/ChhoeTaigi/ChhoeTaigiDatabase
+## 合成参考音声
+教育部の対応音声が見つからない単語、および「型」タブの例文は、臺羅表記を意傳科技「媠聲」展示サービスへ送って都度合成します。
 
-CC BY-SA 4.0:
-https://creativecommons.org/licenses/by-sa/4.0/
+- サービス: https://hapsing.ithuan.tw/
+- 開発元: 意傳科技 (https://ithuan.tw/)
+- 用途: 個人学習用の参考発音
+- 注意: 真人録音ではなく、発音・変調・自然さを保証するものではありません。展示サービスには利用制限があり、将来仕様変更・停止の可能性があります。商用・大量利用では提供元へ条件をご確認ください。
 
-## 本教材での編集
-
-日本語訳、初級・中級・上級の難易度分類、学習用例文、定型表現、PWAのUI・ロジックは本教材向けに編集しています。
-ChhoeTaigi のライブWebサイトを自動スクレイピングして作成したものではありません。
-
-台湾語には地域差、語形差、発音差、変調があります。重要な語は ChhoeTaigi や教育部辞典などでも照合してください。
+## 学習上の注意
+臺灣台語には地域差、異読、連読変調があります。教育部音声も辞典の主音読・通行腔を基準とする学習用音声です。実際の会話では話者・地域によって発音が異なる場合があります。
