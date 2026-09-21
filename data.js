@@ -1,10 +1,10 @@
 window.META = {
-  "title": "台語1000",
-  "version": "4.0",
-  "items": 1000,
-  "words": 1000,
+  "title": "台語2500",
+  "version": "5.0",
+  "items": 2500,
+  "words": 2500,
   "patterns": 24,
-  "sentences": 300,
+  "sentences": 800,
   "levels": {
     "初級": 450,
     "中級": 350,
