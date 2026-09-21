@@ -1,7 +1,25 @@
-const APP_CACHE='taigi1000-v3-20260921';
-const RUNTIME_CACHE='taigi1000-audio-v1';
+const APP_CACHE='taigi1000-v4-20260921';
 const ASSETS=['./','./index.html','./data.js','./audio-map.js','./audio.js','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
-const CACHEABLE_REMOTE=new Set(['chhoetaigi.github.io','hapsing.ithuan.tw']);
 self.addEventListener('install',e=>{self.skipWaiting();e.waitUntil(caches.open(APP_CACHE).then(c=>c.addAll(ASSETS)))});
-self.addEventListener('activate',e=>e.waitUntil(Promise.all([self.clients.claim(),caches.keys().then(keys=>Promise.all(keys.filter(k=>!new Set([APP_CACHE,RUNTIME_CACHE]).has(k)).map(k=>caches.delete(k))))])));
-self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;const u=new URL(e.request.url);if(e.request.mode==='navigate'){e.respondWith(fetch(e.request).catch(()=>caches.match('./index.html')));return;}if(u.origin===self.location.origin){e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request).then(resp=>{if(resp.ok){const cp=resp.clone();caches.open(APP_CACHE).then(c=>c.put(e.request,cp))}return resp})));return;}if(CACHEABLE_REMOTE.has(u.hostname)){e.respondWith(caches.open(RUNTIME_CACHE).then(async c=>{const hit=await c.match(e.request);if(hit)return hit;try{const resp=await fetch(e.request);if(resp.ok||resp.type==='opaque')await c.put(e.request,resp.clone());return resp}catch(err){return new Response('',{status:503,statusText:'Audio unavailable'})}}));}});
+self.addEventListener('activate',e=>e.waitUntil(Promise.all([
+  self.clients.claim(),
+  caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==APP_CACHE).map(k=>caches.delete(k))))
+])));
+self.addEventListener('fetch',e=>{
+  if(e.request.method!=='GET')return;
+  const u=new URL(e.request.url);
+  if(u.origin!==self.location.origin){
+    // Important: do not proxy/cache cross-origin audio here.
+    // iOS Safari often performs byte-range media requests, and handling those
+    // through a service worker can break playback.
+    return;
+  }
+  if(e.request.mode==='navigate'){
+    e.respondWith(fetch(e.request).catch(()=>caches.match('./index.html')));
+    return;
+  }
+  e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request).then(resp=>{
+    if(resp.ok){const cp=resp.clone();caches.open(APP_CACHE).then(c=>c.put(e.request,cp))}
+    return resp;
+  })));
+});
