@@ -1,7 +1,7 @@
 {
-  "name": "台語1000｜台湾語単語・文章・定型表現",
-  "short_name": "台語1000",
-  "description": "台湾語1000語＋日常文章300文を、発音・カード・文型・4択クイズ・復習で学ぶPWA",
+  "name": "台語2500｜台湾語単語・文章・定型表現",
+  "short_name": "台語2500",
+  "description": "TOCFL Band C2の華語力を活かし、台湾語2500語＋日常・発展文章800文を学ぶPWA",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
