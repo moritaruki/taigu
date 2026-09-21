@@ -1,15 +1,16 @@
 window.META = {
   "title": "台語1000",
-  "version": "2.0",
+  "version": "4.0",
   "items": 1000,
   "words": 1000,
   "patterns": 24,
+  "sentences": 300,
   "levels": {
     "初級": 450,
     "中級": 350,
     "上級": 200
   },
-  "sourceNote": "ChhoeTaigiDatabaseの公開資料を語彙・表記確認の参照元として使用。日本語訳・難易度分類・学習用例文・型学習は本教材向けに編集。"
+  "sourceNote": "ChhoeTaigiDatabaseの公開資料を語彙・表記確認の参照元として使用。日本語訳・難易度分類・学習用例文・型学習・文章300文は本教材向けに編集。"
 };
 window.WORDS = [
   {
