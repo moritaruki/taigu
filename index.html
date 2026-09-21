@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#173b33">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<title>台語500｜台湾語単語帳</title>
+<style>
+:root{--bg:#f7f4ec;--ink:#173b33;--muted:#6c766f;--card:#fff;--accent:#c66b3d;--line:#e4dfd5}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;background:var(--bg);color:#1f2b27}
+header{position:sticky;top:0;z-index:5;background:rgba(247,244,236,.94);backdrop-filter:blur(10px);padding:14px 16px 10px;border-bottom:1px solid var(--line)}
+h1{font-size:22px;margin:0;color:var(--ink)}.sub{font-size:12px;color:var(--muted);margin-top:3px}
+nav{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:10px}
+button,select,input{font:inherit}button{border:0;border-radius:14px;padding:11px 12px;background:#e9e5dc;color:var(--ink);font-weight:700}
+button.active,button.primary{background:var(--ink);color:#fff}.danger{background:#f4ded3;color:#8a3e1c}.ghost{background:#fff;border:1px solid var(--line)}
+main{padding:16px;max-width:720px;margin:auto}.panel{display:none}.panel.active{display:block}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.toolbar>*{flex:1;min-width:130px}
+input,select{width:100%;padding:12px;border:1px solid var(--line);border-radius:14px;background:#fff}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:24px;min-height:340px;box-shadow:0 8px 24px rgba(0,0,0,.05);display:flex;flex-direction:column;justify-content:center;text-align:center}
+.cat{font-size:12px;color:var(--accent);font-weight:800}.tw{font-size:46px;font-weight:800;margin:12px 0;color:var(--ink)}.jp{font-size:23px;margin:8px 0}.pron{font-size:20px;color:#7b4b37;margin:8px 0}.ex{font-size:18px;margin-top:18px}.exjp{font-size:14px;color:var(--muted);margin-top:6px}
+.hidden{display:none}.actions{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
+.statgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.stat{background:#fff;border:1px solid var(--line);border-radius:18px;padding:14px;text-align:center}.stat b{font-size:24px;color:var(--ink)}
+.progress{height:12px;border-radius:99px;background:#e3dfd5;overflow:hidden;margin:14px 0}.bar{height:100%;background:var(--accent);width:0}
+.list{display:grid;gap:8px}.row{background:#fff;border:1px solid var(--line);border-radius:16px;padding:13px;display:grid;grid-template-columns:1fr auto;gap:8px}.row b{font-size:18px}.small{font-size:12px;color:var(--muted)}
+.quizQ{font-size:36px;font-weight:800;text-align:center;margin:28px 0}.options{display:grid;gap:10px}.options button{background:#fff;border:1px solid var(--line);text-align:left}.options button.correct{background:#dff2e7}.options button.wrong{background:#f8dddd}
+.note{font-size:12px;line-height:1.6;color:var(--muted);margin-top:16px}
+.fav{font-size:24px;background:transparent;padding:0}
+</style>
+</head>
+<body>
+<header><h1>台語500</h1><div class="sub">台湾語500語｜カード・クイズ・復習</div>
+<nav>
+<button data-tab="learn" class="active">カード</button>
+<button data-tab="quiz">クイズ</button>
+<button data-tab="list">一覧</button>
+<button data-tab="stats">進捗</button>
+</nav></header>
+<main>
+<section id="learn" class="panel active">
+<div class="toolbar"><select id="cat"></select><button id="shuffle" class="ghost">シャッフル</button></div>
+<div id="card" class="card"></div>
+<div class="actions"><button id="again" class="danger">まだ</button><button id="show" class="primary">答えを見る</button><button id="known">覚えた</button></div>
+</section>
+
+<section id="quiz" class="panel">
+<div class="toolbar"><select id="quizCat"></select><button id="newQuiz" class="ghost">次の問題</button></div>
+<div id="quizBox"></div>
+</section>
+
+<section id="list" class="panel">
+<div class="toolbar"><input id="search" placeholder="台湾語・日本語・発音で検索"><select id="listCat"></select></div>
+<div id="wordList" class="list"></div>
+</section>
+
+<section id="stats" class="panel">
+<div class="statgrid"><div class="stat"><b id="learnedN">0</b><div>覚えた</div></div><div class="stat"><b id="favN">0</b><div>お気に入り</div></div><div class="stat"><b id="reviewN">0</b><div>復習待ち</div></div></div>
+<div class="progress"><div id="bar" class="bar"></div></div>
+<div id="pct" style="text-align:center;font-weight:800"></div>
+<button id="reset" class="danger" style="margin-top:20px;width:100%">学習記録をリセット</button>
+<p class="note">学習記録はこのiPhone内（localStorage）に保存されます。サーバー送信はありません。</p>
+</section>
+
+<p class="note">発音表記は学習用のTâi-lô系表記です。地域差・変調があります。辞書で確認したい語は ChhoeTaigi（chhoe.taigi.info）や教育部台湾台語辞典などで照合してください。</p>
+</main>
+<script src="data.js"></script>
+<script>
+const S=JSON.parse(localStorage.getItem('taigi500')||'{"known":{},"fav":{},"review":{}}');
+const save=()=>localStorage.setItem('taigi500',JSON.stringify(S));
+const cats=['すべて',...new Set(WORDS.map(w=>w.category))];
+for(const id of ['cat','quizCat','listCat']){const el=document.getElementById(id);cats.forEach(c=>el.add(new Option(c,c)))}
+let pool=[...WORDS], current=null, revealed=false;
+
+function pick(){
+ const c=document.getElementById('cat').value;
+ pool=WORDS.filter(w=>c==='すべて'||w.category===c);
+ current=pool[Math.floor(Math.random()*pool.length)]; revealed=false; renderCard();
+}
+function renderCard(){
+ const known=!!S.known[current.id], fav=!!S.fav[current.id];
+ document.getElementById('card').innerHTML=`<div class="cat">${current.category}</div><div class="tw">${current.tw}</div>
+ <button class="fav" onclick="toggleFav(${current.id})">${fav?'★':'☆'}</button>
+ <div class="${revealed?'':'hidden'}"><div class="jp">${current.jp}</div><div class="pron">${current.pron}</div><div class="ex">${current.example}</div><div class="exjp">${current.exampleJp}</div></div>
+ <div class="small">${known?'習得済み':'未習得'}</div>`;
+}
+window.toggleFav=id=>{S.fav[id]=!S.fav[id];save();renderCard();stats()}
+document.getElementById('show').onclick=()=>{revealed=true;renderCard()}
+document.getElementById('known').onclick=()=>{S.known[current.id]=true;S.review[current.id]=Date.now()+3*864e5;save();pick();stats()}
+document.getElementById('again').onclick=()=>{delete S.known[current.id];S.review[current.id]=Date.now()+864e5;save();pick();stats()}
+document.getElementById('shuffle').onclick=pick;document.getElementById('cat').onchange=pick;
+
+function makeQuiz(){
+ const c=document.getElementById('quizCat').value;
+ const qpool=WORDS.filter(w=>c==='すべて'||w.category===c);
+ const q=qpool[Math.floor(Math.random()*qpool.length)];
+ let opts=[q,...WORDS.filter(w=>w.id!==q.id).sort(()=>Math.random()-.5).slice(0,3)].sort(()=>Math.random()-.5);
+ document.getElementById('quizBox').innerHTML=`<div class="cat" style="text-align:center">${q.category}</div><div class="quizQ">${q.tw}</div><div class="pron" style="text-align:center">${q.pron}</div><div class="options">${opts.map(o=>`<button data-id="${o.id}">${o.jp}</button>`).join('')}</div>`;
+ document.querySelectorAll('.options button').forEach(b=>b.onclick=()=>{
+   document.querySelectorAll('.options button').forEach(x=>{x.disabled=true;if(+x.dataset.id===q.id)x.classList.add('correct')});
+   if(+b.dataset.id!==q.id)b.classList.add('wrong'); else {S.known[q.id]=true;save();stats()}
+ });
+}
+document.getElementById('newQuiz').onclick=makeQuiz;document.getElementById('quizCat').onchange=makeQuiz;
+
+function renderList(){
+ const q=document.getElementById('search').value.toLowerCase(), c=document.getElementById('listCat').value;
+ const arr=WORDS.filter(w=>(c==='すべて'||w.category===c)&&(`${w.tw} ${w.jp} ${w.pron}`.toLowerCase().includes(q)));
+ document.getElementById('wordList').innerHTML=arr.map(w=>`<div class="row"><div><b>${w.tw}</b>　${w.jp}<div class="small">${w.pron}｜${w.category}</div><div class="small">${w.example} — ${w.exampleJp}</div></div><button class="fav" onclick="listFav(${w.id})">${S.fav[w.id]?'★':'☆'}</button></div>`).join('');
+}
+window.listFav=id=>{S.fav[id]=!S.fav[id];save();renderList();stats()}
+document.getElementById('search').oninput=renderList;document.getElementById('listCat').onchange=renderList;
+
+function stats(){
+ const k=Object.keys(S.known).filter(id=>S.known[id]).length, f=Object.keys(S.fav).filter(id=>S.fav[id]).length, now=Date.now();
+ const r=Object.entries(S.review).filter(([id,t])=>t<=now).length;
+ learnedN.textContent=k;favN.textContent=f;reviewN.textContent=r;const p=Math.round(k/WORDS.length*100);bar.style.width=p+'%';pct.textContent=`${p}%（${k} / ${WORDS.length}語）`;
+}
+document.getElementById('reset').onclick=()=>{if(confirm('学習記録をリセットしますか？')){localStorage.removeItem('taigi500');location.reload()}}
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{document.querySelectorAll('nav button').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));document.getElementById(b.dataset.tab).classList.add('active'); if(b.dataset.tab==='list')renderList(); if(b.dataset.tab==='stats')stats();})
+if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js');
+pick();makeQuiz();renderList();stats();
+</script>
+</body></html>
