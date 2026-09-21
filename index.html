@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#173b33">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icon-192.png">
-<title>台語1000｜台湾語独学</title>
+<title>台語2500｜台湾語独学</title>
 <style>
 :root{
  --bg:#f6f1e7;--ink:#173b33;--ink2:#244f45;--muted:#68736d;--card:#fffdf8;
@@ -34,7 +34,7 @@ input,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:
 .card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:22px;min-height:340px;box-shadow:0 8px 26px rgba(34,40,35,.06);display:flex;flex-direction:column;justify-content:center;text-align:center}
 .badges{display:flex;justify-content:center;gap:6px;flex-wrap:wrap}
 .badge{font-size:11px;font-weight:800;padding:5px 8px;border-radius:999px;background:#eee8dd;color:var(--muted)}
-.badge.初級{background:#e1f0e8;color:var(--beginner)}.badge.中級{background:#f6ecd7;color:var(--middle)}.badge.上級{background:#f1e2ea;color:var(--advanced)}
+.badge.初級{background:#e1f0e8;color:var(--beginner)}.badge.中級{background:#f6ecd7;color:var(--middle)}.badge.上級{background:#f1e2ea;color:var(--advanced)}.badge.発展{background:#e8e4f6;color:#604b8a}
 .tw{font-size:44px;line-height:1.25;font-weight:850;margin:15px 0 8px;color:var(--ink);word-break:keep-all}.jp{font-size:22px;line-height:1.5;margin:8px 0}.pron{font-size:19px;line-height:1.6;color:#7a4a36;margin:6px 0}.ex{font-size:17px;line-height:1.55;margin-top:16px}.exjp{font-size:14px;line-height:1.55;color:var(--muted);margin-top:4px}.hidden{display:none!important}
 .actions{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}.fav{font-size:24px;background:transparent;padding:4px}
 .small{font-size:12px;color:var(--muted);line-height:1.55}.note{font-size:12px;color:var(--muted);line-height:1.7}
@@ -64,7 +64,7 @@ input,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:
 </head>
 <body>
 <header>
-<div class="headrow"><div><h1>台語1000</h1><div class="sub">台湾語1,000語＋文章300｜発音・型・クイズ・3段階学習</div></div><div class="countpill">1,000語</div></div>
+<div class="headrow"><div><h1>台語2500</h1><div class="sub">台湾語2,500語＋文章800｜華語ブリッジ・発音・型・クイズ</div></div><div class="countpill">2,500語</div></div>
 <nav>
 <button data-tab="learn" class="active">カード</button>
 <button data-tab="patterns">型</button>
@@ -78,7 +78,7 @@ input,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:
 
 <section id="learn" class="panel active">
 <div class="toolbar">
-<select id="cardLevel"><option>すべての級</option><option>初級</option><option>中級</option><option>上級</option></select>
+<select id="cardLevel"><option>すべての級</option><option>初級</option><option>中級</option><option>上級</option><option>発展</option></select>
 <select id="cardCat"></select>
 <button id="shuffle" class="ghost">別のカード</button>
 <label class="switchline"><input id="reviewOnly" type="checkbox">復習待ちだけ</label>
@@ -90,7 +90,7 @@ input,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:
 
 <section id="patterns" class="panel">
 <div class="toolbar">
-<select id="patternLevel"><option>すべての級</option><option>初級</option><option>中級</option><option>上級</option></select>
+<select id="patternLevel"><option>すべての級</option><option>初級</option><option>中級</option><option>上級</option><option>発展</option></select>
 <input id="patternSearch" placeholder="型・意味を検索">
 </div>
 <div id="patternList"></div>
@@ -99,9 +99,9 @@ input,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:
 
 <section id="sentences" class="panel">
 <div class="toolbar three">
-<select id="sentenceLevel"><option>すべての級</option><option>初級</option><option>中級</option><option>上級</option></select>
+<select id="sentenceLevel"><option>すべての級</option><option>初級</option><option>中級</option><option>上級</option><option>発展</option></select>
 <select id="sentenceCat"></select>
-<select id="sentenceDirection"><option value="tw-jp">台湾語 → 日本語</option><option value="jp-tw">日本語 → 台湾語</option></select>
+<select id="sentenceDirection"><option value="tw-jp">台湾語 → 意味</option><option value="jp-tw">意味 → 台湾語</option></select>
 <button id="sentenceShuffle" class="ghost">別の文章</button>
 </div>
 <div id="sentenceCard" class="card"></div>
@@ -118,7 +118,7 @@ input,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:
 <option value="sentence-tw-jp">文章：台湾語 → 日本語</option>
 <option value="sentence-jp-tw">文章：日本語 → 台湾語</option>
 </select>
-<select id="quizLevel"><option>すべての級</option><option>初級</option><option>中級</option><option>上級</option></select>
+<select id="quizLevel"><option>すべての級</option><option>初級</option><option>中級</option><option>上級</option><option>発展</option></select>
 <select id="quizCat"></select>
 </div>
 <div id="quizBox"></div>
@@ -128,7 +128,7 @@ input,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:
 <section id="list" class="panel">
 <div class="toolbar three">
 <input id="search" placeholder="台湾語・日本語・発音で検索">
-<select id="listLevel"><option>すべての級</option><option>初級</option><option>中級</option><option>上級</option></select>
+<select id="listLevel"><option>すべての級</option><option>初級</option><option>中級</option><option>上級</option><option>発展</option></select>
 <select id="listCat"></select>
 </div>
 <div id="wordList" class="list"></div>
@@ -147,7 +147,7 @@ input,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:
 <button id="reset" class="danger" style="margin-top:20px;width:100%">学習記録をリセット</button>
 <div class="sourcebox">
 <h3>出典・表記について</h3>
-<p class="note">ChhoeTaigi のライブWebサイトを機械的に取得せず、ChhoeTaigiDatabaseで公開されている資料を語彙・表記確認の参照元として使用しています。主な参照元は「台灣白話基礎語句」と「台華線頂對照典」（いずれも CC BY-SA 4.0）。日本語訳、難易度分類、学習用例文・定型表現・文章300文は本教材向けに編集しています。文章は教育部辞典の用例・語法・臺羅表記を確認しながら、日常学習用として新規作成しています。</p>
+<p class="note">ChhoeTaigi のライブWebサイトを機械的に取得せず、ChhoeTaigiDatabaseの公開資料を参照しています。既存1,000語に加え、TOCFL Band C2の華語知識を活用できるよう、iTaigi華台對照典（CC0）を中心に1,500語を追加し、一部を台灣白話基礎語句（CC BY-SA 4.0）と照合しています。追加語は「華語：〜」を橋渡しとして台湾語の語形・発音を覚える設計です。文章は教育部辞典の語法・臺羅を確認しながら本教材向けに作成しています。</p>
 <p class="note"><a href="https://chhoe.taigi.info/" target="_blank" rel="noopener">ChhoeTaigi 台語辭典⁺を開く</a>　／　<a href="https://github.com/ChhoeTaigi/ChhoeTaigiDatabase" target="_blank" rel="noopener">ChhoeTaigiDatabase</a></p>
 <p class="note">台湾語には地域差・語形差・変調があります。ローマ字はTâi-lô系を中心とした学習表記です。</p>
 <p class="note"><strong>音声：</strong>対応する語は教育部《臺灣台語常用詞辭典》の真人音声を無加工で再生します（CC BY-ND 3.0 TW、ChhoeTaigi KipSutianDataMirror経由）。対応音声がない語と「型」の例文は、臺羅から意傳科技「媠聲」で合成した学習用参考音です。合成音は真人録音ではなく、発音・変調・自然さを保証するものではありません。展示サービスのため利用状況により再生できない場合があります。商用・大量利用には各提供元の条件確認が必要です。iPhone Safariでは外部音声を直接取得し、Service Workerでは音声を横取り・キャッシュしません。</p>
@@ -161,7 +161,9 @@ input,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:
 </div>
 
 <script src="data.js"></script>
+<script src="extended-words.js"></script>
 <script src="sentences.js"></script>
+<script src="sentences-extra.js"></script>
 <script src="audio-map.js"></script>
 <script src="audio.js"></script>
 <script>
@@ -309,7 +311,7 @@ function makeQuiz(){
    const distractors=pool.filter(w=>w.id!==q.id).sort(()=>Math.random()-.5).slice(0,3);
    opts=[q,...distractors].sort(()=>Math.random()-.5);
    ask=mode==='tw-jp'?q.tw:q.jp;
-   sub=mode==='tw-jp'?q.pron:'正しい台湾語を選んでください';
+   sub=mode==='tw-jp'?q.pron:'意味に合う台湾語を選んでください';
    label=o=>mode==='tw-jp'?o.jp:o.tw;
  }
  currentQuiz={q,mode};
@@ -361,7 +363,7 @@ window.listFav=id=>{S.fav[id]=!S.fav[id];save();renderList();stats()}
 function stats(){
  const k=WORDS.filter(w=>S.known[w.id]).length,f=WORDS.filter(w=>S.fav[w.id]).length,r=WORDS.filter(w=>due(w.id)).length,p=Math.round(k/WORDS.length*100);
  learnedN.textContent=k;favN.textContent=f;reviewN.textContent=r;bar.style.width=p+'%';pct.textContent=`${p}%（${k} / ${WORDS.length}語）`;
- levelStats.innerHTML=['初級','中級','上級'].map(lv=>{const all=WORDS.filter(w=>w.level===lv),done=all.filter(w=>S.known[w.id]).length,pp=Math.round(done/all.length*100);return `<div class="levelrow"><b>${lv}</b><div class="miniProgress"><div class="miniBar" style="width:${pp}%"></div></div><span>${done}/${all.length}</span></div>`}).join('');
+ levelStats.innerHTML=['初級','中級','上級','発展'].map(lv=>{const all=WORDS.filter(w=>w.level===lv),done=all.filter(w=>S.known[w.id]).length,pp=Math.round(done/all.length*100);return `<div class="levelrow"><b>${lv}</b><div class="miniProgress"><div class="miniBar" style="width:${pp}%"></div></div><span>${done}/${all.length}</span></div>`}).join('');
  const sk=SENTENCES.filter(x=>S.sentenceKnown[x.id]).length,sp=Math.round(sk/SENTENCES.length*100);sentenceBar.style.width=sp+'%';sentencePct.textContent=`${sp}%（${sk} / ${SENTENCES.length}文）`
 }
 reset.onclick=()=>{if(confirm('学習記録をリセットしますか？')){localStorage.removeItem('taigi1000');localStorage.removeItem('taigi500');location.reload()}}
