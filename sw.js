@@ -1,5 +1,5 @@
-const APP_CACHE='taigi1000-v4-20260921';
-const ASSETS=['./','./index.html','./data.js','./audio-map.js','./audio.js','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
+const APP_CACHE='taigi1000-v5-sentences-20260921';
+const ASSETS=['./','./index.html','./data.js','./sentences.js','./audio-map.js','./audio.js','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',e=>{self.skipWaiting();e.waitUntil(caches.open(APP_CACHE).then(c=>c.addAll(ASSETS)))});
 self.addEventListener('activate',e=>e.waitUntil(Promise.all([
   self.clients.claim(),
