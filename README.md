@@ -16,4 +16,3 @@ GitHub Pages / Netlify / Cloudflare Pages などの静的ホスティングに�
 ## 注意
 - 学習記録は端末の localStorage に保存。
 - 発音はTâi-lô系の学習表記。地域差・変調があるため、重要語は辞書で照合してください。
-- ChhoeTaigi の大量取得・転載は行っていません。
